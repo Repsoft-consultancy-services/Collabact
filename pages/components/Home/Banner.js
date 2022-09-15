@@ -14,7 +14,7 @@ const Banner = () => {
                     <AiOutlineInstagram />
                     <FiTwitter />
                 </div>
-                <div className="bg-[url('/bg.png')] bg-opacity-30 bg-no-repeat bg-cover text-white xl:h-[30rem] 2xl:h-[52rem]">
+                <div className="bg-[url('/bg.png')] bg-opacity-30 bg-no-repeat bg-cover text-white min-h-screen">
                     <div className='px-20 py-40'>  
                         <h1 className='text-[80px] font-bold'>We connect</h1>
                     <h4 className='text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses to grow Exponentially</h4>
