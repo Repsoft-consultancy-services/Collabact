@@ -1,9 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* opensans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -15,12 +22,25 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.box-border1 {
+  border: 0.943723px solid #000000;
+  box-shadow: -18px 14.1558px 0px #000000;
+  /* transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg); */
+}
+
+.box-border2 {
+  border: 0.943723px solid #000000;
+  box-shadow: 14.1558px 14.1558px 0px #000000;
+  /* transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg); */
+}
+
+.boxclip {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 80% 0, 80% 81%, 84% 100%, 50% 100%, 0 100%, 0% 70%, 0 15%, 15% 0);
+  clip-path: polygon(50% 0%, 100% 0, 80% 0, 80% 81%, 84% 100%, 50% 100%, 0 100%, 0% 70%, 0 15%, 15% 0);
 }
