@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import CA from '../../../public/collabActlogo.png'
-import { IoIosArrowUp } from 'react-icons/io';
 
 const Navbar = () => {
     const [servicedrop, setServicedrop] = useState(false)
