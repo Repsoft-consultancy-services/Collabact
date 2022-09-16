@@ -11,8 +11,8 @@ const Navbar = () => {
     const [blog, setBlog] = useState(false)
     const [faq, setFaq] = useState(false)
     const [contact, setContact] = useState(false)
-    const router = useRouter()
-    console.log(router.route);
+    const {route} = useRouter()
+    console.log(route);
     const handledropdown = () => {
         if (!servicedrop)
             setServicedrop(true)
