@@ -103,8 +103,8 @@ const Navbar = () => {
                     <Link href='/faq'><h1 onClick={handlefaq} className={`bg-white text-xl pb-2 hover:cursor-pointer ${faq ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
                     <Link href='/contactUs'><h1 onClick={handlecontact} className={`bg-white text-xl pb-2 hover:cursor-pointer ${contact ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
                     <div className='space-x-1 pb-2 text-lg text-white'>
-                        <Link href='/signin'><button className='bg-blue-500 px-2 py-1'>Sign In</button></Link>
-                        <Link href='/signup'><button className='bg-blue-500 px-2 py-1'>Sign Up</button></Link>
+                        <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-2 py-1'>Sign In</button></Link>
+                        <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-2 py-1'>Sign Up</button></Link>
                     </div>
                     {/* <ul className="menu menu-horizontal p-0 text-2xl">
                         {menu}

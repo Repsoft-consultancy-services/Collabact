@@ -22,25 +22,18 @@ a {
   box-sizing: border-box;
 }
 
-.box-border1 {
-  border: 0.943723px solid #000000;
-  box-shadow: -18px 14.1558px 0px #000000;
-  /* transform-origin: bottom left;
-    -ms-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg); */
+.buttonbg {
+  background: transparent radial-gradient(closest-side at 22% 88%, #FFFFFF 0%, #0D72B8 100%) 0% 0% no-repeat padding-box;
 }
 
-.box-border2 {
-  border: 0.943723px solid #000000;
-  box-shadow: 14.1558px 14.1558px 0px #000000;
-  /* transform-origin: bottom left;
-    -ms-transform: skew(-30deg, 0deg);
-    -webkit-transform: skew(-30deg, 0deg);
-    transform: skew(-30deg, 0deg); */
+.buttonbg2 {
+  background: transparent radial-gradient(closest-side at 22% 88%, #FFFFFF 0%, #FFC114 100%) 0% 0% no-repeat padding-box;
 }
 
 .boxclip {
-  -webkit-clip-path: polygon(50% 0%, 100% 0, 80% 0, 80% 81%, 84% 100%, 50% 100%, 0 100%, 0% 70%, 0 15%, 15% 0);
-  clip-path: polygon(50% 0%, 100% 0, 80% 0, 80% 81%, 84% 100%, 50% 100%, 0 100%, 0% 70%, 0 15%, 15% 0);
+  clip-path: polygon(50% 10%, 55% 0, 100% 0, 100% 100%, 100% 100%, 100% 100%, 0 100%, 0 100%, 0 0, 45% 0);
+  box-shadow: 0px 30px 73px #BCBCBC4A;
+}
+.box-border1 {
+  box-shadow: -18px -14.1558px 0px #000000;
 }
