@@ -5,7 +5,7 @@ import steps from '../../../public/steps.png'
 
 const Steps = () => {
     return (
-        <div className='bg-[#B5C2CF] bg-opacity-40 w-full 2xl:w-[110rem] stepsclip py-20 mt-20'>
+        <div className='bg-[#B5C2CF] bg-opacity-40 w-full 2xl:w-[110rem] 3xl:w-[150rem] stepsclip py-20 mt-20'>
             <h1 className='text-5xl font-bold text-center'>Willing to become Executive Sales Partner(ESP) ?<br /> Follow these simple steps!</h1>
             <div className='w-[68rem] mx-auto mt-20'>
             <Image src={steps} alt=""></Image>

@@ -6,53 +6,12 @@ import CA from '../../public/collabActlogo.png'
 
 const Navbar = () => {
     const [servicedrop, setServicedrop] = useState(false)
-    const [home, setHome] = useState(true)
-    const [about, setAbout] = useState(false)
-    const [blog, setBlog] = useState(false)
-    const [faq, setFaq] = useState(false)
-    const [contact, setContact] = useState(false)
     const {route} = useRouter()
-    console.log(route);
     const handledropdown = () => {
         if (!servicedrop)
             setServicedrop(true)
         else
             setServicedrop(false)
-    }
-    const handlehome = () => {
-        if (!home)
-            setHome(true)
-        else
-            setHome(false)
-
-    }
-    const handleabout = () => {
-        if (!about)
-            setAbout(true)
-        else
-            setAbout(false)
-
-    }
-    const handlefaq = () => {
-        if (!faq)
-            setFaq(true)
-        else
-            setFaq(false)
-
-    }
-    const handleblog = () => {
-        if (!blog)
-            setBlog(true)
-        else
-            setBlog(false)
-
-    }
-    const handlecontact = () => {
-        if (!contact)
-            setContact(true)
-        else
-            setContact(false)
-
     }
     // const menu = <>
     //     <h1><Link href='/'><p className='bg-white text-xl text-[#8a8a8a]'>Home</p></Link></h1>
@@ -94,17 +53,17 @@ const Navbar = () => {
                     </div>
                 </div> */}
                 <div className="flex justify-evenly items-center">
-                    <Link href='/'><h1 onClick={handlehome} className={`bg-white text-xl pb-2 hover:cursor-pointer ${home ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
-                    <Link href='/aboutUs'><h1 onClick={handleabout} className={`bg-white text-xl pb-2 hover:cursor-pointer ${about ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
-                    <h1 onClick={handledropdown} className={`bg-white text-xl pb-2 hover:cursor-pointer ${servicedrop ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
+                    <Link href='/'><h1 className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
+                    <Link href='/aboutUs'><h1 className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/aboutUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
+                    <h1 onClick={handledropdown} className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/services' ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
                     <Link href="/">
                         <div className=''>
                             <Image src={CA} alt=""></Image>
                         </div>
                     </Link>
-                    <Link href='/blog'><h1 onClick={handleblog} className={`bg-white text-xl pb-2 hover:cursor-pointer ${blog ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
-                    <Link href='/faq'><h1 onClick={handlefaq} className={`bg-white text-xl pb-2 hover:cursor-pointer ${faq ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
-                    <Link href='/contactUs'><h1 onClick={handlecontact} className={`bg-white text-xl pb-2 hover:cursor-pointer ${contact ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
+                    <Link href='/blog'><h1 className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
+                    <Link href='/faq'><h1 className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
+                    <Link href='/contactUs'><h1 className={`bg-white text-xl pb-2 hover:cursor-pointer ${route==='/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
                     <div className='space-x-1 pb-2 text-lg text-white'>
                         <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-2 py-1'>Sign In</button></Link>
                         <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-2 py-1'>Sign Up</button></Link>

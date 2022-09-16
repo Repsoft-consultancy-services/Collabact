@@ -8,7 +8,7 @@ import happyyellow from '../../../public/happyyellow.png'
 
 const Banner = () => {
     return (
-        <div className='mt-10 w-full 2xl:w-[110rem] mb-10'>
+        <div className='mt-5 w-full 2xl:w-[110rem] 3xl:w-[150rem] mb-10'>
             <div className='flex justify-between items-end space-x-6 px-5'>
                 <div className='flex flex-col text-black text-[28px] space-y-5 mb-52'>
                     <AiOutlineFacebook />
@@ -16,14 +16,14 @@ const Banner = () => {
                     <AiOutlineInstagram />
                     <FiTwitter />
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover text-white min-h-screen">
-                    <div className='px-28 2xl:px-40 py-[206px] 2xl:py-40'>
-                        <h1 className='text-[80px] font-bold'>We connect</h1>
-                        <h4 className='text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white min-h-screen flex-1 rounded-[100px]">
+                    <div className='px-28 2xl:px-40 py-24 2xl:py-80 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
+                        <h1 className='text-7xl 2xl:text-[80px] font-bold'>We connect</h1>
+                        <h4 className='text-6xl 2xl:text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>
                     </div>
                 </div>
             </div>
-            <div className="w-[600px] xl:w-[700px] 2xl:w-[850px] ml-auto -mt-40 2xl:-mt-44 mr-14">
+            <div className="w-[600px] xl:w-[700px] 2xl:w-[850px] ml-auto -mt-52 2xl:-mt-56 mr-14">
                 <h1 className="bg-[#BABFC4] px-2 py-4 text-2xl 2xl:text-3xl text-center relative font-bold z-[1]">Advantages of associating with CollabAct</h1>
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5]">
                     <div>
