@@ -4,77 +4,77 @@ import React from 'react';
 const Encash2 = () => {
     const data = [
         {
-            "logo": "",
+            "logo": "/Aurasoul.png",
             "title": "AuraSoul",
             "product": ["Food Supplements & wellness"],
             "Segment": "Fast Moving Consumer & Goods(FMCG)",
             "Earning": "10000-40000"
         },
         {
-            "logo": "",
+            "logo": "/B2Grow.png",
             "title": "B2Grow",
             "product": ["ERP System"],
             "Segment": "Business Services",
             "Earning": "50000-60000"
         },
         {
-            "logo": "",
+            "logo": "/TRIQUEENCH.png",
             "title": "TriQueench",
             "product": ["Kitchenware Products"],
             "Segment": "Fast Moving Consumer & Goods(FMCG)",
             "Earning": "25000-50000"
         },
         {
-            "logo": "",
+            "logo": "/biztea.png",
             "title": "BizTea",
             "product": ["Business Consultancy"],
             "Segment": "Business Services",
             "Earning": "15000-40000"
         },
         {
-            "logo": "",
+            "logo": "/yominternational.png",
             "title": "YOM Inernational",
             "product": ["Health & Personal Care", "Vitamin Suppliments"],
             "Segment": "Fast Moving Consumer & Goods(FMCG)",
             "Earning": "25000-50000"
         },
         {
-            "logo": "",
+            "logo": "/lamex.png",
             "title": "Lamex",
             "product": ["Wrist Watches"],
             "Segment": "Fast Moving Consumer & Goods(FMCG)",
             "Earning": "35000-75000"
         },
         {
-            "logo": "",
+            "logo": "/Mars.png",
             "title": "MarsBazaar",
             "product": ["Leads Generation for Industries"],
             "Segment": "Business Services",
             "Earning": "25000-60000"
         },
         {
-            "logo": "",
+            "logo": "/Grace.png",
             "title": "Grace Labs",
             "product": ["Pathology Lab Franchise"],
             "Segment": "Franchise",
             "Earning": "45000-240000"
         },
         {
-            "logo": "",
+            "logo": "/cregx.png",
             "title": "Cregx",
             "product": ["Online Designing Software"],
             "Segment": "Business Services",
             "Earning": "25000-50000"
         },
         {
-            "logo": "",
+            "logo": "/dunlop.png",
             "title": "Deepak Trading Co.",
             "product": ["Industrial Rubber Haus"],
             "Segment": "Industrial Products",
             "Earning": "21000-60000"
         },
         {
-            "logo": "",
+            "logo": "/enagic.png",
             "title": "Enagic",
             "product": ["Kangen Alkaline water machine"],
             "Segment": "Building Construction & Home Products",

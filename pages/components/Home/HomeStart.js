@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
+import Events from './Events';
 import Industry from './Industry';
 import Slider from './Slider';
 import Started from './Started';
@@ -14,6 +15,7 @@ const HomeStart = () => {
             <Industry></Industry>
             <Slider></Slider>
             <Steps></Steps>
+            <Events></Events>
         </div>
     );
 };

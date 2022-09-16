@@ -1,11 +1,11 @@
 import React from 'react';
 
-const index = () => {
+const cookie = () => {
     return (
         <div>
-            
+            vooki
         </div>
     );
 };
 
-export default index;
+export default cookie;

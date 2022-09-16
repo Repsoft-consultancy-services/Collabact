@@ -69,14 +69,16 @@ const Encash1 = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-3 gap-10'>
+        <div className='grid grid-cols-3 gap-16'>
             {
                 data.map(d => <>
-                    <div className='border-2 border-[#0D72B8] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] '>
-                        <div className='flex items-center justify-evenly space-x-3 p-5'>
-                            <Image width={80} height={80} src={d.logo} alt=""></Image>
+                    <div className='border-2 border-[#0D72B8] w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] '>
+                        <div className='flex items-center space-x-3 p-5'>
+                            <div className='relative w-32'>
+                                <Image width={100} height={80} src={d.logo} alt=""></Image>
+                            </div>
                             <div className='border-r-2 h-[80px] border-gray-300'></div>
-                            <h1 className='text-2xl font-bold text-left'>{d.title}</h1>
+                            <h1 className='text-2xl font-bold text-left flex-1'>{d.title}</h1>
                         </div>
                         <div className='border-b-2 border-gray-300 w-full'></div>
                         <div className='text-left ml-3 space-y-5'>

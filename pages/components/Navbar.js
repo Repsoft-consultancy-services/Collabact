@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react';
 import CA from '../../public/collabActlogo.png'
 
@@ -10,6 +11,8 @@ const Navbar = () => {
     const [blog, setBlog] = useState(false)
     const [faq, setFaq] = useState(false)
     const [contact, setContact] = useState(false)
+    const router = useRouter()
+    console.log(router.route);
     const handledropdown = () => {
         if (!servicedrop)
             setServicedrop(true)
@@ -93,7 +96,7 @@ const Navbar = () => {
                 <div className="flex justify-evenly items-center">
                     <Link href='/'><h1 onClick={handlehome} className={`bg-white text-xl pb-2 hover:cursor-pointer ${home ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
                     <Link href='/aboutUs'><h1 onClick={handleabout} className={`bg-white text-xl pb-2 hover:cursor-pointer ${about ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
-                    <h1 onClick={handledropdown} className={`bg-white text-xl pb-2 hover:cursor-pointer ${servicedrop ? 'border-t-4 text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
+                    <h1 onClick={handledropdown} className={`bg-white text-xl pb-2 hover:cursor-pointer ${servicedrop ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
                     <Link href="/">
                         <div className=''>
                             <Image src={CA} alt=""></Image>
@@ -112,8 +115,8 @@ const Navbar = () => {
                 </div>
             </div>
             {servicedrop && <div className="bg-white mt-1 absolute top-[59px] xl:left-[22rem] 2xl:left-[33rem] z-50">
-                <h1 className='border border-b-0 border-black rounded-none hover:cursor-pointer'><Link href='/services'><p className='bg-white text-base uppercase'>Quality assurance</p></Link></h1>
-                <h1 className='border border-b-0 border-black rounded-none hover:cursor-pointer'><Link href='/services2'><p className='bg-white text-base uppercase'>3D ART</p></Link></h1>
+                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services'><p className='bg-white text-base uppercase'>1</p></Link></h1>
+                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services2'><p className='bg-white text-base uppercase'>2</p></Link></h1>
             </div>}
 
         </div>
