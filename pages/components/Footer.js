@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <div>
-            <div className='bg-[#F4B50D] flex justify-center space-x-40 py-2'>
+            <div className='bg-[#F4B50D] w-full flex justify-center space-x-40 py-2 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
                 <div className='flex items-center space-x-5'>
                     <Image src={smartphone} alt=""></Image>
                     <p>(+91) 8849951310</p>

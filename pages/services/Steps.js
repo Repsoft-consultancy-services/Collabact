@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import React from 'react';
-import register from '../../../public/Register.png'
-import steps from '../../../public/steps.png'
+import steps from '../../public/services/steps1.png'
 
 const Steps = () => {
     return (
-        <div className='bg-[#B5C2CF] bg-opacity-40 w-full stepsclip py-20 mt-20'>
-            <h1 className='text-5xl font-bold text-center'>Willing to become Executive Sales Partner(ESP) ?<br /> Follow these simple steps!</h1>
+        <div className='bg-[#B5C2CF] bg-opacity-40 w-full py-20 mt-20'>
+            <h1 className='text-5xl font-bold text-center'>Start collaborating with Sales Partners<br />in 4 easy steps</h1>
             <div className='w-[68rem] mx-auto mt-20'>
-            <Image src={steps} alt=""></Image>
+                <Image src={steps} alt=""></Image>
                 {/* <div className='flex'>
                     <div className='border border-[#F4B50D] px-20'>
                         <Image src={register} alt="register"></Image>

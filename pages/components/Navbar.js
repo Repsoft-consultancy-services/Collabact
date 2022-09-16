@@ -73,9 +73,9 @@ const Navbar = () => {
                     </ul> */}
                 </div>
             </div>
-            {servicedrop && <div className="bg-white mt-1 absolute top-[59px] xl:left-[22rem] 2xl:left-[33rem] z-50">
-                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services'><p className='bg-white text-base uppercase'>1</p></Link></h1>
-                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services2'><p className='bg-white text-base uppercase'>2</p></Link></h1>
+            {servicedrop && <div onMouseLeave={handledropdown} className="bg-white mt-1 absolute top-[59px] xl:left-[22rem] 2xl:left-[33rem] z-50">
+                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services'><p className='bg-white text-base uppercase'>Offer to Business</p></Link></h1>
+                <h1 onClick={handledropdown} className='hover:cursor-pointer'><Link href='/services2'><p className='bg-white text-base uppercase'>Offer to Sales Partner</p></Link></h1>
             </div>}
 
         </div>
