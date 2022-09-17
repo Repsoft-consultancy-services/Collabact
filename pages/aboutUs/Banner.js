@@ -22,7 +22,7 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-center text-2xl 2xl:text-3xl xl:w-[80rem] xl:ml-[5rem] 2xl:ml-[15rem] xl:-mt-16'>
+                <div className='text-center text-2xl 2xl:text-3xl xl:w-[80rem] xl:ml-[5rem] 2xl:ml-[5rem] xl:-mt-16'>
                     <p>For Businesses, CollabAct connects Commission based Sales Partners who become their <br /> extended hand and help them expand their business PAN India. And for the youth, we offer <br /> established companies whose products/services they sell without investment. <br /> This kind of connection brings a new earning opportunity for both the stakeholders. <br /><br />
 
                         Many challenges, like underemployment, were faced by the youth of India, because of which <br /> they have low energy and low confidence. We notice; that even though they have a lot <br /> of potential and capabilities, they don&apos;t have the right direction. They are willing to earn and put <br /> effort but don&apos;t know how to do that. <br /><br />

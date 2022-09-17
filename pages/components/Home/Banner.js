@@ -8,7 +8,7 @@ import happyyellow from '../../../public/happyyellow.png'
 
 const Banner = () => {
     return (
-        <div className='mt-5 w-full 2xl:w-[1621px] mb-10 mr-16 2xl:mr-40'>
+        <div className='mt-5 w-full 2xl:w-[1200px] mb-10 mr-16 2xl:mr-40'>
             <div className='flex justify-between items-end 2xl:space-x-6 px-5'>
                 <div className='flex flex-col text-black text-[28px] space-y-5 mb-52 ml-5 2xl:ml-0 mr-10'>
                     <AiOutlineFacebook />
@@ -16,18 +16,18 @@ const Banner = () => {
                     <AiOutlineInstagram />
                     <FiTwitter />
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen xl:w-[1458.9px] xl:h-[672.2px] 2xl:h-[686.4px] flex-1 rounded-[100px]">
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen xl:w-[1000px] xl:h-[672.2px] 2xl:h-[586px] flex-1 rounded-[100px]">
                     <div className='px-28 2xl:px-40 py-32 2xl:py-40 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                        <h1 className='text-7xl 2xl:text-[80px] font-bold'>We connect</h1>
-                        <h4 className='text-6xl 2xl:text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>
+                        <h1 className='text-7xl xl:text-[80px] 2xl:text-[65px] font-bold'>We connect</h1>
+                        <h4 className='text-6xl xl:text7xl 2xl:text-5xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>
                     </div>
                 </div>
             </div>
-            <div className="w-[600px] xl:w-[700px] 2xl:w-[850px] ml-auto -mt-40 2xl:-mt-40 3xl:-mt-36 mr-14">
+            <div className="w-[600px] xl:w-[700px] 2xl:w-[700px] ml-auto -mt-40 2xl:-mt-40 3xl:-mt-36 mr-14">
                 <h1 className="bg-[#BABFC4] px-2 py-4 text-2xl 2xl:text-3xl text-center relative font-bold z-[1]">Advantages of associating with CollabAct</h1>
-                <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5]">
+                <div className="flex justify-between w-11/12 2xl:w-full mx-auto relative 2xl:ml-5 -mt-2 z-[5]">
                     <div>
-                        <div className="bg-white w-[250px] flex flex-col items-center 2xl:ml-5">
+                        <div className="bg-white w-[250px] 2xl:w-[200px] flex flex-col items-center 2xl:ml-5">
                             <h1 className="text-center text-2xl font-bold mt-2">Businesses</h1>
                             <div className='p-5 z-[5]'>
                                 <Image height={70} width={70} src={happy} alt=""></Image>
@@ -48,7 +48,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="bg-white w-[250px] flex flex-col items-center 2xl:mr-5">
+                        <div className="bg-white w-[250px] 2xl:w-[200px] flex flex-col items-center 2xl:mr-5">
                             <h1 className="text-center text-2xl font-bold mt-2">Sales Partners</h1>
                             <div className='p-5 z-[5]'>
                                 <Image height={70} width={70} src={happyyellow} alt=""></Image>
