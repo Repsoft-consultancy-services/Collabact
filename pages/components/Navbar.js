@@ -58,11 +58,11 @@ const Navbar = () => {
 
                     <Link href="/">
                         <div className=''>
-                            <Image src={CA} alt=""></Image>
+                            <Image width={230} height={70} src={CA} alt=""></Image>
                         </div>
                     </Link>
 
-                    <Link href='/blog'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
+                    <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
 
                     <Link href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
 
@@ -77,7 +77,7 @@ const Navbar = () => {
                     </ul> */}
                 </div>
             </div>
-            {servicedrop && <div onMouseLeave={handledropdown} className="mt-1 absolute top-[59px] xl:left-[22rem] 2xl: 3xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
+            {servicedrop && <div onMouseLeave={handledropdown} className="mt-1 absolute top-[59px] xl:left-[22rem] 2xl:left-[38rem] 3xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
                 <div onClick={handledropdown} className="flex justify-between items-center">
                     <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-bold uppercase '>Businesses</p></Link></h1>
                     <BsChevronRight/>

@@ -50,7 +50,7 @@ const Footer = () => {
                 <div>
                     <h1 className='text-xl font-bold'>SUBSCRIBE NEWS LETTER</h1>
                     <div className='flex items-center mt-4'>
-                        <input type="text" className='border border-[#C4C4C4] py-1 2xl:w-[20rem]' /><button className='px-5 py-1 bg-[#3E416C]'>Subcribe</button>
+                        <input type="text" className='border border-[#C4C4C4] py-1 2xl:w-[20rem]' /><button className='px-5 py-1 bg-[#3E416C] text-white'>Subcribe</button>
                     </div>
                     <p className='text-[13px] mt-3 text-white'>Get digital marketing updates in your mailbox</p>
                 </div>

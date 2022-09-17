@@ -15,7 +15,7 @@ const Banner = () => {
                     <FiTwitter />
                 </div>
                 <div className=''>
-                    <Image width={1600} height={650} src={bg} alt=""></Image>
+                    <Image width={1000} height={650} src={bg} alt=""></Image>
                 </div>
             </div>
         </div>

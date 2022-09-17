@@ -3,7 +3,7 @@ import React from 'react';
 const cookie = () => {
     return (
         <div className='bg-[#C2C2C3] p-5'>
-            <div className='p-10 mx-auto w-4/5 2xl:w-[94rem] bg-white'>
+            <div className='p-10 mx-auto w-4/5 2xl:w-[94rem] bg-white mt-10'>
                 <div className='px-20'>
                     <h1 className=' font-bold mt-5'>
                         Cookie Policy

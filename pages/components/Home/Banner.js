@@ -8,7 +8,7 @@ import happyyellow from '../../../public/happyyellow.png'
 
 const Banner = () => {
     return (
-        <div className='mt-5 w-full 2xl:w-[1621px] 3xl:w-[150rem] mb-10'>
+        <div className='mt-5 w-full 2xl:w-[1621px] mb-10'>
             <div className='flex justify-between items-end space-x-6 px-5'>
                 <div className='flex flex-col text-black text-[28px] space-y-5 mb-52 mr-10'>
                     <AiOutlineFacebook />
