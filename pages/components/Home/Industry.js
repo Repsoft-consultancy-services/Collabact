@@ -127,10 +127,10 @@ const Industry = () => {
         ]
     ]
     return (
-        <div className='bg-white w-11/12 2xl:w-[90rem] relative -mt-20 p-32 shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)] '>
+        <div className='bg-white w-11/12 2xl:w-[90rem] relative -mt-20 lg:p-32 shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)] '>
             <div className=''>
                 <h1 className='text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
-                <div className='grid grid-cols-3 gap-5 mt-20'>
+                <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 mt-20'>
                     {
                         data.map(d => <>
                             {
