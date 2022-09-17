@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div>
             <div>
-                <div className='flex justify-between items-end space-x-6 px-5 w-full'>
+                <div className='flex justify-between items-end px-5 w-full'>
                     <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
                         <AiOutlineFacebook />
                         <AiOutlineLinkedin />
@@ -17,7 +17,9 @@ const Banner = () => {
                         <FiTwitter />
                     </div>
                     <div className=''>
-                        <Image width={1600} height={650} src={bg} alt=""></Image>
+                        <div>
+                            <Image width={1000} height={650} src={bg} alt=""></Image>
+                        </div>
                     </div>
                 </div>
                 <div className='text-center text-2xl 2xl:text-3xl xl:w-[80rem] xl:ml-[5rem] 2xl:ml-[15rem] xl:-mt-16'>
