@@ -8,7 +8,7 @@ import happyyellow from '../../../public/happyyellow.png'
 
 const Banner = () => {
     return (
-        <div className='mt-5 w-full 2xl:w-[110rem] 3xl:w-[150rem] mb-10'>
+        <div className='mt-5 w-full 2xl:w-[1621px] 3xl:w-[150rem] mb-10'>
             <div className='flex justify-between items-end space-x-6 px-5'>
                 <div className='flex flex-col text-black text-[28px] space-y-5 mb-52 mr-10'>
                     <AiOutlineFacebook />
@@ -16,8 +16,8 @@ const Banner = () => {
                     <AiOutlineInstagram />
                     <FiTwitter />
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen 2xl:h-[75vh] flex-1 rounded-[100px]">
-                    <div className='px-28 2xl:px-40 py-32 2xl:py-16 3xl:py-80 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen xl:w-[1458.9px] xl:h-[672.2px] 2xl:h-[686.4px] flex-1 rounded-[100px]">
+                    <div className='px-28 2xl:px-40 py-32 2xl:py-40 3xl:py-80 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
                         <h1 className='text-7xl 2xl:text-[80px] font-bold'>We connect</h1>
                         <h4 className='text-6xl 2xl:text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>
                     </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
     // </>
     return (
         <div className={`flex items-center justify-center ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}`}>
-            <div className="w-full xl:w-[80rem] 2xl:w-[94rem] mt-1">
+            <div className="w-full xl:w-[1323.09px] 2xl:w-[1176.08px] xl:h-[83.7px] 2xl:h-[74.4px] mt-1">
                 {/* <Link href="/">
                     <div className='hidden lg:block'>
                         
@@ -77,7 +77,7 @@ const Navbar = () => {
                     </ul> */}
                 </div>
             </div>
-            {servicedrop && <div onMouseLeave={handledropdown} className="mt-1 absolute top-[59px] xl:left-[22rem] 2xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
+            {servicedrop && <div onMouseLeave={handledropdown} className="mt-1 absolute top-[59px] xl:left-[22rem] 2xl: 3xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
                 <div onClick={handledropdown} className="flex justify-between items-center">
                     <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-bold uppercase '>Businesses</p></Link></h1>
                     <BsChevronRight/>
