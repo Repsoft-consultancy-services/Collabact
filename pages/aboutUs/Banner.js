@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div>
             <div>
-                <div className='flex justify-between items-end px-5 w-full'>
+                <div className='flex justify-evenly items-end px-5 w-full'>
                     <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
                         <AiOutlineFacebook />
                         <AiOutlineLinkedin />

@@ -8,7 +8,7 @@ const Offer = () => {
         <div className='w-full bg-[#F4F5F4] p-10 -mt-16'>
             <h1 className='text-2xl font-bold text-center'>What We Offer To Businesses</h1>
             <div className='flex justify-center items-center space-x-10 2xl:space-x-32 p-10 mt-10 text-xl 2xl:text-2xl'>
-                <div className='border-2 border-gray-500 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] w-[50%] 2xl:w-[40%] flex justify-center'>
+                <div className='border-2 border-gray-500 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] w-[40%] flex justify-center'>
                     <Image src={what} alt=""></Image>
                 </div>
                 <div className='w-[50%] 2xl:w-[40%]'>
