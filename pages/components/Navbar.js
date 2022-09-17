@@ -31,7 +31,7 @@ const Navbar = () => {
     // </>
     return (
         <div className={`flex items-center justify-center ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}`}>
-            <div className="w-full xl:w-[1323.09px] 2xl:w-[1621px] xl:h-[83.7px] 2xl:h-[74.4px] mt-1">
+            <div className="w-full xl:w-[1323.09px] 2xl:w-[1176.08px] xl:h-[83.7px] 2xl:h-[74.4px] mt-1">
                 {/* <Link href="/">
                     <div className='hidden lg:block'>
                         
@@ -62,7 +62,7 @@ const Navbar = () => {
                         </div>
                     </Link>
 
-                    <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
+                    <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
 
                     <Link href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
 
