@@ -9,12 +9,14 @@ import happyyellow from '../../../public/happyyellow.png'
 const Banner = () => {
     return (
         <div className='mt-5 w-full 2xl:w-[1621px] mb-10 mr-16 2xl:mr-40'>
-            <div className='flex justify-between items-end 2xl:space-x-6 px-5'>
-                <div className='flex flex-col text-black text-[28px] space-y-5 mb-52 ml-5 2xl:ml-0 mr-10'>
-                    <AiOutlineFacebook />
-                    <AiOutlineLinkedin />
-                    <AiOutlineInstagram />
-                    <FiTwitter />
+            <div className='flex justify-between items-end 2xl:space-x-6 px-5 '>
+                <div className='hidden lg:block'>
+                    <div className='flex flex-col text-black text-[28px] space-y-5 mb-52 ml-5 2xl:ml-0 mr-10'>
+                        <AiOutlineFacebook />
+                        <AiOutlineLinkedin />
+                        <AiOutlineInstagram />
+                        <FiTwitter />
+                    </div>
                 </div>
                 <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen xl:w-[1458.9px] xl:h-[672.2px] 2xl:h-[686.4px] flex-1 rounded-[100px]">
                     <div className='px-28 2xl:px-40 py-32 2xl:py-40 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
