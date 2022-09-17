@@ -72,7 +72,7 @@ const Encash1 = () => {
         <div className='grid grid-cols-3 gap-16'>
             {
                 data.map(d => <>
-                    <div className='border-2 border-[#0D72B8] xl:w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] '>
+                    <div className='border-2 border-[#0D72B8] xl:w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] '>
                         <div className='flex items-center space-x-3 p-5'>
                             <div className='relative w-32'>
                                 <Image width={100} height={80} src={d.logo} alt=""></Image>

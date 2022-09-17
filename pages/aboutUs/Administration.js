@@ -31,8 +31,8 @@ const Administration = () => {
                     </p>
                 </div>
             </div>
-            <div className='mt-20'>
-                <Image src={seperator} alt=""></Image>
+            <div className='mt-20 relative w-full h-5'>
+                <Image layout='fill' src={seperator} alt=""></Image>
             </div>
         </div>
     );
