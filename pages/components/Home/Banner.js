@@ -16,7 +16,7 @@ const Banner = () => {
                     <AiOutlineInstagram />
                     <FiTwitter />
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white min-h-screen flex-1 rounded-[100px]">
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-screen 2xl:h-[70vh] flex-1 rounded-[100px]">
                     <div className='px-28 2xl:px-40 py-24 2xl:py-80 drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
                         <h1 className='text-7xl 2xl:text-[80px] font-bold'>We connect</h1>
                         <h4 className='text-6xl 2xl:text-7xl font-semibold mt-2'>Commissioned Sales Partners with Businesses <br /> to grow Exponentially</h4>

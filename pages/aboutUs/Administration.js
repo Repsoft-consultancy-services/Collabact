@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 import kartik from '../../public/about/kartik.png'
 import rajvi from '../../public/about/rajvi.png'
-import m from '../../public/about/image.png'
 import seperator from '../../public/about/seperator.png'
 
 const Administration = () => {
