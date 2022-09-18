@@ -49,7 +49,7 @@ const Ques = () => {
     ]
     return (
         <div className="bg-[#C2C2C3] p-5">
-            <div className="p-5 mx-auto w-4/5 2xl:w-[94rem] ">
+            <div className="p-5 mx-auto w-4/5 2xl:w-[94rem] mt-20">
                 <div className="bg-white p-10">
                     <h1 className='font-bold text-3xl'>FAQ</h1>
                     {

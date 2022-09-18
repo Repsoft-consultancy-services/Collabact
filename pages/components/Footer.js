@@ -8,17 +8,17 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <div>
-            <div className='bg-[#F4B50D] w-full flex justify-center space-x-40 py-2 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
+            <div className='bg-[#F4B50D] w-full flex justify-center space-x-5 lg:space-x-40 py-2 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
                 <div className='flex items-center space-x-5'>
-                    <Image src={smartphone} alt=""></Image>
+                    <Image width={30} height={30} src={smartphone} alt=""></Image>
                     <p>(+91) 8849951310</p>
                 </div>
                 <div className='flex items-center space-x-5'>
-                    <Image src={email} alt=""></Image>
+                    <Image width={30} height={30} src={email} alt=""></Image>
                     <p>info@collabact.com</p>
                 </div>
                 <div className='flex items-center space-x-5'>
-                    <Image src={FAQ} alt=""></Image>
+                    <Image width={30} height={30} src={FAQ} alt=""></Image>
                     <p>FAQ</p>
                 </div>
             </div>
