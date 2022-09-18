@@ -69,7 +69,7 @@ const Encash1 = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-3 gap-16'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-16'>
             {
                 data.map(d => <>
                     <div className='border-2 border-[#0D72B8] xl:w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>

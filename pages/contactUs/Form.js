@@ -34,6 +34,9 @@ const Form = () => {
                             <option disabled className='text-blue-300' value="">SUBJECT RELATED TO</option>
                         </select>
                         <textarea placeholder='MESSAGE' name="" id="" rows="4" className='py-2 pl-2 mt-5 w-full'></textarea>
+                        <div>
+                            <button className='bg-blue-400 px-2 py-1 text-white'>SEND</button>
+                        </div>
                     </div>
                 </div>
             </div>

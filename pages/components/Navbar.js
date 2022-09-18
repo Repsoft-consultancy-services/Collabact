@@ -15,19 +15,19 @@ const Navbar = () => {
             setServicedrop(false)
     }
     // const menu = <>
-    //     <h1><Link href='/'><p className='bg-white text-xl text-[#8a8a8a]'>Home</p></Link></h1>
-    //     <h1><Link href='/joinUs'><p className='bg-white text-xl text-[#8a8a8a]'>AboutUs</p></Link></h1>
+    //     <h1><Link href='/'><p className='bg-white text-base xl:text-xl text-[#8a8a8a]'>Home</p></Link></h1>
+    //     <h1><Link href='/joinUs'><p className='bg-white text-base xl:text-xl text-[#8a8a8a]'>AboutUs</p></Link></h1>
     //     <h1 onClick={handledropdown}>
-    //         <p className='bg-white text-xl text-[#8a8a8a]'>What we offer</p>
+    //         <p className='bg-white text-base xl:text-xl text-[#8a8a8a]'>What we offer</p>
     //     </h1>
     //     <Link href="/">
     //         <div className=''>
     //             <Image src={CA} alt=""></Image>
     //         </div>
     //     </Link>
-    //     <h1><Link href='/contactUs'><p className='bg-white text-xl text-[#8a8a8a]'>Blog</p></Link></h1>
-    //     <h1><Link href='/contactUs'><p className='bg-white text-xl text-[#8a8a8a]'>FAQ</p></Link></h1>
-    //     <h1><Link href='/aboutUs'><p className='bg-white text-xl '>Contact Us</p></Link></h1>
+    //     <h1><Link href='/contactUs'><p className='bg-white text-base xl:text-xl text-[#8a8a8a]'>Blog</p></Link></h1>
+    //     <h1><Link href='/contactUs'><p className='bg-white text-base xl:text-xl text-[#8a8a8a]'>FAQ</p></Link></h1>
+    //     <h1><Link href='/aboutUs'><p className='bg-white text-base xl:text-xl '>Contact Us</p></Link></h1>
     // </>
     return (
         <div className={`flex items-center justify-center ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}`}>
@@ -50,11 +50,11 @@ const Navbar = () => {
                     </div>
                 </div> */}
                 <div className={`flex justify-evenly items-center`}>
-                    <Link href='/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
+                    <Link href='/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
 
-                    <Link href='/aboutUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
+                    <Link href='/aboutUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
 
-                    <h1 onClick={handledropdown} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
+                    <h1 onClick={handledropdown} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
 
                     <Link href="/">
                         <div className=''>
@@ -62,11 +62,11 @@ const Navbar = () => {
                         </div>
                     </Link>
 
-                    <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'}text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
+                    <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
 
-                    <Link href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
+                    <Link href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
 
-                    <Link href='/contactUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-xl pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
+                    <Link href='/contactUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
 
                     <div className='space-x-1 pb-2 text-lg text-white'>
                         <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-2 py-1'>Sign In</button></Link>
