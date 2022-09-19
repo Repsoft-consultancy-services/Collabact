@@ -22,33 +22,33 @@ const Footer = () => {
                     <p>FAQ</p>
                 </div>
             </div>
-            <div className='bg-[#B5C2CF] px-8 py-5 flex justify-evenly'>
-                <div className='text-[17px] text-[#505050] text-justify'>
+            <div className='bg-[#B5C2CF] px-2 xl:px-8 py-5 flex justify-evenly lg:space-x-2 xl:space-x-0'>
+                <div className='xl:text-[17px] text-[#505050] text-justify'>
                     <p>Become a mediator, and connect to right company with right <br /> candidate, to work together for development and ultimately <br /> have a Win-Win-Win situation wherein everyone grows.</p>
                 </div>
-                <div className='flex justify-evenly w-1/3'>
+                <div className='flex justify-evenly lg:space-x-2 xl:space-x-0 xl:w-1/3'>
                     <div>
-                        <h1 className='uppercase text-xl font-bold'>About Us</h1>
+                        <h1 className='uppercase text-base xl:text-xl font-bold'>About<span className='ml-1'>Us</span></h1>
                         <Link href=""><p>Our Story</p></Link>
                         <Link href=""><p>Our Team</p></Link>
                         <Link href=""><p>Career</p></Link>
                     </div>
                     <div>
-                        <h1 className='uppercase text-xl font-bold'>Resources</h1>
+                        <h1 className='uppercase text-base xl:text-xl font-bold'>Resources</h1>
                         <Link href=""><p>EBP</p></Link>
                         <Link href=""><p>EBL</p></Link>
                         <Link href=""><p>Support</p></Link>
-                        <Link href=""><p>Blog</p></Link>
+                        <Link href='https://collabact.com/Blog/'><p className='hover:cursor-pointer'>Blog</p></Link>
                     </div>
                     <div className='font-bold'>
-                        <Link href="/terms"><h1>Terms and Condition</h1></Link>
-                        <Link href="/cookie"><p>Cookie policy</p></Link>
-                        <Link href=""><p>Privacy Policy</p></Link>
-                        <Link href=""><p>Refund Policy</p></Link>
+                        <Link href="/terms"><h1 className='hover:cursor-pointer'>Terms and Condition</h1></Link>
+                        <Link href="/cookie"><p  className='hover:cursor-pointer'>Cookie policy</p></Link>
+                        <Link href=""><p  className='hover:cursor-pointer'>Privacy Policy</p></Link>
+                        <Link href=""><p  className='hover:cursor-pointer'>Refund Policy</p></Link>
                     </div>
                 </div>
                 <div>
-                    <h1 className='text-xl font-bold'>SUBSCRIBE NEWS LETTER</h1>
+                    <h1 className='lg:text-lg xl:text-xl font-bold'>SUBSCRIBE NEWS LETTER</h1>
                     <div className='flex items-center mt-4'>
                         <input type="text" className='border border-[#C4C4C4] py-1 2xl:w-[20rem]' /><button className='px-5 py-1 bg-[#3E416C] text-white'>Subcribe</button>
                     </div>

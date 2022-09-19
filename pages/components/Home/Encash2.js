@@ -66,23 +66,9 @@ const Encash2 = () => {
             "Segment": "Business Services",
             "Earning": "25000-50000"
         },
-        {
-            "logo": "/dunlop.png",
-            "title": "Deepak Trading Co.",
-            "product": ["Industrial Rubber Haus"],
-            "Segment": "Industrial Products",
-            "Earning": "21000-60000"
-        },
-        {
-            "logo": "/enagic.png",
-            "title": "Enagic",
-            "product": ["Kangen Alkaline water machine"],
-            "Segment": "Building Construction & Home Products",
-            "Earning": "16000-40000"
-        }
     ]
     return (
-        <div className='grid grid-cols-4 gap-10'>
+        <div className='grid grid-cols-3 gap-10'>
             {
                 data.map(d => <>
                     <div className='border-2 border-[#0D72B8] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
