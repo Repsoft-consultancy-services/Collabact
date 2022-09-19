@@ -90,7 +90,7 @@ const Navbar = () => {
                     </Link>
                     <Link href='https://collabact.com/Blog/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl 2xl:text-lg pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
 
-                    <Link href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl 2xl:text-lg pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
+                    <Link className='hover:cursor-pointer' href='/faq'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl 2xl:text-lg pb-2 ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
 
                     <Link href='/contactUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl 2xl:text-lg pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
 
@@ -100,7 +100,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div >
-            {servicedrop && <div onMouseLeave={handledropdown} className="mt-1 absolute top-[180px] lg:top-[59px] left-[5rem] xl:left-[22rem] 2xl:left-[38rem] 3xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
+            {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 absolute top-[180px] lg:top-[59px] left-[5rem] xl:left-[22rem] 2xl:left-[38rem] 3xl:left-[52rem] z-50 px-5 py-3 bg-[#C2C2C3] space-y-1 text-lg ">
                 <div onClick={handledropdown} className="flex justify-between items-center">
                     <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-bold uppercase '>Businesses</p></Link></h1>
                     <BsChevronRight />
