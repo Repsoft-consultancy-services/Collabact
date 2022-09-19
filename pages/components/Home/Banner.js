@@ -18,10 +18,10 @@ const Banner = () => {
                         <FiTwitter />
                     </div>
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[300px] w-[500px] lg:w-full lg:h-[600px] flex-1 rounded-[10px] lg:rounded-[50px]">
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[300px] w-[500px] lg:w-full lg:h-[476px] xl:h-[600px] flex-1 rounded-[10px] lg:rounded-[50px]">
                     <div className='text-center lg:text-left lg:px-10 xl:px-16 py-10 lg:py-20 xl:py-20 lg:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                        <h1 className='text-xl lg:text-5xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
-                        <h4 className='text-xl lg:text-4xl xl:text-6xl font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
+                        <h1 className='text-xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
+                        <h4 className='text-xl lg:text-5xl xl:text-6xl font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                     </div>
                 </div>
             </div>

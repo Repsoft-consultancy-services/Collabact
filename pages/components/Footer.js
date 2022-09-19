@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='bg-[#B5C2CF] px-2 xl:px-8 py-5 flex justify-evenly lg:space-x-2 xl:space-x-0'>
-                <div className='xl:text-[17px] text-[#505050] text-justify'>
+                <div className='text-[12px] xl:text-[17px] text-[#505050] text-justify'>
                     <p>Become a mediator, and connect to right company with right <br /> candidate, to work together for development and ultimately <br /> have a Win-Win-Win situation wherein everyone grows.</p>
                 </div>
                 <div className='flex justify-evenly lg:space-x-2 xl:space-x-0 xl:w-1/3'>
