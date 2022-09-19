@@ -2,7 +2,7 @@ import React from 'react';
 
 const Started = () => {
     return (
-        <div className='bg-[#B5C2CF] bg-opacity-30 w-full relative -mt-[400px] z-[-2]'>
+        <div className='bg-[#B5C2CF] bg-opacity-30 w-full relative xl:-mt-[300px] 2xl:-mt-[400px] z-[-2]'>
             <div className=''>
                 <div className='pt-96 pb-64 lg:ml-32 2xl:ml-52'>
                     <h1 className='text-3xl font-bold'>Get started!</h1>
