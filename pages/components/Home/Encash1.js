@@ -78,12 +78,12 @@ const Encash1 = () => {
                                 <Image width={100} height={80} src={d.logo} alt=""></Image>
                             </div>
                             <div className='border-r-2 h-[80px] border-gray-300'></div>
-                            <h1 className='text-2xl font-bold text-left flex-1'>{d.title}</h1>
+                            <h1 className='text-xl xl:text-2xl font-bold text-left flex-1'>{d.title}</h1>
                         </div>
                         <div className='border-b-2 border-gray-300 w-full'></div>
                         <div className='text-left ml-3 space-y-5'>
-                            <h6><span className='font-bold'>Product: </span>{d.product[0]}</h6>
-                            <h6><span className='font-bold'>Segment: </span>{d.Segment}</h6>
+                            <h6  className='text-sm xl:text-base'><span className='font-bold'>Product: </span>{d.product[0]}</h6>
+                            <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
                         </div>
                         <div className='border-b-2 border-gray-300 w-[200px] mx-auto mt-5'></div>
                         <div className='mt-1'>

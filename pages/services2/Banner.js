@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { AiOutlineFacebook, AiOutlineLinkedin, AiOutlineInstagram } from 'react-icons/ai'
 import { FiTwitter } from 'react-icons/fi'
-import bg from '../../public/services/bg2.png'
+import bg from '../../public/services/bg2.svg'
 
 const Banner = () => {
     return (

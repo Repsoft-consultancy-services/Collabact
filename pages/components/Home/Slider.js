@@ -6,6 +6,7 @@ import { Navigation } from "swiper";
 import { FaLessThan, FaGreaterThan } from 'react-icons/fa'
 import Encash1 from './Encash1';
 import Encash2 from './Encash2';
+import Encash3 from './Encash3';
 
 const Slider = () => {
     const navigationPrevRef = useRef(null);
@@ -39,6 +40,9 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <Encash2></Encash2>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Encash3></Encash3>
                 </SwiperSlide>
                
             </Swiper>
