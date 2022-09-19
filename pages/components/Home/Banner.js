@@ -25,7 +25,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            <div className="w-[300px] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-auto lg:ml-[25rem] xl:ml-auto -mt-10 lg:-mt-[150px] xl:-mt-40 3xl:-mt-36 mr-14">
+            <div className="w-[300px] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-auto lg:ml-[25rem] xl:ml-auto -mt-10 lg:-mt-[150px] xl:-mt-40 mr-14">
                 <h1 className="bg-[#BABFC4] px-2 py-3 lg:py-5 text-[14px] lg:text-lg xl:text-2xl  text-center relative font-bold z-[1]">Advantages of associating with CollabAct</h1>
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] lg:space-x-28 xl:space-x-5">
                     <div>
