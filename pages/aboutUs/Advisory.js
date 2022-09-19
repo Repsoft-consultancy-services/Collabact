@@ -10,7 +10,7 @@ const Advisory = () => {
         <div className='mt-20'>
             <h1 className='text-4xl font-bold text-center'>Our Advisory Team</h1>
             <div className='my-20 grid grid-cols-4 gap-16 px-5 2xl:px-0'>
-                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] h-[664px]'>
+                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] '>
                     <div className='rounded-full border-4 border-[#F4B50D] relative w-56 h-56'>
                         <Image layout='fill' src={rishi} alt=""></Image>
                     </div>
@@ -20,7 +20,7 @@ const Advisory = () => {
                         <p className='mt-5'>Rishiji, a spiritual mentor, singer and author of the best-selling book &apos;&apos;Celebrating Life&apos;&apos;. This modern Rishi was always perceived as a &apos;spiritual scientist&apos;, bursting with love, energy and a never-dying enthusiasm to serve humanity.</p>
                     </div>
                 </div>
-                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] h-[664px]'>
+                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
                     <div className='rounded-full border-4 border-[#F4B50D] relative w-56 h-56'>
                         <Image layout='fill' src={ekata}></Image>
                     </div>
@@ -30,7 +30,7 @@ const Advisory = () => {
                         <p className='mt-5'>Ekata Mehul, Director and CEO - Orena Solutions and Blazing Arrows Pvt. Ltd. She is Co-director for “Women in Big Data”. Director for “Ignite” and Brand Ambassador for “Impulse of Women” at India level.</p>
                     </div>
                 </div>
-                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] h-[664px]'>
+                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
                     <div className='rounded-full border-4 border-[#F4B50D] relative w-56 h-56'>
                         <Image layout='fill' src={hemant}></Image>
                     </div>
@@ -41,7 +41,7 @@ const Advisory = () => {
                         <p className='mt-5'> Director, Shreelight Power Pvt.Ltd Has more than 25 years of experience in the field Precedent, Vadodara Electrical Licensed Contractor Association (VELCA)</p>
                     </div>
                 </div>
-                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] h-[664px]'>
+                <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
                     <div className='rounded-full border-4 border-[#F4B50D] relative w-56 h-56'>
                         <Image layout='fill' src={milnd}></Image>
                     </div>

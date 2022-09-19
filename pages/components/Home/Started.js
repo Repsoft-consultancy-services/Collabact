@@ -5,7 +5,7 @@ import arrow from '../../../public/arrow.svg'
 const Started = () => {
     return (
         <div className='bg-[#B5C2CF] bg-opacity-30 w-full relative lg:-mt-[300px] xl:-mt-[350px] 2xl:-mt-[400px] z-[-2]'>
-            <div className='xl:w-[1300px] lg:pt-60 xl:pt-72 pb-40 xl:pb-64 mx-auto'>
+            <div className='xl:w-[1300px] lg:pt-60 xl:pt-72 pb-40 mx-auto'>
                 <div className='flex items-center'>
                     <div>
                         <h1 className='text-3xl font-bold'>Get started!</h1>
