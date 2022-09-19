@@ -24,19 +24,22 @@ const Form = () => {
                         </div>
                     </div>
                     <div className='w-[30rem]'>
-                        <div className='flex space-x-5'>
-                            <input placeholder='NAME' type="text" className='py-2 pl-2 w-full' /><input type="text" placeholder='SURNAME' className='py-2 pl-2 w-full' />
-                        </div>
-                        <div className='flex space-x-5 mt-5'>
-                            <input placeholder='PHONE' type="text" className='py-2 pl-2 w-full' /><input type="text" placeholder='EMAIL' className='py-2 pl-2 w-full' />
-                        </div>
-                        <select className='py-2 pl-2 w-full mt-5 text-gray-400' name="" id="">
-                            <option disabled className='text-blue-300' value="">SUBJECT RELATED TO</option>
-                        </select>
-                        <textarea placeholder='MESSAGE' name="" id="" rows="4" className='py-2 pl-2 mt-5 w-full'></textarea>
-                        <div>
-                            <button className='bg-blue-400 px-2 py-1 text-white'>SEND</button>
-                        </div>
+                        <form onSubmit="">
+                            <div className='flex space-x-5'>
+                                <input placeholder='NAME' type="text" className='py-2 pl-2 w-full' /><input type="text" placeholder='SURNAME' className='py-2 pl-2 w-full' />
+                            </div>
+                            <div className='flex space-x-5 mt-5'>
+                                <input placeholder='PHONE' type="text" className='py-2 pl-2 w-full' /><input type="text" placeholder='EMAIL' className='py-2 pl-2 w-full' />
+                            </div>
+                            <select className='py-2 pl-2 w-full mt-5 text-gray-400' name="" id="">
+                                <option disabled className='text-blue-300' value="">SUBJECT RELATED TO</option>
+                            </select>
+                            <textarea placeholder='MESSAGE' name="" id="" rows="4" className='py-2 pl-2 mt-5 w-full'></textarea>
+                            <div>
+                                 <button type='submit' className='bg-blue-400 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600 px-2 py-1 text-white'>SUBMIT</button>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
             </div>
