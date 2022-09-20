@@ -12,7 +12,6 @@ const Offer = () => {
                     <div className='relative w-[508px] h-[338px]'>
                     <Image layout='fill' src={what} alt=""></Image>
                     </div>
-           
                 </div>
                 <div className='w-[50%] 2xl:w-[40%] text-xl 2xl:text-2xl'>
                     <div className='flex items-start space-x-5 mb-5'>

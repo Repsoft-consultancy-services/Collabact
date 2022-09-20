@@ -37,12 +37,12 @@ const Objectives = () => {
         setObjectived(true)
     }
     const vision = <>
-        <div className='flex  items-center'>
+        <div className='flex  flex-col lg:flex-row  items-center'>
             <div>
                 <Image src={visioni} alt=""></Image>
             </div>
-            <div>
-                <h1 className='text-3xl font-bold mb-5'>OUR VISION</h1>
+            <div className='px-5 lg:px-0'>
+                <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR VISION</h1>
                 <p className='mb-5'> <span className='font-bold'>For Sales Partner</span> - To develop an Entrepreneurial Mindset <br /> among the youth and make them capable of generating <br /> business.
 
                 </p>
@@ -52,13 +52,13 @@ const Objectives = () => {
         </div>
     </>
 
-    const mission = <div className='flex justify-between items-center'>
-        <div className=''>
-            <Image width={2000} height={2000} src={missioni} alt=""></Image>
+    const mission = <div className='flex flex-col lg:flex-row justify-between items-center'>
+        <div className='relative w-[350px] h-[350px] lg:w-[2000px] lg:h-[2000px]'>
+            <Image layout='fill' src={missioni} alt=""></Image>
         </div>
-        <div className='ml-24'>
-            <h1 className='text-3xl font-bold mb-5'>OUR MISSION</h1>
-            <div className='flex space-x-10'>
+        <div className='lg:ml-24 px-5 lg:px-0'>
+        <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR MISSION</h1>
+            <div className='flex flex-col lg:flex-row lg:space-x-10 text-sm lg:text-base'>
                 <div className=''>
                     <h1 className='uppercase font-bold mb-3'>what</h1>
                     <p>We will connect the youth of India to different SMEs, MSMEs, and Professionals who want to expand their business in various parts of India. Executive Sales Partners (ESPs) and the Businesses, along with CollabAct, will work together and perform the expansion activities.</p>
@@ -70,12 +70,12 @@ const Objectives = () => {
             </div>
         </div>
     </div>
-    const objective = <div className='flex items-center'>
+    const objective = <div className='flex flex-col lg:flex-row items-center'>
         <div>
             <Image src={objectives} alt=""></Image>
         </div>
-        <div className='ml-16'>
-            <h1 className='text-3xl font-bold mb-5'>OUR OBJECTIVE</h1>
+        <div className='lg:ml-16 px-5 lg:px-0'>
+        <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR OBJECTIVE</h1>
             <div className='flex items-center space-x-5 mb-5'>
                 <GoPrimitiveDot className='mt-1 text-[#0D72B8]' /> <p>To provide an opportunity for Collaboration in Business to the youth of India.</p>
             </div>
@@ -91,23 +91,23 @@ const Objectives = () => {
         </div>
     </div>
 
-    const value = <div className='flex items-center mt-10'>
-        <div>
-            <Image width={1600} height={1600} src={valuei} alt=""></Image>
+    const value = <div className='flex flex-col lg:flex-row items-center mt-10'>
+        <div className='relative w-[300px] h-[300px] lg:w-[1600px] lg:h-[1600px]'>
+            <Image layout='fill' src={valuei} alt=""></Image>
         </div>
-        <div className='ml-28'>
-            <h1 className='text-3xl font-bold mb-5'>OUR VALUE</h1>
-            <div className='flex space-x-10'>
+        <div className='lg:ml-28 px-5 lg:px-0'>
+            <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR VALUE</h1>
+            <div className='flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-10'>
                 <div>
-                    <h1 className='font-medium text-2xl mb-5'>Integrity</h1>
+                    <h1 className='font-medium text-lg xl:text-2xl mb-5'>Integrity</h1>
                     <p>Transparency in our Operations, Truthfulness in our words, Conviction in our Actions, and Ethics in our Business are our strongest beliefs.</p>
                 </div>
                 <div>
-                    <h1 className='font-medium text-2xl mb-5'>Accountability</h1>
+                    <h1 className='font-medium text-lg xl:text-2xl mb-5'>Accountability</h1>
                     <p>We believe we are responsible for our actions and non-actions. Every stakeholder connected with CollabAct from anywhere is our key partner, and we are committed to their all-around growth.</p>
                 </div>
                 <div>
-                    <h1 className='font-medium text-2xl mb-5'>Contribution</h1>
+                    <h1 className='font-medium text-lg xl:text-2xl mb-5'>Contribution</h1>
                     <p>Limitless contribution is our priority - from one individual to a family, and ultimately towards the nation. Ultimately, we want to become a catalyst in the growth of business in India and the development of the young population.utes to the nation.</p>
                 </div>
             </div>
@@ -115,13 +115,13 @@ const Objectives = () => {
     </div>
     return (
         <div>
-            <div className='flex justify-center space-x-20 ml-16 -mt-10 font-semibold'>
-                <button onClick={handlevison} className={`bg-transparent py-5`}><h1 className={`text-[23px] uppercase ${visiond ? 'text-black' : 'text-gray-400'}`}>vision</h1></button>
-                <button onClick={handlemission} className='bg-transparent py-5'><h1 className={`text-[23px]  uppercase ${missiond ? 'text-black' : 'text-gray-400'}`}>mission</h1></button>
-                <button onClick={handlevalue} className='bg-transparent py-5'><h1 className={`text-[23px]  uppercase ${valued ? 'text-black' : 'text-gray-400'}`}>value</h1></button>
-                <button onClick={handleobjective} className='bg-transparent py-5'><h1 className={`text-[23px]  uppercase ${objectived ? 'text-black' : 'text-gray-400'}`}>objective</h1></button>
+            <div className='flex justify-center space-x-5 lg:space-x-20 lg:ml-16 lg:-mt-10 font-semibold'>
+                <button onClick={handlevison} className={`bg-transparent py-5`}><h1 className={`text-sm lg:text-[23px] uppercase ${visiond ? 'text-black' : 'text-gray-400'}`}>vision</h1></button>
+                <button onClick={handlemission} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px] uppercase ${missiond ? 'text-black' : 'text-gray-400'}`}>mission</h1></button>
+                <button onClick={handlevalue} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px]  uppercase ${valued ? 'text-black' : 'text-gray-400'}`}>value</h1></button>
+                <button onClick={handleobjective} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px]  uppercase ${objectived ? 'text-black' : 'text-gray-400'}`}>objective</h1></button>
             </div>
-            <div className='xl:w-[70rem] mb-20'>
+            <div className='w-full lg:ml-5 xl:w-[70rem]'>
                 {
                     visiond && vision
                 }
