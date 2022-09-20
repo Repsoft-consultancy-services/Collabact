@@ -15,9 +15,9 @@ const Banner = () => {
                     <FiTwitter />
                 </div>
             </div>
-            <div className='mr-28 relative z-[-10]'>
-                <div>
-                    <Image width={1000} height={800} src={bg} alt=""></Image>
+            <div className='lg:mr-28 relative z-[-10]'>
+                <div className='realtive w-[400px] h-[400px] lg:w-[1000px] lg:h-[800px]'>
+                    <Image layout='fill' src={bg} alt=""></Image>
                 </div>
             </div>
         </div>
