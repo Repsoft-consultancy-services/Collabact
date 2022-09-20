@@ -6,7 +6,7 @@ const Form = () => {
             <div className='w-full lg:w-[58rem] 2xl:w-[90rem] mx-auto p-5 mt-24 2xl:mt-52 mb-20'>
                 <div className='flex flex-col lg:flex-row justify-between'>
                     <div className='space-y-5'>
-                        <h1 className='font-bold text-3xl'>Contact Information</h1>
+                        <h1 className='font-bold text-2xl lg:text-3xl text-center lg:text-left'>Contact Information</h1>
                         <p className='pb-5'>We can help you find verified mentor that fit your budget and <br /> other requirements within just few days absolute free of <br /> charges.</p>
                         <div className='flex items-start space-x-2'>
                             <p className='font-bold'>Address</p>
