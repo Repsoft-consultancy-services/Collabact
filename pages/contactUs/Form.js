@@ -23,7 +23,7 @@ const Form = () => {
                             <p>: info@collabact.com</p>
                         </div>
                     </div>
-                    <div className='w-[30rem]'>
+                    <div className='w-full lg:w-[30rem] mt-7 lg:mt-0'>
                         <form onSubmit="">
                             <div className='flex space-x-5'>
                                 <input placeholder='NAME' type="text" className='py-2 pl-2 w-full' /><input type="text" placeholder='SURNAME' className='py-2 pl-2 w-full' />
