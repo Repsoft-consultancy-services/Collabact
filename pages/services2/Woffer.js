@@ -7,7 +7,7 @@ import offer13 from '../../public/services/offer13.png'
 const Woffer = () => {
     return (
         <>
-            <h1 className='font-bold text-center text-xl lg:text-5xl uppercase mt-5 lg:mt-20 mb-10 lg:mb-52'>What we offer</h1>
+            <h1 className='font-bold text-center text-xl lg:text-5xl uppercase mt-10 lg:mt-20 mb-10 lg:mb-52'>What we offer</h1>
             <div className='w-full bg-[#F4B50D] pb-20 mt-20'>
                 <div className='grid grid-cols-3 2xl:w-[100rem] mx-auto px-5 lg:px-10 2xl:px-0 gap-2 lg:gap-10 relative -mt-12 lg:-mt-36'>
                     <div className='lg:w-[439px]'>
