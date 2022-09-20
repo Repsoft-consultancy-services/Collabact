@@ -4,11 +4,10 @@ import React from 'react';
 const terms = () => {
     return (
         <div className='bg-[#C2C2C3] p-5'>
-            <div className='p-10 mx-auto w-4/5 2xl:w-[94rem] bg-white mt-10'>
-                <div className='px-20'>
-                <h1 className='text-[35px] font-bold mt-5'>Terms and Conditions</h1>
+            <div className='p-5 lg:p-10 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] bg-white mt-10'>
+                <div className='px-5 lg:px-20'>
+                <h1 className='text-2xl lg:text-[35px] font-bold mt-5'>Terms and Conditions</h1>
                 <p className='text-[15px] font-semibold'>By accessing this Application, you are agreeing to be bound by these Terms of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this Application are protected by applicable copyright and trademark law.</p>
-             
                 <h1 className='font-bold mt-5'>Terms</h1>
                 <p className='mt-3'>Permission is granted to temporarily download one copy of any downloadable materials on the Application&apos;s website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not: modify or copy the materials; <br /><br /> a) Modify or copy the materials. <br /><br />b) Use the materials for any commercial purpose, or for any public display (commercial or non-commercial).<br /><br /> c) Attempt to decompile or reverse engineer any software contained on Companies web site.<br /><br /> d) Remove any copyright or other proprietary notations from the materials.<br /><br /> e) Transfer the materials to another person or &apos;mirror&apos; the materials on any other server. <br /><br /> This license shall automatically terminate if you violate any of these restrictions and may be terminated by Company at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any copied/downloaded materials in your possession whether in electronic or printed format.</p>
                 <h1 className='font-bold mt-5'>Disclaimer</h1>

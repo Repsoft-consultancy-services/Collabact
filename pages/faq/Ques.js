@@ -49,17 +49,17 @@ const Ques = () => {
     ]
     return (
         <div className="bg-[#C2C2C3] p-5">
-            <div className="p-5 mx-auto w-4/5 2xl:w-[94rem] mt-10">
-                <div className="bg-white p-10">
-                    <h1 className='font-bold text-3xl'>FAQ</h1>
+            <div className="md:p-5 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] mt-10">
+                <div className="bg-white p-3 md:p-10">
+                    <h1 className='font-bold text-xl lg:text-3xl'>FAQ</h1>
                     {
                         collapse.map((col,index) =>
                             <div key={index} className="collapse collapse-arrow rounded-lg my-10">
                                 <input type="checkbox" className="peer" />
-                                <div className="collapse-title bg-white border-4 text-black peer-checked:bg-[#f4b50d] peer-checked:text-black text-[25px] font-semibold rounded-lg">
+                                <div className="collapse-title bg-white border-4 text-black peer-checked:bg-[#f4b50d] peer-checked:text-black text-sm md:text-[25px] font-semibold rounded-lg">
                                     {col.question}
                                 </div>
-                                <div className="peer-checked:p-3 peer-checked:mb-2 collapse-content bg-[#ffffff] text-black peer-checked:bg-[#ffffff] peer-checked:text-black border-none">
+                                <div className="peer-checked:p-3 peer-checked:mb-2 collapse-content bg-[#ffffff] text-black peer-checked:bg-[#ffffff] peer-checked:text-black border-none text-xs lg:text-base">
                                     <p>{col.answer}</p>
                                 </div>
                             </div>
