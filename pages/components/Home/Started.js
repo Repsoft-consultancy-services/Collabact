@@ -4,8 +4,8 @@ import arrow from '../../../public/arrow.svg'
 
 const Started = () => {
     return (
-        <div className='lg:bg-[#B5C2CF] bg-opacity-30 w-full relative lg:-mt-[280px] xl:-mt-[350px] 2xl:-mt-[400px] z-[-2]'>
-            <div className='px-5 xl:px-0 xl:w-[1300px] lg:pt-52 xl:pt-72 pb-10 lg:pb-20 xl:pb-40 mx-auto'>
+        <div className='bg-[#B5C2CF] bg-opacity-30 w-full relative -mt-[300px] md:-mt-[280px] xl:-mt-[350px] 2xl:-mt-[400px] z-[-2]'>
+            <div className='px-5 xl:px-0 xl:w-[1300px] pt-52 xl:pt-72 pb-10 lg:pb-20 xl:pb-40 mx-auto'>
                 <div className='flex items-center flex-col-reverse lg:flex-row text-center lg:text-left'>
                     <div>
                         <h1 className='text-xl lg:text-3xl font-bold'>Get started!</h1>

@@ -3,8 +3,8 @@ import React from 'react';
 
 const terms = () => {
     return (
-        <div className='bg-[#C2C2C3] p-5'>
-            <div className='p-5 lg:p-10 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] bg-white mt-10'>
+        <div className='bg-[#C2C2C3] p-1 lg:p-5'>
+            <div className='p-5 lg:p-10 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] bg-white mb-10 mt-10'>
                 <div className='px-5 lg:px-20'>
                 <h1 className='text-2xl lg:text-[35px] font-bold mt-5'>Terms and Conditions</h1>
                 <p className='text-[15px] font-semibold'>By accessing this Application, you are agreeing to be bound by these Terms of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this Application are protected by applicable copyright and trademark law.</p>
