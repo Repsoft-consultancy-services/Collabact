@@ -1,7 +1,16 @@
 import Image from 'next/image';
-import React from 'react';
-import electric from '../../../public/electriccar.png'
+import React, { useRef } from 'react';
 import { GoPrimitiveDot } from 'react-icons/go'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FaLessThan, FaGreaterThan } from 'react-icons/fa'
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+
+// import required modules
+import {Pagination, Navigation } from "swiper";
 
 const Industry = () => {
     const data = [
@@ -126,10 +135,111 @@ const Industry = () => {
             }
         ]
     ]
+    const navigationPrevRef = useRef(null);
+    const navigationNextRef = useRef(null);
     return (
-        <div className='bg-white w-[95%] xl:w-[90rem] relative -mt-20 lg:p-10 xl:p-32 shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)] '>
+        <div className='bg-white w-[95%] xl:w-[90rem] relative -mt-20 p-5 lg:p-10 xl:p-32 lg:shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)]'>
             <div className=''>
-                <h1 className='text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
+                <h1 className='text-2xl lg:text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
+                <div className='block lg:hidden'>
+                    <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full'>
+                        <div className='flex space-x-10 justify-center'>
+                            <div ref={navigationPrevRef} >
+                                <button className=''><FaLessThan className='text-black' /></button>
+                            </div>
+                            {/* <div>
+                                <div className="swiper-pagination"></div>
+                            </div> */}
+                            <div ref={navigationNextRef}>
+                                <button className=''><FaGreaterThan className='text-black' /></button>
+                            </div>
+                        </div>
+                        <Swiper
+                            spaceBetween={0}
+                            slidesPerView={1}
+                            modules={[Navigation, Pagination]}
+                            pagination={{
+                                el: '.swiper-pagination',
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return '<span class="' + className + '">' + (data[index]) + '</span>';
+                                },
+                            }}
+                            onBeforeInit={(swiper) => {
+                                swiper.params.navigation.prevEl = navigationPrevRef.current;
+                                swiper.params.navigation.nextEl = navigationNextRef.current;
+                            }}
+                            navigation={{
+                                prevEl: navigationPrevRef.current,
+                                nextEl: navigationNextRef.current,
+                            }}
+
+                            className="mySwiper"
+                        >
+                            {
+                                data.map(d => <>
+                                    {
+                                        d.length === 1 ? <SwiperSlide>
+                                            <div className='border border-[#707070] py-5 px-3'>
+                                                <div className='flex items-center space-x-5'>
+                                                    <Image width={50} height={50} src={d[0].logo} alt=""></Image>
+                                                    <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                </div>
+                                                <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                    <div>
+                                                        {
+                                                            d[0].list.map(l => <>
+                                                                <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                            </>)
+                                                        }
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </SwiperSlide>
+
+                                            :
+                                            <SwiperSlide>
+                                                <div className='border border-[#707070] py-5 px-3'>
+                                                    <div className='flex items-center space-x-5'>
+                                                        <Image width={50} height={50} src={d[0].logo} alt=""></Image>
+                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                    </div>
+                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                        <div>
+                                                            {
+                                                                d[0].list.map(l => <>
+                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                </>)
+                                                            }
+
+                                                        </div>
+                                                    </div>
+                                                    <div className='flex items-center space-x-5'>
+                                                        <Image width={50} height={50} src={d[1].logo} alt=""></Image>
+                                                        <h1 className='text-xl font-bold'>{d[1].title}</h1>
+                                                    </div>
+                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                        <div>
+                                                            {
+                                                                d[1].list.map(l => <>
+                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                </>)
+                                                            }
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </SwiperSlide>
+                                    }
+                                </>)
+                            }
+
+                        </Swiper>
+                    </div>
+                </div>
+            </div>
+            <div className='hidden lg:block'>
                 <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 mt-20'>
                     {
                         data.map(d => <>
