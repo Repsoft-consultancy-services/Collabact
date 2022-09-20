@@ -2,8 +2,8 @@ import React from 'react';
 
 const cookie = () => {
     return (
-        <div className='bg-[#C2C2C3] p-5'>
-            <div className='p-5 lg:p-10 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] bg-white mt-10'>
+        <div className='bg-[#C2C2C3] p-1 lg:p-5'>
+            <div className='p-5 lg:p-10 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] bg-white mb-10 mt-10'>
                 <div className='px-5 lg:px-20'>
                     <h1 className=' font-bold mt-5'>
                         Cookie Policy

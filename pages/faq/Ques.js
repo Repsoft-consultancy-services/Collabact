@@ -48,13 +48,13 @@ const Ques = () => {
         },
     ]
     return (
-        <div className="bg-[#C2C2C3] p-5">
-            <div className="md:p-5 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] mt-10">
+        <div className="bg-[#C2C2C3] p-1 lg:p-5">
+            <div className="md:p-5 mx-auto w-11/12 lg:w-4/5 2xl:w-[94rem] mt-10 mb-10">
                 <div className="bg-white p-3 md:p-10">
                     <h1 className='font-bold text-xl lg:text-3xl'>FAQ</h1>
                     {
                         collapse.map((col,index) =>
-                            <div key={index} className="collapse collapse-arrow rounded-lg my-10">
+                            <div key={index} className="collapse collapse-arrow rounded-lg my-5 lg:my-10">
                                 <input type="checkbox" className="peer" />
                                 <div className="collapse-title bg-white border-4 text-black peer-checked:bg-[#f4b50d] peer-checked:text-black text-sm md:text-[25px] font-semibold rounded-lg">
                                     {col.question}

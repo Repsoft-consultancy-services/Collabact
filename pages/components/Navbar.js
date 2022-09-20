@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
         <div className={`flex items-center justify-center ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'}`}>
             <div className="w-full lg:hidden mt-1">
-                <div className='flex justify-evenly items-center'>
+                <div className='flex justify-between items-center pr-2'>
                     <div className="dropdown">
                         <label tabIndex="0" onClick={() => {
                             if (!menudrop)
@@ -48,15 +48,15 @@ const Navbar = () => {
                         </label>
                         <div tabIndex="0" className={`menu menu-compact ${menudrop ? 'dropdown-content' : 'hidden'} mt-3 p-2 shadow
                      rounded-md w-52 bg-white`}>
-                            <Link href='/'><h1 onClick={() => setMenudrop(false)} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
-                            <Link href='/aboutUs'><h1 onClick={() => setMenudrop(false)} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
+                            <Link href='/'><h1 onClick={() => setMenudrop(false)} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Home</h1></Link>
+                            <Link href='/aboutUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>AboutUs</h1></Link>
 
-                            <h1 onTouchStart={handledropdown} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
-                            <Link href='https://collabact.com/Blog/'><h1 onClick={() => setMenudrop(false)} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
+                            <h1 onTouchStart={handledropdown} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>What we offer</h1>
+                            <Link href='https://collabact.com/Blog/'><h1 onClick={() => setMenudrop(false)} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Blog</h1></Link>
 
-                            <Link href='/faq'><h1 onClick={() => setMenudrop(false)} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
+                            <Link href='/faq'><h1 onClick={() => setMenudrop(false)} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>FAQ</h1></Link>
 
-                            <Link href='/contactUs'><h1 onClick={() => setMenudrop(false)} className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
+                            <Link href='/contactUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#8a8a8a] text-black font-bold' : 'text-[#8a8a8a]'}`}>Contact Us</h1></Link>
                         </div>
                     </div>
                     <Link href="/">
