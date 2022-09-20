@@ -6,7 +6,7 @@ import bg from '../../public/contact/bg.svg'
 
 const Banner = () => {
     return (
-        <div className='flex justify-evenly items-end px-5 w-full xl:80[rem] 2xl:w-[90rem]'>
+        <div className='flex justify-evenly items-end lg:px-5 w-full xl:80[rem] 2xl:w-[90rem]'>
             <div className='hidden lg:block'>
                 <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-24 xl:mb-52 mr-10'>
                     <AiOutlineFacebook />
@@ -16,7 +16,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className='lg:mr-28 relative z-[-10]'>
-                <div className='realtive w-[400px] h-[400px] lg:w-[1000px] lg:h-[800px]'>
+                <div className='realtive w-[300px] h-[300px] lg:w-[1000px] lg:h-[800px]'>
                     <Image layout='fill' src={bg} alt=""></Image>
                 </div>
             </div>

@@ -7,12 +7,14 @@ import bg from '../../public/services/bg.png'
 const Banner = () => {
     return (
         <div>
-            <div className='flex justify-between items-end space-x-6 px-5 w-full'>
+            <div className='flex justify-between items-end lg:space-x-6 lg:px-5 w-full'>
+                <div className='hidden lg:block'>
                 <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
                     <AiOutlineFacebook />
                     <AiOutlineLinkedin />
                     <AiOutlineInstagram />
                     <FiTwitter />
+                </div>
                 </div>
                 <div className=''>
                     <Image width={1000} height={650} src={bg} alt=""></Image>
