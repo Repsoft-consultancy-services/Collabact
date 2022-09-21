@@ -30,7 +30,7 @@ const Encash3 = () => {
                             <h1 className='text-2xl font-bold text-left'>{d.title}</h1>
                         </div>
                         <div className='border-b-2 border-gray-300 w-full'></div>
-                        <div className='ml-3 space-y-5 text-left'>
+                        <div className='ml-3 space-y-3 text-left'>
                             <h6 className='text-sm xl:text-base'><span className='font-bold'>Product: </span>{d.product[0]}</h6>
                             <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
                         </div>

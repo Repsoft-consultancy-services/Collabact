@@ -158,7 +158,7 @@ const Slider = () => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
     return (
-        <div className='mt-20 lg:mt-32 w-full 2xl:w-[110rem]'>
+        <div className='mt-10 lg:mt-32 w-full 2xl:w-[110rem]'>
             <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
             {/* laptop slider */}
             <div className='hidden md:block'>
@@ -202,13 +202,13 @@ const Slider = () => {
                 <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
                     <div className='flex space-x-10 justify-center'>
                         <div ref={navigationPrevRef} >
-                            <button className=''><FaLessThan className='text-black' /></button>
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
                         </div>
                         {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
                         <div ref={navigationNextRef}>
-                            <button className=''><FaGreaterThan className='text-black' /></button>
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
                         </div>
                     </div>
                     <Swiper

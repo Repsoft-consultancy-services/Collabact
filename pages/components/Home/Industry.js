@@ -145,13 +145,13 @@ const Industry = () => {
                     <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full'>
                         <div className='flex space-x-10 justify-center'>
                             <div ref={navigationPrevRef} >
-                                <button className=''><FaLessThan className='text-black' /></button>
+                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
                             </div>
                             {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
                             <div ref={navigationNextRef}>
-                                <button className=''><FaGreaterThan className='text-black' /></button>
+                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
                             </div>
                         </div>
                         <Swiper
@@ -185,7 +185,7 @@ const Industry = () => {
                                                     <Image width={50} height={50} src={d[0].logo} alt=""></Image>
                                                     <h1 className='text-xl font-bold'>{d[0].title}</h1>
                                                 </div>
-                                                <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                     <div>
                                                         {
                                                             d[0].list.map(l => <>
@@ -203,9 +203,9 @@ const Industry = () => {
                                                 <div className='border border-[#707070] py-5 px-3'>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                        <h1 className='text-base md:text-xl font-bold'>{d[0].title}</h1>
                                                     </div>
-                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                         <div>
                                                             {
                                                                 d[0].list.map(l => <>
@@ -217,9 +217,9 @@ const Industry = () => {
                                                     </div>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[1].title}</h1>
+                                                        <h1 className='text-base md:text-xl font-bold'>{d[1].title}</h1>
                                                     </div>
-                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                         <div>
                                                             {
                                                                 d[1].list.map(l => <>
