@@ -185,7 +185,7 @@ const Industry = () => {
                                                     <Image width={50} height={50} src={d[0].logo} alt=""></Image>
                                                     <h1 className='text-xl font-bold'>{d[0].title}</h1>
                                                 </div>
-                                                <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                     <div>
                                                         {
                                                             d[0].list.map(l => <>
@@ -203,9 +203,9 @@ const Industry = () => {
                                                 <div className='border border-[#707070] py-5 px-3'>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                        <h1 className='text-base md:text-xl font-bold'>{d[0].title}</h1>
                                                     </div>
-                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                         <div>
                                                             {
                                                                 d[0].list.map(l => <>
@@ -217,9 +217,9 @@ const Industry = () => {
                                                     </div>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[1].title}</h1>
+                                                        <h1 className='text-base md:text-xl font-bold'>{d[1].title}</h1>
                                                     </div>
-                                                    <div className='mt-3 text-lg font-semibold ml-[60px]'>
+                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                         <div>
                                                             {
                                                                 d[1].list.map(l => <>
