@@ -53,7 +53,7 @@ const Objectives = () => {
     </>
 
     const mission = <div className='flex flex-col lg:flex-row justify-between items-center'>
-        <div className='relative w-[350px] h-[350px] lg:w-[500px] lg:h-[300px] xl:w-[2000px] xl:h-[400px]'>
+        <div className='relative w-[280px] h-[280px] lg:w-[500px] lg:h-[300px] xl:w-[2000px] xl:h-[300px]'>
             <Image layout='fill' src={missioni} alt=""></Image>
         </div>
         <div className='lg:ml-24 px-5 lg:px-0'>
