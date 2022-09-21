@@ -161,7 +161,7 @@ const Slider = () => {
         <div className='mt-20 lg:mt-32 w-full 2xl:w-[110rem]'>
             <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
             {/* laptop slider */}
-            <div className='hidden lg:block'>
+            <div className='hidden md:block'>
                 <div className='relative z-10 flex  items-center space-x-3 h-auto px-2'>
                     <div ref={navigationPrevRef} className="order-1">
                         <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
@@ -198,7 +198,7 @@ const Slider = () => {
                 </div>
             </div>
             {/* mobile slider */}
-            <div className='block lg:hidden'>
+            <div className='block md:hidden'>
                 <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
                     <div className='flex space-x-10 justify-center'>
                         <div ref={navigationPrevRef} >

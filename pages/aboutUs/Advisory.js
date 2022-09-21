@@ -11,7 +11,7 @@ const Advisory = () => {
             <h1 className='text-2xl lg:text-4xl font-bold text-center'>Our Advisory Team</h1>
             <div className='my-20 grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-16 px-5 2xl:px-0'>
                 <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] '>
-                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
+                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 xl:w-56 xl:h-56'>
                         <Image layout='fill' src={rishi} alt=""></Image>
                     </div>
                     <div className='mt-2 text-center'>
@@ -21,7 +21,7 @@ const Advisory = () => {
                     </div>
                 </div>
                 <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
-                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
+                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 xl:w-56 xl:h-56'>
                         <Image layout='fill' src={ekata}></Image>
                     </div>
                     <div className='mt-2 text-center'>
@@ -31,7 +31,7 @@ const Advisory = () => {
                     </div>
                 </div>
                 <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
-                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
+                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 xl:w-56 xl:h-56'>
                         <Image layout='fill' src={hemant}></Image>
                     </div>
                     <div className='mt-2 text-center'>
@@ -42,7 +42,7 @@ const Advisory = () => {
                     </div>
                 </div>
                 <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_6px_33px_0_rgba(0,0,0,0.30)] 2xl:w-[350px]'>
-                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
+                    <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 xl:w-56 xl:h-56'>
                         <Image layout='fill' src={milnd}></Image>
                     </div>
                     <div className='mt-2 text-center'>

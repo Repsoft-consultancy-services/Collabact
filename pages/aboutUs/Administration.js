@@ -6,8 +6,8 @@ import seperator from '../../public/about/seperator.png'
 
 const Administration = () => {
     return (
-        <div className='w-full lg:w-11/12 mt-5 lg:mt-0'>
-            <div className='w-11/12 lg:w-3/4 bg-[#DCDCDC] rounded-full flex items-center space-x-10 py-5 px-5 lg:px-10'>
+        <div className='w-full lg:w-11/12 mt-5'>
+            <div className='w-11/12 xl:w-3/4 bg-[#DCDCDC] rounded-full flex items-center space-x-10 py-5 px-5 lg:px-10'>
                 <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
                     <Image layout='fill' src={kartik} alt=""></Image>
                 </div>
@@ -19,7 +19,7 @@ const Administration = () => {
                     </p>
                 </div>
             </div>
-            <div className='w-11/12 lg:w-3/4 bg-[#DCDCDC] rounded-full flex flex-row-reverse ml-auto items-center space-x-10 py-5 px-5 lg:px-10 mt-10'>
+            <div className='w-11/12 xl:w-3/4 bg-[#DCDCDC] rounded-full flex flex-row-reverse ml-auto items-center space-x-10 py-5 px-5 lg:px-10 mt-10'>
                 <div className='border-4 border-[#F4B50D] rounded-full relative w-20 h-20 lg:w-56 lg:h-56'>
                     <Image src={rajvi} layout='fill' alt=""></Image>
                 </div>
