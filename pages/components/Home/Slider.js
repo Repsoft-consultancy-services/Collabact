@@ -202,13 +202,13 @@ const Slider = () => {
                 <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
                     <div className='flex space-x-10 justify-center'>
                         <div ref={navigationPrevRef} >
-                            <button className=''><FaLessThan className='text-black' /></button>
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
                         </div>
                         {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
                         <div ref={navigationNextRef}>
-                            <button className=''><FaGreaterThan className='text-black' /></button>
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
                         </div>
                     </div>
                     <Swiper
