@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation,Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 import { FaLessThan, FaGreaterThan } from 'react-icons/fa'
 import Encash1 from './Encash1';
 import Encash2 from './Encash2';
@@ -234,7 +234,7 @@ const Slider = () => {
                         className="mySwiper"
                     >
                         {
-                            data.map((d,index) => <SwiperSlide key={index}>
+                            data.map((d, index) => <SwiperSlide key={index}>
                                 <div className='border-2 border-[#0D72B8] w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
                                     <div className='flex items-center space-x-3 p-5'>
                                         <div className='relative w-32'>

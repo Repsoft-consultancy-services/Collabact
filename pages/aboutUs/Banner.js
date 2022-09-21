@@ -11,12 +11,12 @@ const Banner = () => {
             <div>
                 <div className='flex justify-evenly items-end lg:px-5 w-full xl:80[rem] 2xl:w-[90rem]'>
                     <div className='hidden lg:block'>
-                    <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
-                        <AiOutlineFacebook />
-                        <AiOutlineLinkedin />
-                        <AiOutlineInstagram />
-                        <FiTwitter />
-                    </div>
+                        <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
+                            <AiOutlineFacebook />
+                            <AiOutlineLinkedin />
+                            <AiOutlineInstagram />
+                            <FiTwitter />
+                        </div>
                     </div>
                     <div className='lg:mr-28'>
                         <div>

@@ -27,7 +27,7 @@ const Administration = () => {
                     <h1 className='text-xs lg:text-2xl text-center font-bold text-[#1E86FD] uppercase'>RAJVI SHAH</h1>
                     <h1 className='font-medium text-xs lg:text-2xl text-center mb-5'>Co-Founder</h1>
                     <p className='text-[8px] lg:text-xl font-medium'>
-                    Content creator with Masters in Business Administration, Rajvi has a dynamic & creative approach to life. Passionate, dependable, ambitious, and spiritual are a few among many qualities that she brings to the table. She knows how to invest her time, mind, and energy effectively and efficiently, which turns out to be one of the company&apos;s major assets.
+                        Content creator with Masters in Business Administration, Rajvi has a dynamic & creative approach to life. Passionate, dependable, ambitious, and spiritual are a few among many qualities that she brings to the table. She knows how to invest her time, mind, and energy effectively and efficiently, which turns out to be one of the company&apos;s major assets.
                     </p>
                 </div>
             </div>
