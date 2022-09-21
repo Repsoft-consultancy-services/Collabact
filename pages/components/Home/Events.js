@@ -10,12 +10,12 @@ const Events = () => {
             <div className='flex flex-col lg:flex-row lg:space-x-3 xl:space-x-0 justify-evenly px-5 lg:px-0'>
                 <div>
                     <div className='flex items-center space-x-5'>
-                        <h1 className='text-2xl lg:text-3xl'>Upcoming <span className='font-bold'>Events</span></h1>
+                        <h1 className='text-2xl xl:text-3xl'>Upcoming <span className='font-bold'>Events</span></h1>
                         <div className='mt-3 w-[165px] lg:w-full h-2 relative'>
                             <Image layout='fill' src={yellowlong} alt=""></Image>
                         </div>
                     </div>
-                    <div className='text-base lg:text-[26px] flex justify-between xl:ml-20 mt-10'>
+                    <div className='text-base xl:text-[26px] flex justify-between xl:ml-20 mt-10'>
                         <div className='space-y-5'>
                             <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
                             <p>Every Friday at 8 pm</p>
@@ -28,7 +28,7 @@ const Events = () => {
                 </div>
                 <div className='mt-5 lg:mt-0'>
                     <div className='flex items-center space-x-7'>
-                        <h1 className='text-2xl lg:text-3xl'><span className='font-bold'>What</span> our Business Says</h1>
+                        <h1 className='text-2xl xl:text-3xl'><span className='font-bold'>What</span> our Business Says</h1>
                         <div className='mt-3 w-[82px] lg:w-full h-2 relative'>
                             <Image layout='fill' src={yellowshort} alt=""></Image>
                         </div>

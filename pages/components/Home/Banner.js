@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <div className='w-full xl:w-[1300px] 2xl:w-[1400px] mb-10 lg:mr-16 2xl:mr-40'>
             <div className='flex justify-between items-end 2xl:space-x-6 px-5'>
-                <div className='hidden lg:block'>
+                <div className='hidden md:block'>
                     <div className='flex flex-col text-black text-xl xl:text-[28px] space-y-5 mb-20 xl:mb-20 2xl:mb-52 ml-5 2xl:ml-0 mr-10'>
                         <AiOutlineFacebook />
                         <AiOutlineLinkedin />
@@ -18,15 +18,15 @@ const Banner = () => {
                         <FiTwitter />
                     </div>
                 </div>
-                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[225px] w-full lg:w-full md:h-[476px] xl:h-[550px] 2xl:h-[600px] flex-1 rounded-[10px] lg:rounded-[50px]">
-                    <div className='text-center lg:text-left lg:px-10 xl:px-16 py-10 lg:py-20 xl:py-20 lg:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                        <h1 className='text-xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
-                        <h4 className='text-xl lg:text-5xl xl:text-6xl font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
+                <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[225px] w-full lg:w-full md:h-[400px] lg::h-[476px] xl:h-[550px] 2xl:h-[600px] flex-1 rounded-[10px] lg:rounded-[50px]">
+                    <div className='text-center md:text-left md:px-10 xl:px-16 py-10 md:py-20 xl:py-20 md:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
+                        <h1 className='text-xl md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
+                        <h4 className='text-xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                     </div>
                 </div>
             </div>
-            <div className="w-[310px] sm:w-[350px] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[2rem] sm:ml-[2.4rem] lg:ml-[25rem] xl:ml-auto -mt-11 md:-mt-10 lg:-mt-[150px] xl:-mt-40 mr-14">
-                <h1 className="bg-[#BABFC4] px-2 py-3 lg:py-5 text-[14px] lg:text-lg xl:text-2xl  text-center relative font-bold z-[1]">Advantages of associating with CollabAct</h1>
+            <div className="w-[310px] sm:w-[350px] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[2rem] sm:ml-[2.4rem] md:ml-[23rem] lg:ml-[25rem] xl:ml-auto -mt-11 md:-mt-10 lg:-mt-[150px] xl:-mt-40 mr-14">
+                <h1 className="bg-[#BABFC4] px-2 py-3 lg:py-5 text-[12px] sm:text-[14px] lg:text-lg xl:text-2xl  text-center relative font-bold z-[1]">Advantages of associating with CollabAct</h1>
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] lg:space-x-28 xl:space-x-5">
                     <div>
                         <div className="bg-white w-[125px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:ml-3">
@@ -52,7 +52,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="bg-white  w-[125px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:mr-3">
+                        <div className="bg-white w-[125px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:mr-3">
                             <h1 className="text-center text-[12px] lg:text-lg xl:text-[1.4rem] font-bold mt-2">Sales Partners</h1>
                             <div className='p-5 z-[5]'>
                                 <div className='relative -mt-3 lg:-mt-0 w-[32px] h-[32px] lg:w-[70px] lg:h-[70px]'>

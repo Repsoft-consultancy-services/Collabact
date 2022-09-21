@@ -53,12 +53,12 @@ const Objectives = () => {
     </>
 
     const mission = <div className='flex flex-col lg:flex-row justify-between items-center'>
-        <div className='relative w-[350px] h-[350px] lg:w-[2000px] lg:h-[2000px]'>
+        <div className='relative w-[350px] h-[350px] lg:w-[500px] lg:h-[300px] xl:w-[2000px] xl:h-[400px]'>
             <Image layout='fill' src={missioni} alt=""></Image>
         </div>
         <div className='lg:ml-24 px-5 lg:px-0'>
         <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR MISSION</h1>
-            <div className='flex flex-col lg:flex-row lg:space-x-10 text-sm lg:text-base'>
+            <div className='flex flex-col lg:flex-row xl:space-x-10 text-sm lg:text-base'>
                 <div className=''>
                     <h1 className='uppercase font-bold mb-3'>what</h1>
                     <p>We will connect the youth of India to different SMEs, MSMEs, and Professionals who want to expand their business in various parts of India. Executive Sales Partners (ESPs) and the Businesses, along with CollabAct, will work together and perform the expansion activities.</p>
@@ -92,12 +92,12 @@ const Objectives = () => {
     </div>
 
     const value = <div className='flex flex-col lg:flex-row items-center mt-10'>
-        <div className='relative w-[300px] h-[300px] lg:w-[1600px] lg:h-[1600px]'>
+        <div className='relative w-[300px] h-[300px] lg:w-[600px] lg:h-[300px] xl:w-[2000px] xl:h-[500px]'>
             <Image layout='fill' src={valuei} alt=""></Image>
         </div>
         <div className='lg:ml-28 px-5 lg:px-0'>
             <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR VALUE</h1>
-            <div className='flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-10'>
+            <div className='flex flex-col lg:flex-row space-y-2 lg:space-y-0 space-x-2 xl:space-x-10'>
                 <div>
                     <h1 className='font-medium text-lg xl:text-2xl mb-5'>Integrity</h1>
                     <p>Transparency in our Operations, Truthfulness in our words, Conviction in our Actions, and Ethics in our Business are our strongest beliefs.</p>
@@ -115,7 +115,7 @@ const Objectives = () => {
     </div>
     return (
         <div>
-            <div className='flex justify-center space-x-5 lg:space-x-20 lg:ml-16 lg:-mt-10 font-semibold'>
+            <div className='flex justify-center space-x-5 lg:space-x-20 lg:ml-16 lg:-mt-7 font-semibold'>
                 <button onClick={handlevison} className={`bg-transparent py-5`}><h1 className={`text-sm lg:text-[23px] uppercase ${visiond ? 'text-black' : 'text-gray-400'}`}>vision</h1></button>
                 <button onClick={handlemission} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px] uppercase ${missiond ? 'text-black' : 'text-gray-400'}`}>mission</h1></button>
                 <button onClick={handlevalue} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px]  uppercase ${valued ? 'text-black' : 'text-gray-400'}`}>value</h1></button>
