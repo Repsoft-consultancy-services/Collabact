@@ -38,8 +38,8 @@ const Objectives = () => {
     }
     const vision = <>
         <div className='flex  flex-col lg:flex-row  items-center'>
-            <div>
-                <Image src={visioni} alt=""></Image>
+            <div className='relative w-[300px] h-[300px] lg:w-[500px] lg:h-[400px]'>
+                <Image layout='fill' src={visioni} alt=""></Image>
             </div>
             <div className='px-5 lg:px-0'>
                 <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR VISION</h1>
@@ -57,7 +57,7 @@ const Objectives = () => {
             <Image layout='fill' src={missioni} alt=""></Image>
         </div>
         <div className='lg:ml-24 px-5 lg:px-0'>
-        <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR MISSION</h1>
+            <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR MISSION</h1>
             <div className='flex flex-col lg:flex-row xl:space-x-10 text-sm lg:text-base'>
                 <div className=''>
                     <h1 className='uppercase font-bold mb-3'>what</h1>
@@ -75,7 +75,7 @@ const Objectives = () => {
             <Image src={objectives} alt=""></Image>
         </div>
         <div className='lg:ml-16 px-5 lg:px-0'>
-        <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR OBJECTIVE</h1>
+            <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR OBJECTIVE</h1>
             <div className='flex items-center space-x-5 mb-5'>
                 <GoPrimitiveDot className='mt-1 text-[#0D72B8]' /> <p>To provide an opportunity for Collaboration in Business to the youth of India.</p>
             </div>
@@ -92,7 +92,7 @@ const Objectives = () => {
     </div>
 
     const value = <div className='flex flex-col lg:flex-row items-center mt-10'>
-        <div className='relative w-[300px] h-[300px] lg:w-[600px] lg:h-[300px] xl:w-[2000px] xl:h-[500px]'>
+        <div className='relative w-[300px] h-[300px] lg:w-[600px] lg:h-[300px] xl:w-[2000px] xl:h-[300px]'>
             <Image layout='fill' src={valuei} alt=""></Image>
         </div>
         <div className='lg:ml-28 px-5 lg:px-0'>
