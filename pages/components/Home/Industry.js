@@ -138,7 +138,7 @@ const Industry = () => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
     return (
-        <div className='bg-white w-[95%] xl:w-[90rem] relative -mt-20 p-5 lg:p-10 xl:p-32 lg:shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)]'>
+        <div className='bg-white max-w-[85rem] mx-auto relative -mt-20 p-5 lg:p-10 xl:p-32 lg:shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)]'>
             <div className=''>
                 <h1 className='text-2xl lg:text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
                 <div className='block md:hidden'>
