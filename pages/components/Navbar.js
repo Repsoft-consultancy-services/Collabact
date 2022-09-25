@@ -33,7 +33,7 @@ const Navbar = () => {
     //     <h1><Link href='/aboutUs'><p className='bg-white  font-medium text-base xl:text-xl '>Contact Us</p></Link></h1>
     // </>
     return (
-        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} my-5`}>
+        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-5`}>
             <div className="w-full lg:hidden mt-1">
                 <div className='flex justify-between items-center pr-2'>
                     <div className="dropdown">
