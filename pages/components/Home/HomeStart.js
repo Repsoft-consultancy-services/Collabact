@@ -9,7 +9,7 @@ import Steps from './Steps';
 
 const HomeStart = () => {
     return (
-        <div className='flex items-center flex-col text-black'>
+        <div className=' text-black'>
             <Banner></Banner>
             <Started></Started>
             <Industry></Industry>
