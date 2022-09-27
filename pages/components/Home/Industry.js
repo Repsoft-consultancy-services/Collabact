@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import { GoPrimitiveDot } from 'react-icons/go'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaLessThan, FaGreaterThan } from 'react-icons/fa'
+import Pulse from 'react-reveal/Pulse';
 
 // Import Swiper styles
 import "swiper/css";
@@ -140,71 +141,52 @@ const Industry = () => {
     return (
         <div className='max-w-[85rem] mx-auto px-5'>
             <div className='bg-white relative -mt-20 p-5 lg:p-10 xl:p-32 lg:shadow-[0px_30px_73px_0_rgba(0,0,0,0.30)]'>
-            <div className=''>
-                <h1 className='text-2xl lg:text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
-                <div className='block md:hidden'>
-                    <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full'>
-                        <div className='flex space-x-10 justify-center'>
-                            <div ref={navigationPrevRef} >
-                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
-                            </div>
-                            {/* <div>
+                <div className=''>
+                    <h1 className='text-2xl lg:text-[38px] text-center'>Various <span className='font-bold'>Industry segments</span></h1>
+                    {/* mobile  */}
+                    <div className='block md:hidden'>
+                        <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full'>
+                            <div className='flex space-x-10 justify-center'>
+                                <div ref={navigationPrevRef} >
+                                    <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
+                                </div>
+                                {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
-                            <div ref={navigationNextRef}>
-                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
+                                <div ref={navigationNextRef}>
+                                    <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
+                                </div>
                             </div>
-                        </div>
-                        <Swiper
-                            spaceBetween={0}
-                            slidesPerView={1}
-                            modules={[Navigation, Pagination]}
-                            pagination={{
-                                el: '.swiper-pagination',
-                                clickable: true,
-                                renderBullet: function (index, className) {
-                                    return '<span class="' + className + '">' + (data[index]) + '</span>';
-                                },
-                            }}
-                            onBeforeInit={(swiper) => {
-                                swiper.params.navigation.prevEl = navigationPrevRef.current;
-                                swiper.params.navigation.nextEl = navigationNextRef.current;
-                            }}
-                            navigation={{
-                                prevEl: navigationPrevRef.current,
-                                nextEl: navigationNextRef.current,
-                            }}
+                            <Swiper
+                                spaceBetween={0}
+                                slidesPerView={1}
+                                modules={[Navigation, Pagination]}
+                                pagination={{
+                                    el: '.swiper-pagination',
+                                    clickable: true,
+                                    renderBullet: function (index, className) {
+                                        return '<span class="' + className + '">' + (data[index]) + '</span>';
+                                    },
+                                }}
+                                onBeforeInit={(swiper) => {
+                                    swiper.params.navigation.prevEl = navigationPrevRef.current;
+                                    swiper.params.navigation.nextEl = navigationNextRef.current;
+                                }}
+                                navigation={{
+                                    prevEl: navigationPrevRef.current,
+                                    nextEl: navigationNextRef.current,
+                                }}
 
-                            className="mySwiper"
-                        >
-                            {
-                                data.map(d => <>
-                                    {
-                                        d.length === 1 ? <SwiperSlide>
-                                            <div className='border border-[#707070] py-5 px-3'>
-                                                <div className='flex items-center space-x-5'>
-                                                    <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                    <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                                </div>
-                                                <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
-                                                    <div>
-                                                        {
-                                                            d[0].list.map(l => <>
-                                                                <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                            </>)
-                                                        }
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </SwiperSlide>
-
-                                            :
-                                            <SwiperSlide>
+                                className="mySwiper"
+                            >
+                                {
+                                    data.map(d => <>
+                                        {
+                                            d.length === 1 ? <SwiperSlide>
                                                 <div className='border border-[#707070] py-5 px-3'>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                        <h1 className='text-base md:text-xl font-bold'>{d[0].title}</h1>
+                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
                                                     </div>
                                                     <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
                                                         <div>
@@ -216,11 +198,97 @@ const Industry = () => {
 
                                                         </div>
                                                     </div>
+                                                </div>
+                                            </SwiperSlide>
+
+                                                :
+                                                <SwiperSlide>
+                                                    <div className='border border-[#707070] py-5 px-3'>
+                                                        <div className='flex items-center space-x-5'>
+                                                            <Image width={50} height={50} src={d[0].logo} alt=""></Image>
+                                                            <h1 className='text-base md:text-xl font-bold'>{d[0].title}</h1>
+                                                        </div>
+                                                        <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
+                                                            <div>
+                                                                {
+                                                                    d[0].list.map(l => <>
+                                                                        <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                    </>)
+                                                                }
+
+                                                            </div>
+                                                        </div>
+                                                        <div className='flex items-center space-x-5'>
+                                                            <Image width={50} height={50} src={d[1].logo} alt=""></Image>
+                                                            <h1 className='text-base md:text-xl font-bold'>{d[1].title}</h1>
+                                                        </div>
+                                                        <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
+                                                            <div>
+                                                                {
+                                                                    d[1].list.map(l => <>
+                                                                        <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                    </>)
+                                                                }
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </SwiperSlide>
+                                        }
+                                    </>)
+                                }
+
+                            </Swiper>
+                        </div>
+                    </div>
+                </div>
+                <div className='hidden md:block'>
+                    <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 mt-20'>
+                        {
+                            data.map(d => <>
+                                {
+                                    d.length === 1 ?
+                                        <Pulse>
+                                            <div className='shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] rounded-xl py-5 px-3'>
+                                                <div className='flex items-center space-x-5'>
+                                                    <Image width={50} height={50} src={d[0].logo} alt=""></Image>
+                                                    <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                </div>
+                                                <div className='mt-3 xl:text-lg font-semibold ml-[50px] xl:ml-[60px]'>
+                                                    <div>
+                                                        {
+                                                            d[0].list.map(l => <>
+                                                                <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                            </>)
+                                                        }
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </Pulse>
+                                        :
+                                        <>
+                                            <Pulse>
+                                                <div className='shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] rounded-xl py-2 xl:py-5 px-2 xl:px-3'>
+                                                    <div className='flex items-center space-x-5'>
+                                                        <Image width={40} height={40} src={d[0].logo} alt=""></Image>
+                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
+                                                    </div>
+                                                    <div className='xl:text-lg font-semibold ml-[60px]'>
+                                                        <div>
+                                                            {
+                                                                d[0].list.map(l => <>
+                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                </>)
+                                                            }
+
+                                                        </div>
+                                                    </div>
                                                     <div className='flex items-center space-x-5'>
                                                         <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                        <h1 className='text-base md:text-xl font-bold'>{d[1].title}</h1>
+                                                        <h1 className='text-xl font-bold'>{d[1].title}</h1>
                                                     </div>
-                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
+                                                    <div className='xl:text-lg font-semibold ml-[60px]'>
                                                         <div>
                                                             {
                                                                 d[1].list.map(l => <>
@@ -231,76 +299,16 @@ const Industry = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </SwiperSlide>
-                                    }
-                                </>)
-                            }
+                                            </Pulse>
 
-                        </Swiper>
+                                        </>
+                                }
+                            </>)
+                        }
                     </div>
                 </div>
+
             </div>
-            <div className='hidden md:block'>
-                <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 mt-20'>
-                    {
-                        data.map(d => <>
-                            {
-                                d.length === 1 ? <div className='border border-[#707070] py-5 px-3'>
-                                    <div className='flex items-center space-x-5'>
-                                        <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                    </div>
-                                    <div className='mt-3 xl:text-lg font-semibold ml-[50px] xl:ml-[60px]'>
-                                        <div>
-                                            {
-                                                d[0].list.map(l => <>
-                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                </>)
-                                            }
-
-                                        </div>
-                                    </div>
-                                </div>
-                                    :
-                                    <>
-                                        <div className='border border-[#707070] py-2 xl:py-5 px-2 xl:px-3'>
-                                            <div className='flex items-center space-x-5'>
-                                                <Image width={40} height={40} src={d[0].logo} alt=""></Image>
-                                                <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                            </div>
-                                            <div className='xl:text-lg font-semibold ml-[60px]'>
-                                                <div>
-                                                    {
-                                                        d[0].list.map(l => <>
-                                                            <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                        </>)
-                                                    }
-
-                                                </div>
-                                            </div>
-                                            <div className='flex items-center space-x-5'>
-                                                <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                <h1 className='text-xl font-bold'>{d[1].title}</h1>
-                                            </div>
-                                            <div className='xl:text-lg font-semibold ml-[60px]'>
-                                                <div>
-                                                    {
-                                                        d[1].list.map(l => <>
-                                                            <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                        </>)
-                                                    }
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </>
-                            }
-                        </>)
-                    }
-                </div>
-            </div>
-
-        </div>
         </div>
     );
 };
