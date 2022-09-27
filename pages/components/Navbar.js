@@ -74,7 +74,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="max-w-[115rem] mx-auto mt-1 hidden lg:block">
-                <div className={`flex justify-evenly items-center ml-24`}>
+                <div className={`flex justify-evenly items-center ml-16`}>
                     <Link href='/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Home</h1></Link>
 
                     <Link href='/aboutUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black  font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>AboutUs</h1></Link>

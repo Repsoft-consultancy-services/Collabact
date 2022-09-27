@@ -158,108 +158,111 @@ const Slider = () => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
     return (
-        <div className='mt-10 lg:mt-32 w-full 2xl:w-[100rem] mx-auto'>
-            <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
-            {/* laptop slider */}
-            <div className='hidden md:block'>
-                <div className='relative z-10 flex items-center space-x-3 h-auto px-2'>
-                    <div ref={navigationPrevRef} className="order-1">
-                        <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
-                    </div>
-                    <div ref={navigationNextRef} className="order-3">
-                        <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
-                    </div>
-                    <Swiper
-                        spaceBetween={10}
-                        modules={[Navigation]}
-                        onBeforeInit={(swiper) => {
-                            swiper.params.navigation.prevEl = navigationPrevRef.current;
-                            swiper.params.navigation.nextEl = navigationNextRef.current;
-                        }}
-                        navigation={{
-                            prevEl: navigationPrevRef.current,
-                            nextEl: navigationNextRef.current,
-                        }}
-                        slidesPerView={1}
-                        className="mySwiper order-2"
-                    >
-                        <SwiperSlide>
-                            <Encash1></Encash1>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Encash2></Encash2>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Encash3></Encash3>
-                        </SwiperSlide>
-
-                    </Swiper>
-
-                </div>
-            </div>
-            {/* mobile slider */}
-            <div className='block md:hidden'>
-                <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
-                    <div className='flex space-x-10 justify-center'>
-                        <div ref={navigationPrevRef} >
-                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
+        <div className='w-full mt-10 lg:mt-32'>
+            <div className='w-full 2xl:w-[95rem] mx-auto py-10'>
+                <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
+                {/* laptop slider */}
+                <div className='hidden md:block'>
+                    <div className='relative z-10 flex items-center space-x-3 h-auto px-2'>
+                        <div ref={navigationPrevRef} className="order-1">
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
                         </div>
-                        {/* <div>
+                        <div ref={navigationNextRef} className="order-3">
+                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
+                        </div>
+                        <Swiper
+                            spaceBetween={20}
+                            modules={[Navigation]}
+                            onBeforeInit={(swiper) => {
+                                swiper.params.navigation.prevEl = navigationPrevRef.current;
+                                swiper.params.navigation.nextEl = navigationNextRef.current;
+                            }}
+                            navigation={{
+                                prevEl: navigationPrevRef.current,
+                                nextEl: navigationNextRef.current,
+                            }}
+                            slidesPerView={1}
+                            className="mySwiper order-2"
+                        >
+                            <SwiperSlide>
+                                <Encash1></Encash1>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Encash2></Encash2>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Encash3></Encash3>
+                            </SwiperSlide>
+
+                        </Swiper>
+
+                    </div>
+                </div>
+                {/* mobile slider */}
+                <div className='block md:hidden'>
+                    <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
+                        <div className='flex space-x-10 justify-center'>
+                            <div ref={navigationPrevRef} >
+                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
+                            </div>
+                            {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
-                        <div ref={navigationNextRef}>
-                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
+                            <div ref={navigationNextRef}>
+                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
+                            </div>
                         </div>
-                    </div>
-                    <Swiper
-                        spaceBetween={30}
-                        slidesPerView={1}
-                        modules={[Navigation, Pagination]}
-                        pagination={{
-                            el: '.swiper-pagination',
-                            clickable: true,
-                            renderBullet: function (index, className) {
-                                return '<span class="' + className + '">' + (data[index]) + '</span>';
-                            },
-                        }}
-                        onBeforeInit={(swiper) => {
-                            swiper.params.navigation.prevEl = navigationPrevRef.current;
-                            swiper.params.navigation.nextEl = navigationNextRef.current;
-                        }}
-                        navigation={{
-                            prevEl: navigationPrevRef.current,
-                            nextEl: navigationNextRef.current,
-                        }}
+                        <Swiper
+                            spaceBetween={30}
+                            slidesPerView={1}
+                            modules={[Navigation, Pagination]}
+                            pagination={{
+                                el: '.swiper-pagination',
+                                clickable: true,
+                                renderBullet: function (index, className) {
+                                    return '<span class="' + className + '">' + (data[index]) + '</span>';
+                                },
+                            }}
+                            onBeforeInit={(swiper) => {
+                                swiper.params.navigation.prevEl = navigationPrevRef.current;
+                                swiper.params.navigation.nextEl = navigationNextRef.current;
+                            }}
+                            navigation={{
+                                prevEl: navigationPrevRef.current,
+                                nextEl: navigationNextRef.current,
+                            }}
 
-                        className="mySwiper"
-                    >
-                        {
-                            data.map((d, index) => <SwiperSlide key={index}>
-                                <div className='border-2 border-[#0D72B8] w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
-                                    <div className='flex items-center space-x-3 p-5'>
-                                        <div className='relative w-32'>
-                                            <Image width={100} height={80} src={d.logo} alt=""></Image>
+                            className="mySwiper"
+                        >
+                            {
+                                data.map((d, index) => <SwiperSlide key={index}>
+                                    <div className='border-2 border-[#0D72B8] w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
+                                        <div className='flex items-center space-x-3 p-5'>
+                                            <div className='relative w-32'>
+                                                <Image width={100} height={80} src={d.logo} alt=""></Image>
+                                            </div>
+                                            <div className='border-r-2 h-[80px] border-gray-300'></div>
+                                            <h1 className='text-xl xl:text-2xl font-bold text-left flex-1'>{d.title}</h1>
                                         </div>
-                                        <div className='border-r-2 h-[80px] border-gray-300'></div>
-                                        <h1 className='text-xl xl:text-2xl font-bold text-left flex-1'>{d.title}</h1>
+                                        <div className='border-b-2 border-gray-300 w-full'></div>
+                                        <div className='text-left ml-3 space-y-5'>
+                                            <h6 className='text-sm xl:text-base'><span className='font-bold'>Product: </span>{d.product[0]}</h6>
+                                            <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
+                                        </div>
+                                        <div className='border-b-2 border-gray-300 w-[200px] mx-auto mt-5'></div>
+                                        <div className='mt-1'>
+                                            <p>Possible Earning Range</p>
+                                            <p>{d.Earning} Rs/month</p>
+                                        </div>
                                     </div>
-                                    <div className='border-b-2 border-gray-300 w-full'></div>
-                                    <div className='text-left ml-3 space-y-5'>
-                                        <h6 className='text-sm xl:text-base'><span className='font-bold'>Product: </span>{d.product[0]}</h6>
-                                        <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
-                                    </div>
-                                    <div className='border-b-2 border-gray-300 w-[200px] mx-auto mt-5'></div>
-                                    <div className='mt-1'>
-                                        <p>Possible Earning Range</p>
-                                        <p>{d.Earning} Rs/month</p>
-                                    </div>
-                                </div>
-                            </SwiperSlide>)
-                        }
-                    </Swiper>
+                                </SwiperSlide>)
+                            }
+                        </Swiper>
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 };
 
