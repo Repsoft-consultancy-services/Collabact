@@ -97,7 +97,7 @@
 
 .advantage-card > div {
   background-color: #b8bdc2;
-  padding: 4.875rem 4.875rem 3rem 4.875rem;
+  padding: 4.5rem 4.875rem 3rem 4.875rem;
   width: 120%;
   position: absolute;
   left: 50%;
@@ -108,7 +108,7 @@
 .badge {
   position: absolute;
   width: max-content;
-  top: 10%;
+  top: 3%;
   left: 50%;
   translate: -50% -50%;
 }
@@ -116,7 +116,7 @@
 .advantage-card svg {
   scale: 1.5;
   position: absolute;
-  bottom: 1rem;
+  bottom: -.5rem;
   left: 30%;
   translate: -50% 0;
 }

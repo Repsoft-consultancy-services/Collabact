@@ -1,6 +1,7 @@
 .navbar {
   max-width: 1600px;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 .navbar > ul {
@@ -18,6 +19,10 @@
   display: flex;
   gap: 1rem;
   cursor: pointer;
+}
+
+.navbar> ul img {
+  height: 3.5rem;
 }
 
 .navbar > ul button {
