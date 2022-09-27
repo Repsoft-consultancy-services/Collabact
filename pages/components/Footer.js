@@ -11,15 +11,21 @@ const Footer = () => {
             <div className='bg-[#F4B50D] w-full py-2 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
                 <div className='flex justify-evenly max-w-[100rem] mx-auto'>
                     <div className='flex flex-row items-center space-x-1 lg:space-x-5'>
-                        <Image width={30} height={30} src={smartphone} alt=""></Image>
+                        <div className='relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]'>
+                            <Image layout='fill' src={smartphone} alt=""></Image>
+                        </div>
                         <p className='text-[0.8rem] lg:text-base'>(+91) 8849951310</p>
                     </div>
                     <div className='flex flex-row items-center space-x-1 lg:space-x-5'>
-                        <Image width={30} height={30} src={email} alt=""></Image>
+                    <div className='relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]'>
+                            <Image layout='fill' src={email} alt=""></Image>
+                        </div>
                         <p className='lg:text-base'>info@collabact.com</p>
                     </div>
                     <div className='flex flex-row items-center space-x-1 lg:space-x-5'>
-                        <Image width={30} height={30} src={FAQ} alt=""></Image>
+                    <div className='relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]'>
+                            <Image layout='fill' src={FAQ} alt=""></Image>
+                        </div>
                         <p className='lg:text-base'>FAQ</p>
                     </div>
                 </div>

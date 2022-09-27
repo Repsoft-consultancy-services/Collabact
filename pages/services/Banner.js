@@ -8,13 +8,13 @@ const Banner = () => {
     return (
         <div>
             <div className='flex justify-between items-end lg:space-x-6 lg:px-5 w-full'>
-                <div className='hidden lg:block'>
-                <div className='flex flex-col text-gray-500 text-xl xl:text-[28px] space-y-5 mb-10 xl:mb-52 mr-10'>
-                    <AiOutlineFacebook />
-                    <AiOutlineLinkedin />
-                    <AiOutlineInstagram />
-                    <FiTwitter />
-                </div>
+                <div className='hidden md:block'>
+                    <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-0 mr-2'>
+                        <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
+                        <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
+                        <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />
+                        <FiTwitter className='cardanimate hover:cursor-pointer' />
+                    </div>
                 </div>
                 <div className=''>
                     <Image width={1000} height={650} src={bg} alt=""></Image>

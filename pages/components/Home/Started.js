@@ -16,11 +16,9 @@ const Started = () => {
                             <button className='bg-[#c4c4c4] p-2 font-semibold mt-5 text-base 2xl:text-lg'>Discover more</button>
                         </div>
                     </Slide>
-                    <Slide direction='right' fraction={1} triggerOnce={1} duration={2000}>
-                        <div className='w-[20rem] h-[20rem] lg:w-[40rem] lg:h-[40rem] xl:w-[35rem] xl:h-[40rem] relative'>
-                            <Image layout='fill' src={arrow} alt=""></Image>
-                        </div>
-                    </Slide>
+                    <div className='w-[20rem] h-[20rem] lg:w-[40rem] lg:h-[40rem] xl:w-[35rem] xl:h-[40rem] relative'>
+                        <Image layout='fill' src={arrow} alt=""></Image>
+                    </div>
                 </div>
             </div>
         </div>

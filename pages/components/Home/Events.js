@@ -15,7 +15,7 @@ const Events = () => {
                             <Image layout='fill' src={yellowlong} alt=""></Image>
                         </div>
                     </div>
-                    <div className='text-base xl:text-[26px] flex justify-between xl:ml-20 mt-10'>
+                    <div className='text-base xl:text-[26px] flex justify-between space-x-5 xl:ml-20 mt-10'>
                         <div className='space-y-5'>
                             <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
                             <p>Every Friday at 8 pm</p>
