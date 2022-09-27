@@ -6,6 +6,7 @@ import { FiTwitter } from 'react-icons/fi'
 import happy from '../../../public/happy.png'
 import happyyellow from '../../../public/happyyellow.png'
 import { Slide } from 'react-awesome-reveal';
+import Fade from 'react-reveal'
 
 const Banner = () => {
     return (
@@ -31,11 +32,11 @@ const Banner = () => {
                 </div>
             </div>
             <div className="w-[85vw] sm:w-[350px] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[7.2vw] sm:ml-auto -mt-[42px] md:-mt-10 lg:-mt-36 xl:-mt-[152px] sm:mr-16">
-                <Slide direction='down' triggerOnce={1} duration={2000}>
+                <Fade top duration={2000}>
                     <div className="bg-[#BABFC4] px-2 py-3 lg:py-5 text-[12px] sm:text-[14px] lg:text-lg xl:text-2xl text-center relative font-bold z-[1] rounded-xl">
                         <h1 className='mb-1'>Advantages of associating with CollabAct</h1>
                     </div>
-                </Slide>
+                </Fade>
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] md:space-x-12 lg:space-x-28 xl:space-x-5">
                     <Slide direction='up' triggerOnce={1} duration={2000}>
                         <div>
