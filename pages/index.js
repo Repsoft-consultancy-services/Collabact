@@ -1,9 +1,9 @@
-import Head from 'next/head'
-import HomeStart from './components/Home/HomeStart'
-import HomeGetStarted from './components/HomeGetStarted/HomeGetStarted'
-import HomeHeader from './components/HomeHeader/HomeHeader'
-import IndustrySegments from './components/IndustrySegemts/IndustrySegments'
-import Navbar from './components/Navbar/Navbar'
+import Head from "next/head";
+import HomeStart from "./components/Home/HomeStart";
+import HomeGetStarted from "./components/HomeGetStarted/HomeGetStarted";
+import HomeHeader from "./components/HomeHeader/HomeHeader";
+import IndustrySegments from "./components/IndustrySegemts/IndustrySegments";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function Home() {
   return (
@@ -14,10 +14,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <HomeStart></HomeStart> */}
-      <Navbar />
+      <div className="sticky top-0 z-10 bg-white">
+        <Navbar />
+      </div>
       <HomeHeader />
       <HomeGetStarted />
       <IndustrySegments />
     </div>
-  )
+  );
 }

@@ -10,13 +10,13 @@
 }
 
 .socials {
-    position: absolute;
-    top: 50%;
-    left: -5%;
-    translate: 0 -50%;
-    display: flex;
-    flex-direction: column;
-    gap: 2.5rem;
+  position: absolute;
+  top: 50%;
+  left: -5%;
+  translate: 0 -50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .header h1 {
@@ -116,7 +116,7 @@
 .advantage-card svg {
   scale: 1.5;
   position: absolute;
-  bottom: -.5rem;
+  bottom: -0.5rem;
   left: 30%;
   translate: -50% 0;
 }
@@ -141,4 +141,16 @@
   left: 50%;
   bottom: -2rem;
   translate: -50% 0;
+}
+
+.yellow-button {
+  background: transparent
+    radial-gradient(closest-side at 22% 88%, #ffffff 0%, #ffc114 100%) 0% 0%
+    no-repeat padding-box !important;
+    color: #000000 !important;
+}
+
+.yellow-button::before {
+  content: "Free ";
+  color: #FF0000;
 }
