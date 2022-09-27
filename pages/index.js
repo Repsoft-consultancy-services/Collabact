@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import HomeStart from './components/Home/HomeStart'
+import HomeHeader from './components/HomeHeader/HomeHeader'
 import Navbar from './components/Navbar/Navbar'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       {/* <HomeStart></HomeStart> */}
       <Navbar />
+      <HomeHeader />
     </div>
   )
 }

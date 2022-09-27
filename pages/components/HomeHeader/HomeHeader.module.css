@@ -1,0 +1,144 @@
+.header {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url("/bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2rem;
+  padding: 9.125rem 4rem 0 4rem;
+  position: relative;
+}
+
+.socials {
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    translate: 0 -50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.header h1 {
+  text-align: left;
+  font: normal normal bold 5rem/4.813rem Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 12px 6px #00000029;
+  opacity: 1;
+  margin-bottom: 1rem;
+}
+
+.header h2 {
+  text-align: left;
+  font: normal normal 600 4.5rem/4.813rem Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 12px 6px #00000029;
+  opacity: 1;
+}
+
+.header h3 {
+  text-align: left;
+  font: normal normal 600 1.82rem/2.375rem Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  /* text-shadow: 0px 12px 6px #00000029; */
+  opacity: 1;
+  background: #babfc4 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 1rem 4rem 2.125rem 4rem;
+}
+
+.header h4 {
+  text-align: center;
+  font: normal normal 600 1.875rem/2.375rem Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.header p {
+  text-align: left;
+  font: normal normal 600 1.25rem/1.875rem Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: center;
+}
+
+.header hr {
+  max-width: 3rem;
+  margin: 0 auto;
+  border-top: 0.2rem solid #ffffff;
+}
+
+.advantages {
+  width: max-content;
+  margin-left: auto;
+  margin-top: 10rem;
+}
+
+.advantages > div {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3.25rem;
+}
+
+.advantage-card {
+  background-color: #ffffff;
+  width: max-content;
+  padding: 1.5rem;
+  width: 40%;
+  min-height: 24rem;
+  position: relative;
+  top: -1.5rem;
+}
+
+.advantage-card > div {
+  background-color: #b8bdc2;
+  padding: 4.875rem 4.875rem 3rem 4.875rem;
+  width: 120%;
+  position: absolute;
+  left: 50%;
+  translate: -50% 0;
+  bottom: 0;
+}
+
+.badge {
+  position: absolute;
+  width: max-content;
+  top: 10%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+.advantage-card svg {
+  scale: 1.5;
+  position: absolute;
+  bottom: 1rem;
+  left: 30%;
+  translate: -50% 0;
+}
+
+.advantage-card button {
+  min-width: 249px;
+  position: absolute;
+  padding: 1rem;
+
+  background: transparent
+    radial-gradient(closest-side at 22% 88%, #ffffff 0%, #0d72b8 100%) 0% 0%
+    no-repeat padding-box;
+  box-shadow: 0px 3px 18px #00000029;
+  border-radius: 33px;
+  opacity: 1;
+
+  text-align: center;
+  font: normal normal 600 21px/31px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  left: 50%;
+  bottom: -2rem;
+  translate: -50% 0;
+}
