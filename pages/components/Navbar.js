@@ -36,27 +36,27 @@ const Navbar = () => {
         <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-2 sticky top-0 z-[150]`}>
             <div className="w-full lg:hidden mt-1">
                 <div className='flex justify-between items-center pr-2'>
-                    <div className="dropdown">
+                    <div className="dropdown ml-2">
                         <label tabIndex="0" onClick={() => {
                             if (!menudrop)
                                 setMenudrop(true)
                             else
                                 setMenudrop(false)
 
-                        }} className="btn btn-ghost">
+                        }} className="">
                             <AiOutlineMenu className='text-2xl' />
                         </label>
                         <div tabIndex="0" className={`menu menu-compact ${menudrop ? 'dropdown-content' : 'hidden'} mt-3 p-2 shadow
                      rounded-md w-52 bg-white`}>
-                            <Link href='/'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Home</h1></Link>
-                            <Link href='/aboutUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>AboutUs</h1></Link>
+                            <Link href='/'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Home</h1></Link>
+                            <Link href='/aboutUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>AboutUs</h1></Link>
 
-                            <h1 onTouchStart={handledropdown} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>What we offer</h1>
-                            <Link href='https://collabact.com/Blog/'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Blog</h1></Link>
+                            <h1 onTouchStart={handledropdown} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>What we offer</h1>
+                            <Link href='https://collabact.com/Blog/'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/blog' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Blog</h1></Link>
 
-                            <Link href='/faq'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>FAQ</h1></Link>
+                            <Link href='/faq'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/faq' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>FAQ</h1></Link>
 
-                            <Link href='/contactUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Contact Us</h1></Link>
+                            <Link href='/contactUs'><h1 onClick={() => setMenudrop(false)} className={`bg-white  font-medium text-base xl:text-xl pb-1 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Contact Us</h1></Link>
                         </div>
                     </div>
                     <Link href="/">
@@ -100,7 +100,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div >
-            {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 rounded-[10px] dropclip absolute top-[170px] lg:top-[59px] left-[1rem] lg:left-[16.5rem] xl:left-[25rem] 2xl:left-[35rem] 3xl:left-[53rem] z-50 px-5 py-3 bg-gray-100 space-y-1  font-medium text-base">
+            {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 rounded-[10px] dropclip absolute top-[140px] lg:top-[59px] left-[1rem] lg:left-[16.5rem] xl:left-[25rem] 2xl:left-[35rem] 3xl:left-[53rem] z-50 px-5 py-3 bg-gray-100 space-y-1  font-medium text-base">
                 <div onClick={handledropdown}>
                     <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-semibold uppercase'>Businesses</p></Link></h1>
                 </div>
