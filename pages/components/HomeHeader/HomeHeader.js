@@ -16,13 +16,13 @@ export default function HomeHeader() {
             <h4>Businesses</h4>
             <div>
               <div className={Styles.badge}>
-                <img src="/happy.png" alt="" />'
+                <img src="/happy.png" alt="" />
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  stroke-strokeWidth="0"
                   viewBox="0 0 1024 1024"
-                  class="text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6"
+                  className="text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
@@ -42,13 +42,13 @@ export default function HomeHeader() {
             <h4>Businesses</h4>
             <div>
               <div className={Styles.badge}>
-                <img src="/happy.png" alt="" />'
+                <img src="/happy.png" alt="" />
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
-                  stroke-width="0"
+                  stroke-strokeWidth="0"
                   viewBox="0 0 1024 1024"
-                  class="text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6"
+                  className="text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6"
                   height="1em"
                   width="1em"
                   xmlns="http://www.w3.org/2000/svg"
