@@ -5,9 +5,9 @@ import Navbar from './components/Navbar'
 
 function MyApp({ Component, pageProps }) {
   return <>
-  <Navbar></Navbar>
+  {/* <Navbar></Navbar> */}
   <Component {...pageProps} />
-  <Footer></Footer>
+  {/* <Footer></Footer> */}
   </>
   
 }
