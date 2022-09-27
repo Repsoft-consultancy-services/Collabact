@@ -20,11 +20,7 @@ const Industry = () => {
                 "logo": "/electriccar.png",
                 "title": "Automobile and electric vehicle",
                 "list": [
-                    "Spare Parts and Equipment",
-                    "Accessories",
-                    "Electric Vehicles",
-                    "Commercial Vehicle",
-                    "Battery"
+                    "Spare Parts and Equipment,Accessories,Electric Vehicles,Commercial Vehicle,Battery",
                 ]
             }
         ],
@@ -33,17 +29,16 @@ const Industry = () => {
                 "logo": "/man.png",
                 "title": "Industrial Products",
                 "list": [
-                    "Engineering Machines",
-                    "Tools & equipments",
-                    "Industrial Supplies"
+                    "Engineering Machines,Tools & equipments,Industrial Supplies",
                 ]
-            },
+            }
+        ],
+        [
             {
                 "logo": "/roll.png",
                 "title": "Fabric and Textiles",
                 "list": [
-                    "Appreal,Clothing & Garments",
-                    "Cotton,Wool Textiles & Fabrics"
+                    "Appreal,Clothing & Garments,Cotton,Wool Textiles & Fabrics",
                 ]
             }
         ],
@@ -181,59 +176,25 @@ const Industry = () => {
                             >
                                 {
                                     data.map(d => <>
-                                        {
-                                            d.length === 1 ? <SwiperSlide>
-                                                <div className='border border-[#707070] py-5 px-3'>
-                                                    <div className='flex items-center space-x-5'>
-                                                        <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                                    </div>
-                                                    <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
+                                        {<SwiperSlide>
+                                            <div className='py-5 px-3 text-left'>
+                                                <div className='flex items-center space-x-5'>
+                                                    <Image width={100} height={100} src={d[0].logo} alt=""></Image>
+
+                                                    <div className='font-semibold ml-[50px] xl:ml-[60px]'>
+                                                        <h1 className='text-lg font-bold'>{d[0].title}</h1>
                                                         <div>
                                                             {
                                                                 d[0].list.map(l => <>
-                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                    <p className='flex items-center text-sm'>{l}</p>
                                                                 </>)
                                                             }
 
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </SwiperSlide>
-
-                                                :
-                                                <SwiperSlide>
-                                                    <div className='border border-[#707070] py-5 px-3'>
-                                                        <div className='flex items-center space-x-5'>
-                                                            <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                            <h1 className='text-base md:text-xl font-bold'>{d[0].title}</h1>
-                                                        </div>
-                                                        <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
-                                                            <div>
-                                                                {
-                                                                    d[0].list.map(l => <>
-                                                                        <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                                    </>)
-                                                                }
-
-                                                            </div>
-                                                        </div>
-                                                        <div className='flex items-center space-x-5'>
-                                                            <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                            <h1 className='text-base md:text-xl font-bold'>{d[1].title}</h1>
-                                                        </div>
-                                                        <div className='mt-3 text-[14px] md:text-lg font-semibold md:ml-[60px]'>
-                                                            <div>
-                                                                {
-                                                                    d[1].list.map(l => <>
-                                                                        <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                                    </>)
-                                                                }
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </SwiperSlide>
+                                            </div>
+                                        </SwiperSlide>
                                         }
                                     </>)
                                 }
@@ -247,61 +208,25 @@ const Industry = () => {
                         {
                             data.map(d => <>
                                 {
-                                    d.length === 1 ?
-                                        <Pulse>
-                                            <div className='shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] rounded-xl py-5 px-3'>
-                                                <div className='flex items-center space-x-5'>
-                                                    <Image width={50} height={50} src={d[0].logo} alt=""></Image>
-                                                    <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                                </div>
-                                                <div className='mt-3 xl:text-lg font-semibold ml-[50px] xl:ml-[60px]'>
+                                    <Pulse>
+                                        <div className='py-5 px-3'>
+                                            <div className='flex items-center space-x-5'>
+                                                <Image width={100} height={100} src={d[0].logo} alt=""></Image>
+
+                                                <div className='font-semibold ml-[50px] xl:ml-[60px]'>
+                                                    <h1 className='text-lg font-bold'>{d[0].title}</h1>
                                                     <div>
                                                         {
                                                             d[0].list.map(l => <>
-                                                                <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
+                                                                <p className='flex items-center text-sm'>{l}</p>
                                                             </>)
                                                         }
 
                                                     </div>
                                                 </div>
                                             </div>
-                                        </Pulse>
-                                        :
-                                        <>
-                                            <Pulse>
-                                                <div className='shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] rounded-xl py-2 xl:py-5 px-2 xl:px-3'>
-                                                    <div className='flex items-center space-x-5'>
-                                                        <Image width={40} height={40} src={d[0].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[0].title}</h1>
-                                                    </div>
-                                                    <div className='xl:text-lg font-semibold ml-[60px]'>
-                                                        <div>
-                                                            {
-                                                                d[0].list.map(l => <>
-                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                                </>)
-                                                            }
-
-                                                        </div>
-                                                    </div>
-                                                    <div className='flex items-center space-x-5'>
-                                                        <Image width={50} height={50} src={d[1].logo} alt=""></Image>
-                                                        <h1 className='text-xl font-bold'>{d[1].title}</h1>
-                                                    </div>
-                                                    <div className='xl:text-lg font-semibold ml-[60px]'>
-                                                        <div>
-                                                            {
-                                                                d[1].list.map(l => <>
-                                                                    <p className='flex items-center'><GoPrimitiveDot className='text-[#675555] mt-1' />{l}</p>
-                                                                </>)
-                                                            }
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </Pulse>
-
-                                        </>
+                                        </div>
+                                    </Pulse>
                                 }
                             </>)
                         }
