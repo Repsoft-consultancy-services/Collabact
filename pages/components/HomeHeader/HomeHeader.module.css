@@ -1,11 +1,11 @@
 .header {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
   background-image: url("/bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin-top: 2rem;
-  padding: 9.125rem 4rem 0 4rem;
+  padding: 4rem 4rem 0 4rem;
   position: relative;
 }
 
@@ -21,7 +21,7 @@
 
 .header h1 {
   text-align: left;
-  font: normal normal bold 5rem/4.813rem Poppins;
+  font: normal normal bold 4rem/2.5rem Poppins;
   letter-spacing: 0px;
   color: #ffffff;
   text-shadow: 0px 12px 6px #00000029;
@@ -31,7 +31,7 @@
 
 .header h2 {
   text-align: left;
-  font: normal normal 600 4.5rem/4.813rem Poppins;
+  font: normal normal 600 3rem/3.5rem Poppins;
   letter-spacing: 0px;
   color: #ffffff;
   text-shadow: 0px 12px 6px #00000029;
@@ -40,7 +40,7 @@
 
 .header h3 {
   text-align: left;
-  font: normal normal 600 1.82rem/2.375rem Poppins;
+  font: normal normal 600 1.5rem/2.375rem Poppins;
   letter-spacing: 0px;
   color: #000000;
   /* text-shadow: 0px 12px 6px #00000029; */
@@ -48,19 +48,21 @@
   background: #babfc4 0% 0% no-repeat padding-box;
   opacity: 1;
   padding: 1rem 4rem 2.125rem 4rem;
+  border-radius: 33px;
 }
 
 .header h4 {
   text-align: center;
-  font: normal normal 600 1.875rem/2.375rem Poppins;
+  font: normal normal 600 1.3rem/2.375rem Poppins;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
 }
 
+
 .header p {
   text-align: left;
-  font: normal normal 600 1.25rem/1.875rem Poppins;
+  font: normal normal 600 .8rem/1.875rem Poppins;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;
@@ -76,7 +78,7 @@
 .advantages {
   width: max-content;
   margin-left: auto;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 
 .advantages > div {
@@ -88,21 +90,23 @@
 .advantage-card {
   background-color: #ffffff;
   width: max-content;
-  padding: 1.5rem;
+  padding: 1.5em;
   width: 40%;
   min-height: 24rem;
   position: relative;
   top: -1.5rem;
+  border-radius: 33px;
 }
 
 .advantage-card > div {
   background-color: #b8bdc2;
-  padding: 4.5rem 4.875rem 3rem 4.875rem;
+  padding: 4.5em 4.875em 3em 4.875em;
   width: 120%;
   position: absolute;
   left: 50%;
   translate: -50% 0;
   bottom: 0;
+  border-radius: 33px;
 }
 
 .badge {

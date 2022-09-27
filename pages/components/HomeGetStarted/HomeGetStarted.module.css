@@ -1,9 +1,9 @@
 .get-started {
   background-color: #b5c2cf49;
-  padding: 27.375rem 0 13.75rem 0;
+  padding: 15rem 0 13.75rem 0;
   position: relative;
   z-index: -1;
-  top: -25rem;
+  top: -15rem;
 }
 
 .get-started > div {
