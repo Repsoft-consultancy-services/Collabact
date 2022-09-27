@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import HomeStart from './components/Home/HomeStart'
+import config from 'react-reveal/globals';
+
+config({ ssrFadeout: true });
 
 export default function Home() {
   return (
