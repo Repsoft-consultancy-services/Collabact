@@ -33,7 +33,7 @@ const Navbar = () => {
     //     <h1><Link href='/aboutUs'><p className='bg-white  font-medium text-base xl:text-xl '>Contact Us</p></Link></h1>
     // </>
     return (
-        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-5`}>
+        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-2`}>
             <div className="w-full lg:hidden mt-1">
                 <div className='flex justify-between items-center pr-2'>
                     <div className="dropdown">
@@ -99,17 +99,8 @@ const Navbar = () => {
                         <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign Up</button></Link>
                     </div>
                 </div>
-                {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 rounded-[10px] dropclip relative max-w-[200px] bottom-7  left-[29%] z-50 px-5 py-3 bg-gray-100 space-y-1  font-medium text-base hidden md:block">
-                <div onClick={handledropdown}>
-                    <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-semibold uppercase'>Businesses</p></Link></h1>
-                </div>
-                <div onClick={handledropdown} className="">
-                    <h1 className='hover:cursor-pointer'><Link href='/services2'><p className='font-semibold uppercase'>Sale Partners</p></Link></h1>
-                </div>
-
-            </div>}
             </div >
-            {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 rounded-[10px] dropclip absolute top-[170px] lg:top-[59px] left-[1rem] lg:left-[16.5rem] xl:left-[25rem] 2xl:left-[35rem] 3xl:left-[53rem] z-50 px-5 py-3 bg-gray-100 space-y-1  font-medium text-base block md:hidden">
+            {servicedrop && <div onMouseLeave={handledropdown} className="mt-3 rounded-[10px] dropclip absolute top-[170px] lg:top-[59px] left-[1rem] lg:left-[16.5rem] xl:left-[25rem] 2xl:left-[35rem] 3xl:left-[53rem] z-50 px-5 py-3 bg-gray-100 space-y-1  font-medium text-base">
                 <div onClick={handledropdown}>
                     <h1 className='hover:cursor-pointer'><Link href='/services'><p className='font-semibold uppercase'>Businesses</p></Link></h1>
                 </div>
