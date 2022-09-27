@@ -68,8 +68,8 @@ const Navbar = () => {
                     </Link>
 
                     <div className='space-x-1 text-[10px] text-white'>
-                        <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign In</button></Link>
-                        <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign Up</button></Link>
+                        <Link href='https://app.collabact.com/Account/SignIn'><button className='transition ease-in-out delay-100 bg-blue-500  hover:scale-105 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 rounded-lg'>Sign In</button></Link>
+                        <Link href='https://app.collabact.com/'><button className='transition ease-in-out delay-100 bg-blue-500  hover:scale-105 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 rounded-lg'>Sign Up</button></Link>
                     </div>
                 </div>
             </div>
