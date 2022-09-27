@@ -6,19 +6,18 @@ import { FiTwitter } from 'react-icons/fi'
 import happy from '../../../public/happy.png'
 import happyyellow from '../../../public/happyyellow.png'
 import Fade from 'react-reveal/Fade';
-import { Flip } from 'react-reveal';
 
 const Banner = () => {
     return (
-        <div className='max-w-[95rem] mx-auto'>
+        <div className='max-w-[95rem] mx-auto relative z-[3]'>
             <div className=''>
                 <div className='flex justify-between items-end 2xl:space-x-6'>
                     <div className='hidden md:block'>
                         <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-5 2xl:ml-0 mr-10'>
-                            <AiOutlineFacebook />
-                            <AiOutlineLinkedin />
-                            <AiOutlineInstagram />
-                            <FiTwitter />
+                            <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
+                            <AiOutlineLinkedin  className='cardanimate hover:cursor-pointer' />
+                            <AiOutlineInstagram className='cardanimate hover:cursor-pointer'/>
+                            <FiTwitter className='cardanimate hover:cursor-pointer'/>
                         </div>
                     </div>
                     <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[175px] md:h-[400px] lg:h-[476px] xl:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] sm:mr-5 mx-3 sm:mx-0">
@@ -59,7 +58,7 @@ const Banner = () => {
                                 </div>
                             </div>
                             <div className='flex justify-center relative -mt-[4vw] sm:-mt-6'>
-                                <button className='py-[2vw] px-[2vw] sm:py-3 sm:px-5 lg:px-10 xl:px-20 buttonbg rounded-full text-white font-semibold lg:font-bold uppercase text-[3vw] md:text-sm xl:text-lg'>join us</button>
+                                <button className='py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-5 lg:px-10 xl:px-20 buttonbg rounded-full text-white font-semibold lg:font-bold uppercase text-[3vw] md:text-sm xl:text-lg'>join us</button>
                             </div>
                         </div>
                         <div>
@@ -82,7 +81,7 @@ const Banner = () => {
                                 </div>
                             </div>
                             <div className='flex justify-center relative -mt-[4vw] sm:-mt-6'>
-                                <button className='py-[2vw] px-[2vw] sm:py-3 sm:px-5 md:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg'><span className='text-[#FF0000] mr-1'>FREE</span>Registrations</button>
+                                <button className='py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-5 md:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg'><span className='text-[#FF0000] mr-1'>FREE</span>Registrations</button>
                             </div>
                         </div>
                     </Fade>

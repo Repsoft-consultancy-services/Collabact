@@ -44,3 +44,19 @@ a {
 .dropclip{
   clip-path: polygon(20% 0%, 15% 10%, 100% 10%, 100% 100%, 0 100%, 0 10%, 25% 10%)
 }
+.cardanimate{
+  transform: scale(1);
+  transition: 0.5s;
+}
+.cardanimate:hover{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.buttonanimate{
+  transform: scale(1);
+  transition: 0.5s;
+}
+.buttonanimate:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
