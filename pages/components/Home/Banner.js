@@ -22,7 +22,7 @@ const Banner = () => {
                     </div>
                     <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[175px] md:h-[400px] lg:h-[476px] xl:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] sm:mr-7 mx-3 sm:mx-0">
                         <div className='text-center md:text-left md:px-10 xl:px-16 py-5 md:py-20 xl:py-24 md:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                            <Slide direction='right ' triggerOnce={1}  duration={2000}>
+                            <Slide direction='right' triggerOnce={1}  duration={2000}>
                                 <h1 className='text-lg md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
                                 <h4 className='text-lg md:text-3xl lg:text-5xl xl:text-6xl font-semibold sm:mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                             </Slide>
