@@ -2,6 +2,7 @@ import Head from 'next/head'
 import HomeStart from './components/Home/HomeStart'
 import HomeGetStarted from './components/HomeGetStarted/HomeGetStarted'
 import HomeHeader from './components/HomeHeader/HomeHeader'
+import IndustrySegments from './components/IndustrySegemts/IndustrySegments'
 import Navbar from './components/Navbar/Navbar'
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <HomeHeader />
       <HomeGetStarted />
+      <IndustrySegments />
     </div>
   )
 }
