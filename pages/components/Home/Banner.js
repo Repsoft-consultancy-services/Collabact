@@ -8,7 +8,7 @@ import happyyellow from '../../../public/happyyellow.png'
 
 const Banner = () => {
     return (
-        <div className='max-w-[110rem] mx-auto'>
+        <div className='max-w-[95rem] mx-auto'>
             <div className=''>
                 <div className='flex justify-between items-end 2xl:space-x-6'>
                     <div className='hidden md:block'>
@@ -19,10 +19,10 @@ const Banner = () => {
                             <FiTwitter />
                         </div>
                     </div>
-                    <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[225px] md:h-[400px] lg:h-[476px] xl:h-[550px] 2xl:h-[40rem] 3xl:h-[50rem] flex-1 rounded-[10px] lg:rounded-[50px] sm:mr-5">
-                        <div className='text-center md:text-left md:px-10 xl:px-16 py-10 md:py-20 xl:py-24 3xl:py-40 md:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                            <h1 className='text-xl md:text-4xl lg:text-6xl xl:text-7xl 3xl:text-[90px] font-semibold lg:font-bold'>We connect</h1>
-                            <h4 className='text-xl md:text-3xl lg:text-5xl xl:text-6xl 3xl:text-[80px] font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
+                    <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[225px] md:h-[400px] lg:h-[476px] xl:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] sm:mr-5">
+                        <div className='text-center md:text-left md:px-10 xl:px-16 py-10 md:py-20 xl:py-24 md:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
+                            <h1 className='text-xl md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
+                            <h4 className='text-xl md:text-3xl lg:text-5xl xl:text-6xl font-semibold mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,6 @@ const Banner = () => {
                             <button className='py-[2vw] px-[2vw] sm:py-3 sm:px-5 md:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg'><span className='text-[#FF0000] mr-1'>FREE</span>Registrations</button>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
