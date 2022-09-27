@@ -33,7 +33,7 @@ const Navbar = () => {
     //     <h1><Link href='/aboutUs'><p className='bg-white  font-medium text-base xl:text-xl '>Contact Us</p></Link></h1>
     // </>
     return (
-        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-2`}>
+        <div className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} py-2 sticky top-0 z-[150]`}>
             <div className="w-full lg:hidden mt-1">
                 <div className='flex justify-between items-center pr-2'>
                     <div className="dropdown">
@@ -68,8 +68,8 @@ const Navbar = () => {
                     </Link>
 
                     <div className='space-x-1 text-xs lg:text-lg text-white'>
-                        <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-2 py-1'>Sign In</button></Link>
-                        <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-2 py-1'>Sign Up</button></Link>
+                        <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign In</button></Link>
+                        <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign Up</button></Link>
                     </div>
                 </div>
             </div>
@@ -95,8 +95,8 @@ const Navbar = () => {
                     <Link href='/contactUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black  font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/contactUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Contact Us</h1></Link>
 
                     <div className='space-x-1 pb-2 text-[1rem] text-white'>
-                        <Link href='https://app.collabact.com/Account/SignIn'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign In</button></Link>
-                        <Link href='https://app.collabact.com/'><button className='bg-blue-500 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign Up</button></Link>
+                        <Link href='https://app.collabact.com/Account/SignIn'><button className='transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign In</button></Link>
+                        <Link href='https://app.collabact.com/'><button className='transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.30)] hover:shadow-blue-600 rounded-lg'>Sign Up</button></Link>
                     </div>
                 </div>
             </div >

@@ -70,10 +70,10 @@ const Encash1 = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-16'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-16 py-5'>
             {
                 data.map((d, index) => <Link key={index} href="https://app.collabact.com/Account">
-                    <div className='border-2 border-[#0D72B8] xl:w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
+                    <div className='xl:w-[380px] shadow-[0px_3px_10px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_3px_20px_0_rgba(0,0,0,0.50)] hover:shadow-blue-600'>
                         <div>
                             <div className='flex items-center space-x-3 p-5'>
                                 <div className='relative w-24'>
