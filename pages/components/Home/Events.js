@@ -6,8 +6,8 @@ import parag from '../../../public/parag.png'
 
 const Events = () => {
     return (
-        <div className="w-full mt-5 pb-10 mb-10 bg-[url('/WorldMap.png')] bg-right bg-no-repeat">
-            <div className='flex flex-col lg:flex-row lg:space-x-3 xl:space-x-0 justify-evenly px-5 lg:px-0'>
+        <div className="max-w-[95rem] mx-auto mt-5 pb-10 mb-10 bg-[url('/WorldMap.png')] bg-right bg-no-repeat">
+            <div className='flex flex-col lg:flex-row lg:space-x-3 xl:space-x-0 justify-between px-5 lg:px-0'>
                 <div>
                     <div className='flex items-center space-x-5'>
                         <h1 className='text-2xl xl:text-3xl'>Upcoming <span className='font-bold'>Events</span></h1>
