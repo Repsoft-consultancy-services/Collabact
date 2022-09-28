@@ -4,6 +4,7 @@ import HomeGetStarted from "./components/HomeGetStarted/HomeGetStarted";
 import HomeHeader from "./components/HomeHeader/HomeHeader";
 import IndustrySegments from "./components/IndustrySegemts/IndustrySegments";
 import Navbar from "./components/Navbar/Navbar";
+import UncashBuiseness from "./components/UncashBuiseness/UncashBuiseness";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeHeader />
       <HomeGetStarted />
       <IndustrySegments />
+      <UncashBuiseness />
     </div>
   );
 }

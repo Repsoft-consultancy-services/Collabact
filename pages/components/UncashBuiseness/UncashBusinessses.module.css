@@ -1,0 +1,82 @@
+.businesses {
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top: -20rem;
+}
+
+.businesses > h1 {
+  text-align: center;
+  font: normal normal 600 3.75rem/3.75rem Poppins;
+  letter-spacing: 0px;
+  color: #f4b50d;
+  opacity: 1;
+  margin-bottom: 6rem;
+}
+
+.businesses > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.businessCard {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000029;
+  border: 3px solid #0d72b8;
+  opacity: 1;
+}
+
+.businessCard > div:first-child {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 40%;
+  border-bottom: 1px solid #a1a1a1;
+  overflow: hidden;
+}
+
+.businessCard h2 {
+  text-align: left;
+  font: normal normal bold 1.875rem/2rem Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  border-left: 1px solid #a1a1a1;
+  padding: 1rem;
+}
+
+.businessCard p {
+  text-align: left;
+  font: normal normal normal 1.375rem/1.5rem Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.businessCard hr {
+  max-width: 50%;
+  margin: 0.5rem auto;
+  border-top: 1px solid #a1a1a1;
+}
+
+.businessCard > div > figure{
+    width: 40%;
+}
+
+.businessCard > div > figure > img {
+  object-fit: contain;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.businessCard > div:last-child {
+  height: 60%;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.businessCard > div:last-child > div:last-child > p {
+  text-align: center;
+}
