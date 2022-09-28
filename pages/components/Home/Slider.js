@@ -159,7 +159,7 @@ const Slider = () => {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
     return (
-        <div className='w-full mt-10 lg:mt-32'>
+        <div className='w-full mt-10 lg:mt-20'>
             <div className='w-full 2xl:w-[95rem] mx-auto py-10'>
                 <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
                 {/* laptop slider */}

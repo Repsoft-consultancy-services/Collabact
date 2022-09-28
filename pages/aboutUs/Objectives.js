@@ -42,7 +42,6 @@ const Objectives = () => {
                 <Image layout='fill' src={visioni} alt=""></Image>
             </div>
             <div className='px-5 lg:px-0'>
-                <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR VISION</h1>
                 <p className='mb-5'> <span className='font-bold'>For Sales Partner</span> - To develop an Entrepreneurial Mindset <br /> among the youth and make them capable of generating <br /> business.
                 </p>
                 <p><span className='font-bold'>For Business</span> - To support new and already existing <br /> businesses to thrive in their fields.
@@ -56,7 +55,6 @@ const Objectives = () => {
             <Image layout='fill' src={missioni} alt=""></Image>
         </div>
         <div className='lg:ml-24 px-5 lg:px-0'>
-            <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR MISSION</h1>
             <div className='flex flex-col lg:flex-row xl:space-x-10 text-sm lg:text-base'>
                 <div className=''>
                     <h1 className='uppercase font-bold mb-3'>what</h1>
@@ -74,7 +72,6 @@ const Objectives = () => {
             <Image layout='fill' src={objectives} alt=""></Image>
         </div>
         <div className='lg:ml-16 px-5 lg:px-0'>
-            <h1 className='text-xl xl:text-3xl font-bold mb-5 text-center lg:text-left'>OUR OBJECTIVE</h1>
             <div className='flex items-center space-x-5 mb-2'>
                 <GoPrimitiveDot className='mt-1 text-[#0D72B8]' /> <p>To provide an opportunity for Collaboration in Business to the youth of India.</p>
             </div>
@@ -95,7 +92,6 @@ const Objectives = () => {
             <Image layout='fill' src={valuei} alt=""></Image>
         </div>
         <div className='lg:ml-28 px-5 lg:px-0'>
-            <h1 className='text-xl xl:text-3xl font-bold mb-2 text-center lg:text-left'>OUR VALUE</h1>
             <div className='flex flex-col lg:flex-row space-y-2 lg:space-y-0 space-x-2 xl:space-x-10'>
                 <div>
                     <h1 className='font-medium text-lg xl:text-2xl mb-2'>Integrity</h1>
