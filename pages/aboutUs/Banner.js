@@ -11,7 +11,7 @@ const Banner = () => {
             <div>
                 <div className='flex justify-evenly items-end w-full mx-auto'>
                     <div className='hidden md:block'>
-                        <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-[60px]'>
+                        <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 xl:ml-[60px]'>
                             <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
                             <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
                             <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />
