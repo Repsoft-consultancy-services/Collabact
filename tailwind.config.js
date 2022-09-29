@@ -12,8 +12,7 @@ module.exports = {
         'xs': '375px',
       },
       fontFamily:{
-        Poppins : ['Poppins'],
-        Opensans : ['Open Sans']
+        Poppins : ['Poppins']
       },
     },
     screens: {
