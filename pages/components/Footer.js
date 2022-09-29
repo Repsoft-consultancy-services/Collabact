@@ -8,7 +8,7 @@ import Image from 'next/image';
 const Footer = () => {
     return (
         <div>
-            <div className='bg-[#F4B50D] w-full py-2 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
+            <div className='bg-[#F4B50D] w-full font-semibold py-4 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]'>
                 <div className='flex justify-evenly max-w-[100rem] mx-auto'>
                     <div className='flex flex-row items-center space-x-1 lg:space-x-5'>
                         <div className='relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]'>

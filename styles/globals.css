@@ -4,13 +4,14 @@
 
 /* poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* opensans */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* opensans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); */
 
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -22,9 +23,16 @@ a {
   box-sizing: border-box;
 }
 
-.navbg {
-  background: rgb(255, 255, 255);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(241, 241, 241, 1) 100%);
+
+.industrySegment {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ebf0f4;
+  top: -10px;
+  left: 50%;
+  transform: translate(-50%, 0) rotate(45deg);
+
 }
 
 .buttonbg {

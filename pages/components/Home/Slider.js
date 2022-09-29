@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper";
+import { Navigation } from "swiper";
 import { FaLessThan, FaGreaterThan } from 'react-icons/fa'
 import Encash1 from './Encash1';
 import Encash2 from './Encash2';
@@ -161,7 +161,7 @@ const Slider = () => {
     return (
         <div className='w-full mt-10 lg:mt-20'>
             <div className='w-full 2xl:w-[95rem] mx-auto py-10'>
-                <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash out businesses</h1>
+                <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash Out Businesses</h1>
                 {/* laptop slider */}
                 <div className='hidden md:block'>
                     <div className='relative z-10 flex items-center space-x-3 h-auto px-2'>
@@ -216,14 +216,7 @@ const Slider = () => {
                         <Swiper
                             spaceBetween={30}
                             slidesPerView={1}
-                            modules={[Navigation, Pagination]}
-                            pagination={{
-                                el: '.swiper-pagination',
-                                clickable: true,
-                                renderBullet: function (index, className) {
-                                    return '<span class="' + className + '">' + (data[index]) + '</span>';
-                                },
-                            }}
+                            modules={[Navigation]}
                             onBeforeInit={(swiper) => {
                                 swiper.params.navigation.prevEl = navigationPrevRef.current;
                                 swiper.params.navigation.nextEl = navigationNextRef.current;
@@ -239,7 +232,7 @@ const Slider = () => {
                                 data.map((d, index) =>
                                     <Link key={index} href="https://app.collabact.com/Account">
                                         <SwiperSlide key={index}>
-                                            <div className='bg-white w-[300px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
+                                            <div className='bg-white w-[350px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
                                                 <div>
                                                     <div className='flex items-center space-x-3 p-5 bg-slate-100 h-[150px]'>
                                                         <div className='relative w-24'>
@@ -254,7 +247,7 @@ const Slider = () => {
                                                         <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
                                                     </div>
                                                     <div className='border-b-2 border-gray-300 w-[200px] mx-auto mt-5 lg:mt-2 xl:mt-5'></div>
-                                                    <div className=''>
+                                                    <div className='text-center'>
                                                         <p>Possible Earning Range</p>
                                                         <p>{d.Earning} Rs/month</p>
                                                     </div>

@@ -1,0 +1,230 @@
+.navbar {
+    font-family: 'Segoe UI';
+    width: 100%;
+    padding: 1rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#navLogo {
+    width: 180px;
+}
+
+.ondesktop {
+    position: relative;
+}
+
+.offerList {
+    display: none;
+    position: absolute;
+    top:15px;
+    z-index: 2;
+}
+
+#ourOfferMenu {
+    color: #0000008e;
+    z-index: 2;
+}
+
+#ourOfferMenu:hover .offerList {
+    display: block;
+}
+
+.offerList span {
+    position: absolute;
+    background-color:transparent;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    display: block;
+    z-index: 60;
+}
+
+.offerList p a {
+    color: white;
+}
+
+
+
+.navItems {
+    max-width: 1125px;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 3rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.navItems a {
+    color: #0000008e;
+    -webkit-transition: all ease-in-out 100ms;
+    -o-transition: all ease-in-out 100ms;
+    transition: all ease-in-out 100ms;
+}
+
+.navItems li {
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    line-height: 1rem;
+    padding: .4rem 0;
+    -webkit-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+}
+
+.navItems li:hover {
+    color: black;
+}
+
+.logInOut {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 160px;
+}
+
+.logInOut button {
+    padding: .2rem .6rem;
+    font-size: .7rem;
+    color: white;
+    border-radius: 4px;
+    background-color: var(--blue);
+    -webkit-transition: all ease-in-out 300ms;
+    -o-transition: all ease-in-out 300ms;
+    transition: all ease-in-out 300ms;
+    margin-left: 5px;
+}
+
+.logInOut button:hover {
+    background-color: var(--darkblue);
+}
+
+#menuButton {
+    display: none;
+}
+.mobile{
+
+    display: none;
+}
+
+#mobileMenu {
+    display: none;
+}
+
+
+/* first break point at 1000px */
+@media screen and (max-width: 1000px) {
+    .navbar {
+        padding: 0;
+    }
+
+    #navLogo {
+        width: 140px;
+    }
+
+    .navItems {
+        padding: 0 2rem;
+    }
+
+    .navItems li {
+        font-size: .8rem;
+    }
+
+    .logInOut button {
+        font-size: .6rem;
+    }
+}
+
+/* second break point at 650px */
+@media screen and (max-width: 767px) {
+    .mobile{
+        display: flex;
+    }
+    #menuButton {
+        display: block;
+        position: relative;
+    }
+
+    #mobileMenu span {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color:#FFC727;
+        z-index: -1;
+        top: -4px;
+        left: 7px;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    #mobileMenu a {
+        color: white;
+    }
+
+    #mobileMenu {
+        z-index: 2;
+        position: absolute;
+        top: 25px;
+        left: -5px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-size: .8rem;
+        width: 150px;
+        padding: 1rem 0;
+        background-color: #FFC727;
+        border-radius: 3px;
+        -webkit-transition: all ease-in-out 300ms;
+        -o-transition: all ease-in-out 300ms;
+        transition: all ease-in-out 300ms;
+    }
+
+    #mobileMenu li {
+        padding: .7rem 1rem .3rem 1rem;
+        -webkit-transition: all ease-in-out 300ms;
+        -o-transition: all ease-in-out 300ms;
+        transition: all ease-in-out 300ms;
+    }
+
+    #mobileMenu li:hover {
+        background-color: #C38F04;
+    }
+
+    .ondesktop {
+        display: none;
+    }
+
+    #navLogo {
+        width: 100px;
+    }
+
+    .navItems {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .logInOut button {
+        border-radius: 3px;
+        font-size: .4rem;
+        padding: .2rem .4rem;
+        margin-left: 2px;
+    }
+}

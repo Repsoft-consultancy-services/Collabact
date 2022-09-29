@@ -14,7 +14,7 @@ const Banner = () => {
             <div className=''>
                 <div className='flex items-end'>
                     <div className='hidden md:block'>
-                        <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-0 mr-2'>
+                        <div className='flex flex-col text-[#707070] text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-0 mr-2'>
                             <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
                             <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
                             <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />
@@ -22,9 +22,9 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[175px] md:h-[400px] lg:h-[476px] xl:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] md:mr-7 mx-3 md:mx-0">
-                        <div className='text-center md:text-left md:px-10 xl:px-16 py-5 md:py-20 xl:py-24 md:drop-shadow-[0_12px_6px_rgba(0,0,0,0.5)]'>
-                            <h1 className='text-lg md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
-                            <h4 className='text-lg md:text-3xl lg:text-5xl xl:text-6xl font-semibold sm:mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
+                        <div className='text-center md:text-left md:px-10 xl:px-16 py-5 md:py-20 xl:py-24'>
+                            <h1 className='text-lg md:text-4xl lg:text-6xl xl:text-[80px] font-semibold lg:font-bold'>We connect</h1>
+                            <h4 className='text-lg md:text-3xl lg:text-5xl xl:text-[72px] font-semibold sm:mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Banner = () => {
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] md:space-x-12 lg:space-x-28 xl:space-x-5">
                     <Slide direction='up' triggerOnce={1} duration={2000}>
                         <div>
-                            <div className="bg-white w-[30vw] sm:w-[22vw] md:w-[140px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:ml-3">
+                            <div className="bg-white w-[30vw] sm:w-[25vw] md:w-[140px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:ml-3 rounded-[20px]">
                                 <h1 className="text-center text-[3vw] md:text-base lg:text-lg xl:text-[1.4rem] font-bold mt-2">Businesses</h1>
                                 <div className='p-5 z-[5]'>
                                     <div className='relative -mt-3 lg:-mt-0 w-[32px] h-[32px] lg:w-[70px] lg:h-[70px]'>
@@ -41,12 +41,10 @@ const Banner = () => {
                                     </div>
                                     <AiFillYoutube className='text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6' />
                                 </div>
-                                <div className='bg-[#b8bdc2] w-[45vw] sm:w-[180px] lg:w-[290px] xl:w-[340px] relative -mt-10 lg:-mt-16 shadow-[0px_1px_30px_0_rgba(0,0,0,0.30)] md:shadow-[0px_1px_64px_0_rgba(0,0,0,0.30)] rounded-xl'>
-                                    <div className='flex flex-col items-center py-5 sm:py-10 xl:py-14 font-bold text-[8px] sm:text-[10px] xl:text-[1rem] space-y-2 text-center lg:text-left'>
+                                <div className='bg-[#88939E] w-[45vw] sm:w-[180px] lg:w-[290px] xl:w-[340px] relative -mt-10 lg:-mt-16 shadow-[0px_1px_30px_0_rgba(0,0,0,0.30)] md:shadow-[0px_1px_64px_0_rgba(0,0,0,0.30)] rounded-xl'>
+                                    <div className='text-white flex flex-col items-center py-5 sm:py-10 xl:py-14 font-bold text-[7px] sm:text-[9px] xl:text-[1rem] space-y-2 text-center lg:text-left'>
                                         <h1>Global sales</h1>
-                                        <div className='border-b-2 lg:border-b-4 w-8'></div>
                                         <h1>Performance-based partners</h1>
-                                        <div className='border-b-2 lg:border-b-4 w-8'></div>
                                         <h1>Low Expense, Increased Revenue</h1>
                                     </div>
                                 </div>
@@ -56,7 +54,7 @@ const Banner = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="bg-white w-[30vw] sm:w-[22vw] md:w-[140px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:mr-3">
+                            <div className="bg-white w-[30vw] sm:w-[25vw] md:w-[140px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:mr-3 rounded-[20px]">
                                 <h1 className="text-center text-[3vw] md:text-base lg:text-lg xl:text-[1.4rem] font-bold mt-2">Sales Partners</h1>
                                 <div className='p-5 z-[5]'>
                                     <div className='relative -mt-3 lg:-mt-0 w-[32px] h-[32px] lg:w-[70px] lg:h-[70px]'>
@@ -64,18 +62,16 @@ const Banner = () => {
                                     </div>
                                     <AiFillYoutube className='text-red-600 lg:text-3xl ml-[7px] lg:ml-[20px] relative -mt-2 lg:-mt-6' />
                                 </div>
-                                <div className='bg-[#b8bdc2] w-[45vw] sm:w-[180px]  lg:w-[290px] xl:w-[340px] relative -mt-10 lg:-mt-16 shadow-[0px_1px_30px_0_rgba(0,0,0,0.30)] md:shadow-[0px_1px_64px_0_rgba(0,0,0,0.30)] rounded-xl'>
-                                    <div className='flex flex-col items-center py-5 sm:py-10 xl:py-14 font-bold text-[8px] sm:text-[10px] xl:text-[1rem] space-y-2 text-center lg:text-left'>
+                                <div className='bg-[#88939E] w-[45vw] sm:w-[180px] lg:w-[290px] xl:w-[340px] relative -mt-10 lg:-mt-16 shadow-[0px_1px_30px_0_rgba(0,0,0,0.30)] md:shadow-[0px_1px_64px_0_rgba(0,0,0,0.30)] rounded-xl'>
+                                    <div className='text-white flex flex-col items-center py-5 sm:py-10 xl:py-14 font-bold text-[7px] sm:text-[9px] xl:text-[1rem] space-y-2 text-center lg:text-left'>
                                         <h1>Flexible work Hours</h1>
-                                        <div className='border-b-2 lg:border-b-4 w-8'></div>
                                         <h1>Commission-based partnerships</h1>
-                                        <div className='border-b-2 lg:border-b-4 w-8'></div>
                                         <h1>Zero Investment & Unlimited income</h1>
                                     </div>
                                 </div>
                             </div>
                             <div className='flex justify-center relative -mt-[4vw] sm:-mt-6'>
-                                <button className='py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-5 md:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg'><span className='text-[#FF0000] mr-1'>FREE</span>Registrations</button>
+                                <button className='py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-3 md:px-1 lg:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg'><span className='text-[#FF0000] mr-1'>FREE</span>Registrations</button>
                             </div>
                         </div>
                     </Slide>
