@@ -84,6 +84,26 @@ a {
 .textcolor {
   animation: Color 3s linear infinite;
 }
+.move{
+  transform: translate(19%);
+}
+
+@media screen and (max-width: 1440px) {
+  .move{
+    transform: translate(10%);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .move{
+    transform: translate(1%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .move{
+    transform: translate(-5%);
+  }
+}
+
 
 @keyframes Color {
   0% {
