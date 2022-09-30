@@ -29,14 +29,14 @@ const Steps = () => {
                   <Image src={left} alt="" height="180vw"></Image>
                   <div className="absolute top-[4%] left-[10%]">
                     <div className="flex items-start">
-                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[70px] font-semibold text-white">
+                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[5vw] font-semibold text-white">
                         1
                       </h1>
                       <div className="md:w-[80%] lg:w-[70%] xl:w-[60%] mt-[4%] ml-5">
-                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[28px] font-semibold ">
+                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[1.8vw] font-semibold ">
                           Register
                         </h1>
-                        <h1 className="text-[1.5vw] lg:text-[15px] mt-[1%] md:leading-relaxed">
+                        <h1 className="text-[1vw] lg:text[15px] mt-[1%] leading-tight md:leading-relaxed">
                           Choose to become an ESP and sign up with our portal to
                           start working and earning.
                         </h1>
@@ -53,7 +53,7 @@ const Steps = () => {
                   <div className="absolute top-[4%] right-[10%] md:right-0 lg:right-[-12%] xl:right-[-22%]">
                     <div className="flex items-start text-right">
                       <div className="md:w-[80%] lg:w-[70%] xl:w-[60%] mt-[4%] mr-5">
-                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[28px] font-semibold ">
+                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[1.8vw] font-semibold ">
                           Counselling
                         </h1>
                         <h1 className="text-[1vw] lg:text[15px] mt-[1%] leading-tight md:leading-relaxed">
@@ -61,7 +61,7 @@ const Steps = () => {
                           the best for yourself.
                         </h1>
                       </div>
-                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[70px] font-semibold text-white mr-12">
+                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[5vw] font-semibold text-white mr-12">
                         2
                       </h1>
                     </div>
@@ -81,14 +81,14 @@ const Steps = () => {
                   <Image src={left} alt="" height="180vw"></Image>
                   <div className="absolute top-[4%] left-[10%]">
                     <div className="flex items-start">
-                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[70px] font-semibold text-white">
+                      <h1 className="text-[11vw] md:text-[11.5vw] lg:text-[5vw] font-semibold text-white">
                         3
                       </h1>
                       <div className="md:w-[80%] lg:w-[70%] xl:w-[60%] mt-[4%] ml-5">
-                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[28px] font-semibold ">
+                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[1.8vw] font-semibold ">
                           Collaborate
                         </h1>
-                        <h1 className="text-[1.5vw] lg:text-[15px] mt-[1%] leading-tight md:leading-relaxed">
+                        <h1 className="text-[1vw] lg:text[15px] mt-[1%] leading-tight md:leading-relaxed">
                           Connect with the business of your choice and become an
                           Executive Sales Partner (ESP).
                         </h1>
@@ -102,19 +102,19 @@ const Steps = () => {
               <div className="flex my-3">
                 <div className="relative">
                   <Image src={right} alt="" height="180vw"></Image>
-                  <div className="absolute top-[4%] right-[10%] md:right-0 lg:right-[-12%] xl:right-[-26%] ">
+                  <div className="absolute top-[4%] right-[10%] md:right-0 lg:right-[-12%] xl:right-[-20%] ">
                     <div className="flex items-start text-right">
                       <div className="md:w-[80%] lg:w-[70%] xl:w-[60%] mt-[1%] mr-5 ">
-                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[28px] font-semibold ">
+                        <h1 className="text-[4vw] md:text-[4vw] lg:text-[1.8vw] font-semibold ">
                           Earn
                         </h1>
-                        <h1 className="text-[1.5vw] lg:text-[15px] leading-tight md:leading-relaxed">
+                        <h1 className="text-[1vw] lg:text[15px] mt-[1%] leading-tight md:leading-relaxed">
                           {" "}
                           Choose your working hours and enable global sales of
                           the business to earn as you perform.
                         </h1>
                       </div>
-                      <h1 className="text-[100px] md:text-[11.5vw] lg:text-[70px] font-semibold text-white">
+                      <h1 className="text-[100px] md:text-[11.5vw] lg:text-[5vw] font-semibold text-white">
                         4
                       </h1>
                     </div>
