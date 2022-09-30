@@ -14,7 +14,7 @@ const Encash1 = () => {
         },
         {
             "logo": "/speedforce.png",
-            "title": "SpeedForce Ventures Pvt...",
+            "title": "SpeedForce Ventures...",
             "product": ["Two Wheeler servicing..."],
             "Segment": "Franchise",
             "Earning": "35000-80000"
@@ -49,7 +49,7 @@ const Encash1 = () => {
         },
         {
             "logo": "/Rsa.png",
-            "title": "Ronak Switchgear & Auto...",
+            "title": "Ronak Switchgear...",
             "product": ["Electrical Switchgear"],
             "Segment": "Building Construction...",
             "Earning": "30000-80000"
@@ -61,38 +61,34 @@ const Encash1 = () => {
             "Segment": "Franchise",
             "Earning": "21000-70000"
         },
-        {
-            "logo": "/SUGAR.png",
-            "title": "SugarCo",
-            "product": ["Coconut Sugar"],
-            "Segment": "FMCG",
-            "Earning": "10000-40000"
-        },
+
     ]
     return (
-        <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 py-5 px-2'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 py-5 px-2'>
             {
-                data.map((d, index) => <div key={index} className='bg-white lg:w-[448px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
+                data.map((d, index) => <div key={index} className='bg-white lg:w-[276.5px] h-[350px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
                     <div>
                         <div className='flex items-center justify-center'>
-                            <div className='px-10 py-2 my-2 bg-slate-100'>
-                                <Image width={350} height={250} src={d.logo} alt=""></Image>
+                            <div className='mx-2 py-2 my-2 bg-slate-100'>
+                                <Image objectFit='contain' width={350} height={160} src={d.logo} alt=""></Image>
                             </div>
                         </div>
-                        <div className='pl-1'>
-                            <h6 className='text-[17px] text-[#757575]'>{d.Segment}</h6>
-                            <h1 className='text-base xl:text-[30px] font-bold text-left mt-5'>{d.title}</h1>
-                            <h6 className='text-[22px] mt-3'>Business Consultancy</h6>
-                            <div className='text-[20px] flex justify-between mt-5'>
-                                <h6 className='font-medium flex-1'>Earning<span className='ml-1'>Range</span></h6>
-                                <div className='ml-6'>
+                        <div className='p-2 space-y-2'>
+                            <h6 className='text-sm text-[#757575]'>{d.Segment}</h6>
+                            <h1 className='text-lg font-bold text-left'>{d.title}</h1>
+                            <h6 className='text-sm'>Business Consultancy</h6>
+                            <div className='text-sm flex'>
+                                <div>
+                                    <h6 className='font-medium flex-1'>Earning<span className='ml-1'>Range</span></h6>
+                                </div>
+                                <div className='ml-[10%]'>
                                     <p>Rs. {d.Earning}/month</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='p-2 mt-3'>
-                        <Link href="https://app.collabact.com/Account"><button className='px-5 py-2 bg-[#F5F5F5] w-full'><p className='font-medium text-3xl text-[#757575] uppercase'>know more</p></button></Link>
+                    <div className='px-2 -mt-1'>
+                        <Link href="https://app.collabact.com/Account"><button className='px-5 py-2 bg-[#F5F5F5] w-full'><p className='font-medium text-lg text-[#757575] uppercase'>know more</p></button></Link>
                     </div>
                 </div>)
             }

@@ -7,7 +7,7 @@ import hemant from '../../public/about/hemant.png'
 
 const Advisory = () => {
     return (
-        <div className='mt-10 lg:mt-20'>
+        <div className='mt-10 lg:mt-20 max-w-[95rem] mx-auto '>
             <h1 className='text-2xl lg:text-4xl font-bold text-center'>Our Advisory Team</h1>
             <div className='my-20 grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-16 px-5 2xl:px-0'>
                 <div className='border-2 border-gray-500 rounded-[20px] flex flex-col items-center py-5 px-2 shadow-[0px_0px_10px_0_rgba(0,0,0,0.30)] 2xl:w-[350px] '>

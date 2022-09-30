@@ -160,16 +160,16 @@ const Slider = () => {
     const navigationNextRef = useRef(null);
     return (
         <div className='w-full mt-10 lg:mt-20'>
-            <div className='w-full 2xl:w-[96rem] mx-auto py-10'>
+            <div className='max-w-[85rem] mx-auto py-10'>
                 <h1 className='text-2xl lg:text-5xl text-[#F4B50D] text-center font-bold mb-10 lg:mb-20'>Encash Out Businesses</h1>
                 {/* laptop slider */}
                 <div className='hidden md:block'>
                     <div className='relative z-10 flex items-center space-x-3 h-auto px-2'>
                         <div ref={navigationPrevRef} className="order-1">
-                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
+                            <button className='bg-white text-blue-500 border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
                         </div>
                         <div ref={navigationNextRef} className="order-3">
-                            <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
+                            <button className='bg-white text-blue-500 border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
                         </div>
                         <Swiper
                             spaceBetween={20}

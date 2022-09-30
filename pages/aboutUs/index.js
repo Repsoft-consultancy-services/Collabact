@@ -6,7 +6,7 @@ import Objectives from './Objectives';
 
 const index = () => {
     return (
-        <div className='flex items-center flex-col text-black'>
+        <div className='text-black'>
             <Banner></Banner>
             <Objectives></Objectives>
             <Administration></Administration>

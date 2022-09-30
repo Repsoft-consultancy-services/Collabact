@@ -6,7 +6,7 @@ import seperator from '../../public/about/seperator.png'
 
 const Administration = () => {
     return (
-        <div className='w-full lg:w-11/12'>
+        <div className='max-w-[95rem] mx-auto px-2'>
             <div className='w-11/12 xl:w-3/4 bg-[#DCDCDC] rounded-full flex items-center space-x-5 lg:space-x-10 py-2 lg:py-5 px-5 lg:px-10'>
                 <div className='rounded-full border-4 border-[#F4B50D] relative w-20 h-20 lg:w-56 lg:h-56'>
                     <Image layout='fill' src={kartik} alt=""></Image>
