@@ -111,7 +111,7 @@ const Industry = () => {
   const navigationNextRef = useRef(null);
   return (
     <div className="max-w-[95rem] mx-auto px-10">
-      <div className="bg-white relative -mt-20 p-5 lg:p-10 lg:shadow-[0px_6px_8px_0_rgba(0,0,0,0.30)]">
+      <div className="bg-white relative -mt-20 p-5 lg:p-10 lg:shadow-[0px_6px_8px_0_rgba(0,0,0,0.30)] w-10/12 mx-auto">
         <div className="">
           <h1 className="text-2xl lg:text-[38px] text-center">
             Various{" "}
@@ -225,10 +225,10 @@ const Industry = () => {
                             </>)
                         }
                     </div> */}
-          <div className="flex mt-16">
+          <div className="flex mt-16 mx-auto">
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-28 h-20">
                     <Image src={car} alt="" layout="fill"></Image>
                   </div>
@@ -237,50 +237,51 @@ const Industry = () => {
                       Automobile and electric vehicle
                     </h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Spare Parts and Equipment,Accessories,Electric
-                      Vehicles,Commercial Vehicle,Battery
+                      Spare Parts and Equipment, Accessories, Electric Vehicles,
+                      Commercial Vehicle, Battery
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-20 h-20">
                     <Image src={conveyor} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Industrial Products</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Engineering Machines,Tools & equipments,Industrial
+                      Engineering Machines, Tools & equipments, Industrial
                       Supplies
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-20 h-20">
                     <Image src={clothes} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Fabric and Textiles</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Appreal,Clothing & Garments,Cotton,Wool Textiles & Fabrics
+                      Appreal, Clothing & Garments, Cotton, Wool Textiles &
+                      Fabrics
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-6 w-11/12 h-32">
+                <div className="flex  justify-start space-x-6 w-11/12 mx-auto h-32">
                   <div className="relative w-44 h-20">
                     <Image src={consult} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Business Services</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Software,Technology or IT,Training,Coaching
-                      Consulting,Human Resource & Legal,Event
-                      Planning,Insurance,Advertisement & Media Support
+                      Software, Technology or IT, Training, Coaching Consulting,
+                      Human Resource & Legal, Event Planning, Insurance,
+                      Advertisement & Media Support
                     </p>
                   </div>
                 </div>
@@ -288,7 +289,7 @@ const Industry = () => {
             </div>
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-8 w-11/12 h-32">
+                <div className="flex  justify-start space-x-8 w-11/12 mx-auto h-32">
                   <div className="relative w-36 h-20">
                     <Image src={cleaning} alt="" layout="fill"></Image>
                   </div>
@@ -297,29 +298,29 @@ const Industry = () => {
                       Building construction and home products
                     </h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Architectural & Civil Engineering,Ceramic &
-                      Flooring,Furniture & Supplies,Home Decor,Electronics and
+                      Architectural & Civil Engineering,Ceramic & Flooring,
+                      Furniture & Supplies, Home Decor, Electronics and
                       Electrical Goods
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-7 w-11/12 h-32">
+                <div className="flex justify-start space-x-7 w-11/12 mx-auto h-32">
                   <div className="relative w-28 h-20">
                     <Image src={renewableenergy} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Energy & Environment</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Paper & Paper Products,Solar Products,Water Treatment,Air
-                      CLeaning,Waste Management
+                      Paper & Paper Products, Solar Products, Water Treatment,
+                      Air CLeaning, Waste Management
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-6 w-11/12 h-32">
+                <div className="flex justify-start space-x-6 w-11/12 mx-auto h-32">
                   <div className="relative w-32 h-20">
                     <Image src={hospitalbuilding} alt="" layout="fill"></Image>
                   </div>
@@ -328,22 +329,22 @@ const Industry = () => {
                       Hospital and Medical Equipments
                     </h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Hospital Set-up Equipment,Healthcare products,Food
-                      Supplements,Medical Safety & Protective Gears
+                      Hospital Set-up Equipment, Healthcare products, Food
+                      Supplements, Medical Safety & Protective Gears
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-36 h-20">
                     <Image src={agriculture} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Agriculture</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Food & Beverages,Agro Machinery and Equipments,Seeds &
-                      Plantation Products,Fertilisers and Soil Additives
+                      Food & Beverages, Agro Machinery and Equipments, Seeds &
+                      Plantation Products, Fertilisers and Soil Additives
                     </p>
                   </div>
                 </div>
@@ -351,20 +352,21 @@ const Industry = () => {
             </div>
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-20 h-20">
                     <Image src={franchise} alt="" layout="fill"></Image>
                   </div>
                   <div className="font-semibold ml-[50px] xl:ml-[60px]">
                     <h1 className="text-lg font-bold">Franchises</h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Sports & Fitness,Laboratories,Travel & Tourism,Education
+                      Sports & Fitness, Laboratories, Travel & Tourism,
+                      Education
                     </p>
                   </div>
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
                   <div className="relative w-20 h-20">
                     <Image src={consumer} alt="" layout="fill"></Image>
                   </div>
@@ -373,7 +375,7 @@ const Industry = () => {
                       Fast Moving Consumer Goods(FMCG)
                     </h1>
                     <p className="flex items-center justify-start space-x-5 text-[1.2vw] xl:text-sm font-light">
-                      Food & Beverages,Stationary,Gifting,Books & Toys
+                      Food & Beverages, Stationary, Gifting, Books & Toys
                     </p>
                   </div>
                 </div>
