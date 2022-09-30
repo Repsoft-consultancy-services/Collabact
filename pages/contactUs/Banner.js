@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div className='flex justify-evenly items-end lg:px-5 w-full xl:80[rem] 2xl:w-[90rem]'>
             <div className='hidden md:block'>
-                <div className='flex flex-col text-black text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-[60px]'>
+                <div className='flex flex-col text-[#707070] text-xl xl:text-3xl space-y-5 absolute top-[46.5%] left-2'>
                     <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
                     <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
                     <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />

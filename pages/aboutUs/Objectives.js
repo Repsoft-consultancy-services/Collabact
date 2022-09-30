@@ -109,7 +109,7 @@ const Objectives = () => {
         </div>
     </div>
     return (
-        <div>
+        <div className='max-w-[95rem] mx-auto '>
             <div className='flex justify-center space-x-5 lg:space-x-20 lg:ml-16 lg:-mt-7 font-semibold'>
                 <button onClick={handlevison} className={`bg-transparent py-5`}><h1 className={`text-sm lg:text-[23px] uppercase ${visiond ? 'text-black' : 'text-gray-400'}`}>vision</h1></button>
                 <button onClick={handlemission} className='bg-transparent py-5'><h1 className={`text-sm lg:text-[23px] uppercase ${missiond ? 'text-black' : 'text-gray-400'}`}>mission</h1></button>

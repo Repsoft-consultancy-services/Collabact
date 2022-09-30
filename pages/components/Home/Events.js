@@ -61,6 +61,18 @@ const Events = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
+                                <div className='text-base md:text-[20px] xl:text-[26px] flex justify-between space-x-10 sm:space-x-20 mt-10'>
+                                    <div className='space-y-5'>
+                                        <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
+                                        <p className='text-[#757575]'>Every Friday at 8 pm</p>
+                                    </div>
+                                    <div className='space-y-5'>
+                                        <h1 className='font-bold text-[#0099E6]'>Business Introductory <br /> Meeting</h1>
+                                        <p className='text-[#757575]'>On 20th Sept at 4.30 pm</p>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
                                 <div className='text-base xl:text-[26px] flex justify-between space-x-10 sm:space-x-20 mt-10'>
                                     <div className='space-y-5'>
                                         <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
@@ -83,6 +95,7 @@ const Events = () => {
                             <Image layout='fill' src={yellowshort} alt=""></Image>
                         </div>
                     </div>
+                    {/* slider here  */}
                     <div className='mt-10 lg:w-[28rem] xl:w-[30rem]'>
                         <div className='bg-[#0099E6] message flex justify-between space-x-10 items-center p-6 rounded-md'>
                             <div>

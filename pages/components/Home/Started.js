@@ -6,7 +6,7 @@ import { Slide } from 'react-awesome-reveal';
 const Started = () => {
     return (
         <div className='bg-[#BCCCDC] bg-opacity-30 w-full relative -mt-[300px] md:-mt-[280px] xl:-mt-[350px] 2xl:-mt-[400px]'>
-            <div className='px-5 max-w-[92rem] pt-52 xl:pt-64 pb-10 lg:pb-20 xl:pb-40 mx-auto'>
+            <div className='px-5 max-w-[92rem] pt-52 xl:pt-64 pb-10 lg:pb-20 xl:pb-40 mx-auto mt-16'>
                 <div className='flex items-center justify-between flex-col-reverse lg:flex-row text-center lg:text-left sm:mt-0'>
                     <Slide triggerOnce={1} duration={2000}>
                         <div className='ml-5 2xl:ml-0 max-w-[69rem]'>
@@ -16,9 +16,6 @@ const Started = () => {
                             <button className='bg-[#c4c4c4] p-2 font-semibold mt-10 text-base 2xl:text-lg'>Discover more</button>
                         </div>
                     </Slide>
-                    <div className='w-[20rem] h-[20rem] lg:w-[40rem] lg:h-[40rem] xl:w-[35rem] xl:h-[40rem] relative'>
-                        <Image layout='fill' src={arrow} alt=""></Image>
-                    </div>
                 </div>
             </div>
         </div>

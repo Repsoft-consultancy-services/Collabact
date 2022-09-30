@@ -45,39 +45,39 @@ const Navbar = () => {
                     <ul id="mobileMenu" style={{ display: mobmenu ? "block" : "none" }}>
                         <span></span>
                         <Link href="/">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>Home</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>Home</li>
                         </Link>
                         <Link href="/services">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>Businesses</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>Businesses</li>
                         </Link>
                         <Link href="/services2">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>Sales Partner</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>Sales Partner</li>
                         </Link>
                         <Link href="/aboutUs">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>About Us</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>About Us</li>
                         </Link>
                         <Link href="/faq">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>FAQ</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>FAQ</li>
                         </Link>
                         <Link href="https://collabact.com/Blog/">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>Blog</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>Blog</li>
                         </Link>
                         <Link href="/contactUs">
-                            <li onClick={()=>{
-                            setMobmenu(false)
-                        }}>Contact</li>
+                            <li onClick={() => {
+                                setMobmenu(false)
+                            }}>Contact</li>
                         </Link>
                     </ul>
                 </i>
@@ -94,13 +94,13 @@ const Navbar = () => {
                     <Link href='https://app.collabact.com/'><button className='transition ease-in-out delay-100 bg-blue-500  hover:scale-105 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 rounded-lg'>Sign Up</button></Link>
                 </div>
             </div>
-            <div className="max-w-[115rem] mx-auto mt-1 hidden md:block py-4">
+            <div className="max-w-[95rem] mx-auto mt-1 hidden md:block py-4">
                 <div className={`flex justify-evenly items-center ml-0 xl:ml-2`}>
                     <Link href='/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Home</h1></Link>
 
                     <Link href='/aboutUs'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black  font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/aboutUs' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>AboutUs</h1></Link>
 
-                    <div id="ourOfferMenu" className={`ondesktop ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>What we offer
+                    <div id="ourOfferMenu" className={`ondesktop ${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black  font-medium text-base xl:text-xl pb-2 hover:cursor-pointer ${route === '/services' ? 'border-t-4 border-[#717171] text-black font-bold' : route === '/services2' ? 'border-t-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>What we offer
                         <div className="mt-3 offerList rounded-[10px] dropclip bg-gray-100 font-medium py-2 text-base w-44">
                             <div className='hover:bg-gray-300'>
                                 <h1 className='hover:cursor-pointer py-1 px-5'><Link href='/services'><p className='font-semibold uppercase'>Businesses</p></Link></h1>
