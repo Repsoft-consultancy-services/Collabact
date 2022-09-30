@@ -63,31 +63,31 @@ const Encash2 = () => {
 
     ]
     return (
-        <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 py-5'>
+        <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 py-5 px-2'>
             {
-                data.map((d, index) => <Link key={index} href="https://app.collabact.com/Account">
-                    <div className='bg-white lg:w-[300px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
-                        <div>
-                            <div className='flex items-center space-x-3 p-5 bg-slate-100 h-[150px]'>
-                                <div className='relative w-24'>
-                                    <Image width={100} height={80} src={d.logo} alt=""></Image>
+                data.map((d, index) => <div key={index} className='bg-white lg:w-[320px] shadow-[0px_0px_8px_0_rgba(0,0,0,0.30)] hover:shadow-[0px_0px_8px_0_rgba(0,0,0,0.50)] shadow-gray-500 hover:shadow-gray-600 hover:cursor-pointer'>
+                    <div>
+                        <div className='flex items-center justify-center'>
+                            <div className='px-11 py-2 my-2 bg-slate-100'>
+                                <Image width={218} height={152} src={d.logo} alt=""></Image>
+                            </div>
+                        </div>
+                        <div className='pl-1'>
+                            <h6 className='text-[17px] text-[#757575]'>{d.Segment}</h6>
+                            <h1 className='text-base xl:text-[30px] font-bold text-left mt-3'>{d.title}</h1>
+                            <h6 className='text-[22px] mt-5'>Business Consultancy</h6>
+                            <div className='text-[20px] flex justify-between mt-3'>
+                                <h6 className='font-medium flex-1'>Earning<span className='ml-1'>Range</span></h6>
+                                <div className='ml-6'>
+                                    <p>Rs. {d.Earning}/month</p>
                                 </div>
-                                <div className='border-r-2 h-[80px] border-gray-300'></div>
-                                <h1 className='text-base xl:text-2xl font-bold text-left flex-1'>{d.title}</h1>
-                            </div>
-                            <div className='border-b-2 border-gray-300 w-full'></div>
-                            <div className='text-left ml-3 space-y-3 mt-3'>
-                                <h6 className='text-sm xl:text-base'><span className='font-bold'>Product: </span>{d.product[0]}</h6>
-                                <h6 className='text-sm xl:text-base'><span className='font-bold'>Segment: </span>{d.Segment}</h6>
-                            </div>
-                            <div className='border-b-2 border-gray-300 w-[200px] mx-auto mt-5 lg:mt-2 xl:mt-5'></div>
-                            <div className='text-center'>
-                                <p>Possible Earning Range</p>
-                                <p>{d.Earning} Rs/month</p>
                             </div>
                         </div>
                     </div>
-                </Link>)
+                    <div className='p-2'>
+                        <Link href="https://app.collabact.com/Account"><button className='px-5 py-2 bg-[#F5F5F5] w-full'><p className='font-medium text-3xl text-[#757575] uppercase'>know more</p></button></Link>
+                    </div>
+                </div>)
             }
 
         </div>

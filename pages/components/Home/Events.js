@@ -49,7 +49,7 @@ const Events = () => {
                             className=""
                         >
                             <SwiperSlide>
-                                <div className='text-base md:text-[20px] xl:text-[26px] flex justify-between space-x-20 mt-10'>
+                                <div className='text-base md:text-[20px] xl:text-[26px] flex justify-between space-x-10 sm:space-x-20 mt-10'>
                                     <div className='space-y-5'>
                                         <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
                                         <p className='text-[#757575]'>Every Friday at 8 pm</p>
@@ -61,7 +61,7 @@ const Events = () => {
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
-                                <div className='text-base xl:text-[26px] flex justify-between space-x-20 mt-10'>
+                                <div className='text-base xl:text-[26px] flex justify-between space-x-10 sm:space-x-20 mt-10'>
                                     <div className='space-y-5'>
                                         <h1 className='font-bold text-[#0099E6]'>Upgrade sessions for <br /> Entrepreneurship</h1>
                                         <p className='text-[#757575]'>Every Friday at 8 pm</p>
