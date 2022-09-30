@@ -17,7 +17,7 @@ const Started = () => {
                 With India&apos;s Fastest Growing
                 <br /> Collaboration Platform
               </h1>
-              <p className="mt-3 text-[14px] lg:text-sm xl:text-2xl text-[#575757]">
+              <p className="mt-3 text-[14px] lg:text-sm xl:text-2xl text-[#575757] w-4/5">
                 For Businesses, CollabAct connects Commission-based Sales
                 Partners who become their extended hand and help them expand
                 their businesses in PAN India. And for the Sales Partners, we
