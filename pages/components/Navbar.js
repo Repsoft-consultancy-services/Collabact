@@ -94,7 +94,7 @@ const Navbar = () => {
                     <Link href='https://app.collabact.com/'><button className='transition ease-in-out delay-100 bg-blue-500  hover:scale-105 hover:bg-blue-600 duration-300 px-1 lg:px-2 py-1 rounded-lg'>Sign Up</button></Link>
                 </div>
             </div>
-            <div className="max-w-[115rem] mx-auto mt-1 hidden md:block py-4">
+            <div className="max-w-[95rem] mx-auto mt-1 hidden md:block py-4">
                 <div className={`flex justify-evenly items-center ml-0 xl:ml-2`}>
                     <Link href='/'><h1 className={`${route === '/terms' ? 'bg-[#C2C2C3]' : route === '/cookie' ? 'bg-[#C2C2C3]' : route === '/faq' ? 'bg-[#C2C2C3]' : 'bg-white'} hover:text-black font-medium text-base xl:text-xl  pb-2 hover:cursor-pointer ${route === '/' ? 'border-b-4 border-[#717171] text-black font-bold' : 'text-[#717171]'}`}>Home</h1></Link>
 

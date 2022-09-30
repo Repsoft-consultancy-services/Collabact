@@ -5,6 +5,7 @@ import { FiTwitter } from 'react-icons/fi'
 import happy from '../../../public/happy.png'
 import happyyellow from '../../../public/happyyellow.png'
 import { Slide } from 'react-awesome-reveal';
+import Social from '../Social';
 
 const Banner = () => {
     return (
@@ -12,22 +13,17 @@ const Banner = () => {
             <div className=''>
                 <div className='flex items-end'>
                     <div className='hidden md:block'>
-                        <div className='flex flex-col text-[#707070] text-xl xl:text-3xl space-y-5 mb-32 xl:mb-52 ml-2 2xl:ml-0 mr-2'>
-                            <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
-                            <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
-                            <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />
-                            <FiTwitter className='cardanimate hover:cursor-pointer' />
-                        </div>
+                        <Social></Social>
                     </div>
-                    <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover bg-center text-white h-[175px] md:h-[400px] lg:h-[476px] xl:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] md:mr-7 mx-3 md:mx-0">
-                        <div className='text-center md:text-left md:px-10 xl:px-16 py-5 md:py-20 xl:py-24'>
-                            <h1 className='text-lg md:text-4xl lg:text-6xl xl:text-[80px] font-semibold lg:font-bold'>We connect</h1>
-                            <h4 className='text-lg md:text-3xl lg:text-5xl xl:text-[72px] font-semibold sm:mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
+                    <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover md:bg-contain bg-center text-white h-[175px] md:h-[400px] lg:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] mx-5 xl:mx-0">
+                        <div className='text-center md:text-left md:px-40 lg:px-20 xl:px-52 py-5 md:py-24'>
+                            <h1 className='text-lg md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold'>We connect</h1>
+                            <h4 className='text-lg md:text-3xl lg:text-5xl xl:text-6xl font-semibold sm:mt-2'>Commissioned Sales Partners<br />with Businesses <br /> to grow Exponentially</h4>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="w-[85vw] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[7.2vw] sm:ml-auto -mt-[30px] md:-mt-[80px] lg:-mt-[110px] md:mr-16">
+            <div className="w-[85vw] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[7.2vw] sm:ml-auto -mt-[30px] md:-mt-[80px] lg:-mt-[110px] md:mr-36">
                 <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] md:space-x-12 lg:space-x-28 xl:space-x-5">
                     <Slide direction='up' triggerOnce={1} duration={2000}>
                         <div>

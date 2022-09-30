@@ -88,7 +88,7 @@ const Encash1 = () => {
                         </div>
                     </div>
                     <div className='px-2 -mt-1'>
-                        <Link href="https://app.collabact.com/Account"><button className='px-5 py-2 bg-[#F5F5F5] w-full'><p className='font-medium text-lg text-[#757575] uppercase'>know more</p></button></Link>
+                        <Link href="https://app.collabact.com/Account"><button className='px-5 py-2 bg-[#F5F5F5] w-full'><p className='font-medium text-lg text-[#757575]'>Know More</p></button></Link>
                     </div>
                 </div>)
             }

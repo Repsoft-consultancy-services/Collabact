@@ -166,10 +166,10 @@ const Slider = () => {
                 <div className='hidden md:block'>
                     <div className='relative z-10 flex items-center space-x-3 h-auto px-2'>
                         <div ref={navigationPrevRef} className="order-1">
-                            <button className='bg-white text-blue-500 border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
+                            <button className='bg-white text-blue-500 active:bg-blue-500 active:text-white border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan /></button>
                         </div>
                         <div ref={navigationNextRef} className="order-3">
-                            <button className='bg-white text-blue-500 border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
+                            <button className='bg-white text-blue-500 active:bg-blue-500 active:text-white border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan /></button>
                         </div>
                         <Swiper
                             spaceBetween={20}
@@ -204,13 +204,13 @@ const Slider = () => {
                     <div className='relative z-50 flex flex-col-reverse items-center h-[25rem] w-full px-5'>
                         <div className='flex space-x-10 justify-center'>
                             <div ref={navigationPrevRef} >
-                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
+                                <button className='bg-white text-blue-500 active:bg-blue-500 active:text-white border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaLessThan className='text-black' /></button>
                             </div>
                             {/* <div>
                                 <div className="swiper-pagination"></div>
                             </div> */}
                             <div ref={navigationNextRef}>
-                                <button className='btn bg-white text-black border-0 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
+                                <button className='bg-white text-blue-500 active:bg-blue-500 active:text-white border-0 p-3 shadow-[3px_4px_36px_0_rgba(0,0,0,0.30)] text-xs lg:text-base rounded-full'><FaGreaterThan className='text-black' /></button>
                             </div>
                         </div>
                         <Swiper

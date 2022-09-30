@@ -4,6 +4,7 @@ import { AiOutlineFacebook, AiOutlineLinkedin, AiOutlineInstagram, AiFillYoutube
 import { FiTwitter } from 'react-icons/fi'
 import bg from '../../public/about/about.png'
 import seperator from '../../public/about/seperator.png'
+import Social from '../components/Social';
 
 const Banner = () => {
     return (
@@ -11,12 +12,7 @@ const Banner = () => {
             <div>
                 <div className=' flex justify-evenly items-end w-full mx-auto'>
                     <div className='hidden md:block'>
-                        <div className='flex flex-col text-[#707070] text-xl xl:text-3xl space-y-5 absolute top-[24%] left-2'>
-                            <AiOutlineFacebook className='cardanimate hover:cursor-pointer' />
-                            <AiOutlineLinkedin className='cardanimate hover:cursor-pointer' />
-                            <AiOutlineInstagram className='cardanimate hover:cursor-pointer' />
-                            <FiTwitter className='cardanimate hover:cursor-pointer' />
-                        </div>
+                        <Social></Social>
                     </div>
                     <div className=''>
                         <div>
