@@ -35,7 +35,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="w-[85vw] lg:w-[550px] xl:w-[700px] 2xl:w-[750px] ml-[7.2vw] sm:ml-auto -mt-[30px] md:-mt-[80px] lg:-mt-[110px] md:mr-36">
-        <div className="flex justify-between w-11/12 mx-auto relative -mt-3 z-[5] md:space-x-12 lg:space-x-28 xl:space-x-5">
+        <div className="flex justify-between w-11/12 mx-auto relative sm:-mt-3 z-[5] md:space-x-12 lg:space-x-28 xl:space-x-5 mt-4">
           <Slide direction="up" triggerOnce={1} duration={2000}>
             <div>
               <div className="bg-white w-[30vw] sm:w-[25vw] md:w-[140px] lg:w-[200px] xl:w-[250px] flex flex-col items-center 2xl:ml-3 rounded-[20px]">

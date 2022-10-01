@@ -9,33 +9,37 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#F4B50D] w-full font-semibold py-4 box-shadow-[0px_-8px_38px_0_rgba(0,0,0,0.15)]">
-        <div className="flex justify-between max-w-[100rem] mx-auto w-2/4">
+        <div className="flex justify-between max-w-[100rem] mx-auto md:w-2/4 w-11/12 sm:max-w-[200rem]">
           <div className="flex flex-row items-center space-x-1 lg:space-x-5">
             <div className="relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]">
               <Image layout="fill" src={smartphone} alt=""></Image>
             </div>
-            <p className="text-[0.8rem] lg:text-base">(+91) 8849951310</p>
+            <p className="sm:text-[0.8rem] text-[0.5rem] lg:text-base sm:text-[0.5rem]">
+              (+91) 8849951310
+            </p>
           </div>
           <div className="flex flex-row items-center space-x-1 lg:space-x-5">
             <div className="relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]">
               <Image layout="fill" src={email} alt=""></Image>
             </div>
-            <p className="lg:text-base">info@collabact.com</p>
+            <p className="lg:text-base sm:text-[0.8rem] text-[0.5rem]">
+              info@collabact.com
+            </p>
           </div>
           <div className="flex flex-row items-center space-x-1 lg:space-x-5">
             <div className="relative w-[20px] h-[20px] lg:w-[30px] lg:h-[30px]">
               <Image layout="fill" src={FAQ} alt=""></Image>
             </div>
-            <p className="lg:text-base">FAQ</p>
+            <p className="lg:text-base sm:text-[0.8rem] text-[0.5rem]">FAQ</p>
           </div>
         </div>
       </div>
       <div className="bg-[#B5C2CF] px-1 xl:px-8 py-8 flex flex-col lg:flex-row justify-between lg:space-y-0 lg:space-x-2 xl:space-x-0">
-        <div className="text-[12px] xl:text-[17px] text-[#505050] text-justify order-2 lg:order-1 my-5 lg:my-0 w-1/8">
+        <div className="text-[12px] xl:text-[17px] text-[#505050] order-2 lg:order-1 my-5 lg:my-0 sm:w-1/4 w-3/4">
           <p>
-            Become a mediator, and connect to right company with right <br />{" "}
-            candidate, to work together for development and ultimately <br />{" "}
-            have a Win-Win-Win situation wherein everyone grows.
+            Become a mediator, and connect to right company with right
+            candidate, to work together for development and ultimately have a
+            Win-Win-Win situation wherein everyone grows.
           </p>
         </div>
         <div className="flex justify-between lg:space-x-2 xl:space-x-0 xl:w-1/3 order-3 lg:order-2">
@@ -85,7 +89,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="order-1 lg:order-3 w-1/4">
+        <div className="order-1 lg:order-3 sm:w-1/4 w-3/4">
           <h1 className="lg:text-lg xl:text-xl font-bold">
             SUBSCRIBE NEWS LETTER
           </h1>

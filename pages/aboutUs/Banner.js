@@ -16,7 +16,7 @@ const Banner = () => {
     <div className="max-w-[95rem] relative mx-auto">
       <div>
         <div className=" flex justify-evenly items-end w-full mx-auto">
-          <div className="hidden md:block">
+          <div className="hidden md:block self-center">
             <Social></Social>
           </div>
           <div className="">
@@ -25,7 +25,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div className="text-center text-[10px] px-5 lg:px-0 lg:text-2xl 2xl:text-3xl xl:w-[80rem] xl:ml-[5rem] 2xl:ml-[5rem] xl:-mt-16">
+        <div className="text-center text-[10px] sm:px-5 lg:px-0 lg:text-2xl 2xl:text-3xl xl:w-[80rem] xl:ml-[5rem] 2xl:ml-[5rem] xl:-mt-16">
           <p className="hidden md:block">
             For Businesses, CollabAct connects Commission based Sales Partners
             who become their extended hand and help them expand their business
