@@ -111,7 +111,7 @@ const Industry = () => {
   const navigationNextRef = useRef(null);
   return (
     <div className="max-w-[95rem] mx-auto px-10">
-      <div className="bg-white relative -mt-20 p-5 lg:p-10 lg:shadow-[0px_6px_8px_0_rgba(0,0,0,0.30)] w-10/12 mx-auto">
+      <div className="bg-white relative -mt-20 p-5 lg:p-10 lg:shadow-[0px_6px_8px_0_rgba(0,0,0,0.30)] w-10/12 mx-auto lg:w-11/12">
         <div className="">
           <h1 className="text-2xl lg:text-[38px] text-center">
             Various{" "}
@@ -228,7 +228,7 @@ const Industry = () => {
           <div className="flex mt-16 mx-auto">
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-28 h-20">
                     <Image src={car} alt="" layout="fill"></Image>
                   </div>
@@ -244,7 +244,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-20 h-20">
                     <Image src={conveyor} alt="" layout="fill"></Image>
                   </div>
@@ -258,7 +258,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex  justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-20 h-20">
                     <Image src={clothes} alt="" layout="fill"></Image>
                   </div>
@@ -272,7 +272,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-6 w-11/12 mx-auto h-32">
+                <div className="flex  justify-start space-x-6 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-44 h-20">
                     <Image src={consult} alt="" layout="fill"></Image>
                   </div>
@@ -289,7 +289,7 @@ const Industry = () => {
             </div>
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex  justify-start space-x-8 w-11/12 mx-auto h-32">
+                <div className="flex  justify-start space-x-8 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-36 h-20">
                     <Image src={cleaning} alt="" layout="fill"></Image>
                   </div>
@@ -306,7 +306,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-7 w-11/12 mx-auto h-32">
+                <div className="flex justify-start space-x-7 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-28 h-20">
                     <Image src={renewableenergy} alt="" layout="fill"></Image>
                   </div>
@@ -320,7 +320,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-6 w-11/12 mx-auto h-32">
+                <div className="flex justify-start space-x-6 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-32 h-20">
                     <Image src={hospitalbuilding} alt="" layout="fill"></Image>
                   </div>
@@ -336,7 +336,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-36 h-20">
                     <Image src={agriculture} alt="" layout="fill"></Image>
                   </div>
@@ -352,7 +352,7 @@ const Industry = () => {
             </div>
             <div className="max-w-[700px] w-1/3 space-y-5 mx-auto">
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-20 h-20">
                     <Image src={franchise} alt="" layout="fill"></Image>
                   </div>
@@ -366,7 +366,7 @@ const Industry = () => {
                 </div>
               </AttentionSeeker>
               <AttentionSeeker triggerOnce={1} effect="pulse">
-                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32">
+                <div className="flex justify-start space-x-5 w-11/12 mx-auto h-32 lg:h-44">
                   <div className="relative w-20 h-20">
                     <Image src={consumer} alt="" layout="fill"></Image>
                   </div>

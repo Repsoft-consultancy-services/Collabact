@@ -16,16 +16,16 @@ const Banner = () => {
   return (
     <div className="max-w-[95rem] mx-auto relative z-[3]">
       <div className="">
-        <div className="flex items-end">
-          <div className="hidden md:block">
+        <div className="flex items-end w-11/12 mx-auto">
+          <div className="hidden md:block self-center">
             <Social></Social>
           </div>
-          <div className="bg-[url('/bg.png')] bg-no-repeat bg-cover md:bg-contain bg-center text-white h-[175px] md:h-[400px] lg:h-[40rem] flex-1 rounded-[10px] lg:rounded-[50px] mx-5 xl:mx-0">
-            <div className="text-center md:text-left md:px-40 lg:px-20 xl:px-52 py-5 md:py-24">
-              <h1 className="text-lg md:text-4xl lg:text-6xl xl:text-7xl font-semibold lg:font-bold">
+          <div className="bg-[url('/bg.png')] bg-no-repeat bg-contain md:bg-contain bg-center text-white md:h-[300px] lg:h-[440px] xl:h-[600px] 2xl:h-[650px] xl:-ml-4 lg:-ml-4 flex-1 rounded-[10px] lg:rounded-[50px] mx-5 xl:mx-0">
+            <div className="text-center md:text-left py-5 md:py-24 lg:px-28 xl:px-28 lg:ml-28 md:ml-40">
+              <h1 className="text-lg md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-semibold lg:font-bold">
                 We connect
               </h1>
-              <h4 className="text-lg md:text-3xl lg:text-5xl xl:text-6xl font-semibold sm:mt-2">
+              <h4 className="text-lg md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold sm:mt-2">
                 Commissioned Sales Partners
                 <br />
                 with Businesses <br /> to grow Exponentially
@@ -82,7 +82,7 @@ const Banner = () => {
                 </div>
               </div>
               <div className="flex justify-center relative -mt-[4vw] sm:-mt-6">
-                <button className="py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-3 md:px-1 lg:px-5 xl:px-14 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg">
+                <button className="py-[2vw] px-[2vw] buttonanimate sm:py-3 sm:px-3 md:px-1 lg:px-5 xl:px-12 buttonbg2 rounded-full text-black font-semibold lg:font-bold text-[3vw] md:text-sm xl:text-lg">
                   <span className="text-[#FF0000] mr-1">FREE</span>Registrations
                 </button>
               </div>
