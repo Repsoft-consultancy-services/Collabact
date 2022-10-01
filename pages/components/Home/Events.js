@@ -18,7 +18,7 @@ const Events = () => {
       <div className="flex flex-col lg:flex-row lg:space-x-3 xl:space-x-0 justify-between px-2 md:px-10 mt-16">
         <div className="lg:w-[50%]">
           <div className="flex items-center space-x-5">
-            <h1 className="text-2xl xl:text-3xl ml-14">
+            <h1 className="text-2xl xl:text-3xl ml-14 lg:text-lg lg:ml-10">
               Upcoming <span className="font-bold">Events</span>
             </h1>
             <div className="w-[165px] md:w-[60%] lg:w-[50%] h-2 relative">
@@ -56,7 +56,7 @@ const Events = () => {
               <SwiperSlide>
                 <div className="text-base md:text-[20px] xl:text-[26px] flex justify-between space-x-10 sm:space-x-20 mt-10 w-10/12">
                   <div className="space-y-5">
-                    <h1 className="font-bold text-[#0099E6] text-lg leading-5">
+                    <h1 className="font-bold text-[#0099E6] text-lg leading-5 ">
                       Upgrade sessions for <br /> Entrepreneurship
                     </h1>
                     <p className="text-[#757575] text-lg">
@@ -118,7 +118,7 @@ const Events = () => {
         </div>
         <div className="mt-5 lg:mt-0">
           <div className="flex items-center space-x-7">
-            <h1 className="text-2xl xl:text-3xl">
+            <h1 className="text-2xl xl:text-3xl lg:text-lg lg:ml-16">
               <span className="font-bold ">What</span> our Business Says
             </h1>
             <div className="w-[82px] md:w-[50%] lg:w-[19%] h-2 relative">

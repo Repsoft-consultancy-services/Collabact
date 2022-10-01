@@ -10,7 +10,7 @@ import { FiTwitter } from "react-icons/fi";
 const Social = () => {
   return (
     <>
-      <div className="flex flex-col text-[#707070] text-xl lg:text-3xl space-y-5 absolute top-[32.5%] lg:left-16 md:left-10">
+      <div className="flex flex-col text-[#707070] text-xl lg:text-3xl space-y-5">
         <AiOutlineFacebook className="cardanimate hover:cursor-pointer" />
         <AiOutlineLinkedin className="cardanimate hover:cursor-pointer" />
         <AiOutlineInstagram className="cardanimate hover:cursor-pointer" />

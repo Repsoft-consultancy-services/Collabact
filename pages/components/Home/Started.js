@@ -7,7 +7,7 @@ const Started = () => {
   return (
     <div className="bg-[#BCCCDC] bg-opacity-30 w-full relative -mt-[300px] md:-mt-[280px] xl:-mt-[350px] 2xl:-mt-[400px]">
       <div className="px-5 max-w-[92rem] pt-52 xl:pt-64 pb-10 lg:pb-20 xl:pb-40 mx-auto mt-16">
-        <div className="flex items-center justify-between flex-col-reverse lg:flex-row text-center lg:text-left sm:mt-0 w-10/12 mx-auto">
+        <div className="flex items-center justify-between flex-col-reverse lg:flex-row text-center lg:text-left sm:mt-0 w-10/12 lg:w-3/4 lg:mb-8 mx-auto">
           <Slide triggerOnce={1} duration={2000}>
             <div className=" 2xl:ml-0 max-w-[69rem]">
               <h1 className="text-xl lg:text-[33px] font-semibold">
