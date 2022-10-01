@@ -9,15 +9,15 @@ const Started = () => {
       <div className="px-5 max-w-[92rem] pt-52 xl:pt-64 pb-10 lg:pb-20 xl:pb-40 mx-auto mt-16">
         <div className="flex items-center justify-between flex-col-reverse lg:flex-row text-center lg:text-left sm:mt-0 w-10/12 lg:w-3/4 lg:mb-8 mx-auto">
           <Slide triggerOnce={1} duration={2000}>
-            <div className=" 2xl:ml-0 max-w-[69rem]">
+            <div className=" 2xl:ml-0 max-w-[69rem] mt-16 sm:mt-0">
               <h1 className="text-xl lg:text-[33px] font-semibold">
                 Get started!
               </h1>
-              <h1 className="text-2xl lg:text-4xl xl:text-5xl font-semibold mt-16">
+              <h1 className="text-2xl lg:text-4xl xl:text-5xl font-semibold sm:mt-16 mt-4">
                 With India&apos;s Fastest Growing
                 <br /> Collaboration Platform
               </h1>
-              <p className="mt-3 text-[14px] lg:text-sm xl:text-2xl text-[#575757] w-4/5">
+              <p className="mt-3 text-[14px] lg:text-sm xl:text-2xl text-[#575757] w-full sm:w-4/5">
                 For Businesses, CollabAct connects Commission-based Sales
                 Partners who become their extended hand and help them expand
                 their businesses in PAN India. And for the Sales Partners, we
